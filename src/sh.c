@@ -15,6 +15,11 @@
 #define CD 1
 #define PWD 2
 #define EXIT 3
+#define BLUE "\e[0;34m"
+#define L_BLUE "\e[1;34m"
+#define GREEN "\e[0;32m"
+#define L_GREEN "\e[1;32m"
+#define CLOSE printf("\033[0m")  //关闭彩色字体
 
 int   ret  = EXIT_SUCCESS;
 int   type = SYSTEMCALL;
@@ -92,7 +97,9 @@ int main(int argc, char *argv[]) {
     uid_t          uid      = getuid();
     struct passwd *pw       = getpwuid(uid);
     const char    *user_dir = pw->pw_dir;
-    while (printf("> "), scanf("%[^\n]%c", command, &delim)) {
+    char          *show_path;
+    getcwd(cwdbuf, MAXPATHLEN);
+    while ((show_path = strreplace(show_path, cwdbuf, user_dir, "~", MAXPATHLEN)), printf(L_BLUE "%s " L_GREEN "> ", show_path), CLOSE, scanf("%[^\n]%c", command, &delim)) {
         mysys(command);
         switch (type) {
         case CD: {
@@ -110,6 +117,7 @@ int main(int argc, char *argv[]) {
             if (code == -1) {
                 perror("cd");
             }
+            getcwd(cwdbuf, MAXPATHLEN);
             break;
         }
         case PWD: {
@@ -118,7 +126,6 @@ int main(int argc, char *argv[]) {
                 break;
             }
             char *dest_path;
-            getcwd(cwdbuf, MAXPATHLEN);
             printf("%s\n", cwdbuf);
             break;
         }
