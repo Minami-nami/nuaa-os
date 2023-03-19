@@ -19,13 +19,20 @@
 #define L_BLUE "\e[1;34m"
 #define GREEN "\e[0;32m"
 #define L_GREEN "\e[1;32m"
+#define PURPLE "\e[0;35m"
+#define L_PURPLE "\e[1;35m"
 #define CLOSE printf("\033[0m")  //关闭彩色字体
 
-int   ret  = EXIT_SUCCESS;
-int   type = SYSTEMCALL;
-char  command[MAXCOMMANDLEN];
-char *sys_argv[MAXARGC];
-int   sys_argc = 0;
+int            ret  = EXIT_SUCCESS;
+int            type = SYSTEMCALL;
+char           command[MAXCOMMANDLEN];
+char          *sys_argv[MAXARGC];
+int            sys_argc = 0;
+uid_t          uid;
+struct passwd *pw;
+char          *user_dir;
+char          *user_name;
+char          *show_path;
 
 char *strreplace(char *dest, char *src, const char *oldstr, const char *newstr, size_t len) {
     if (strcmp(oldstr, newstr) == 0) return src;
@@ -58,8 +65,11 @@ void mysys(const char *Command) {
     memset(sys_argv, 0, sizeof(sys_argv));
     strcpy(command, Command);
     sys_argv[sys_argc] = strtok(command, " ");
-    while (sys_argv[sys_argc] != NULL) {
+    while (1) {
         sys_argv[++sys_argc] = strtok(NULL, " ");
+        if (sys_argv[sys_argc] == NULL) break;
+        char *dest;
+        sys_argv[sys_argc] = strreplace(dest, sys_argv[sys_argc], "~", user_dir, MAXPATHLEN);
     }
     if (strcmp(sys_argv[0], "cd") == 0) {
         type = CD;
@@ -91,15 +101,14 @@ void mysys(const char *Command) {
 }
 
 int main(int argc, char *argv[]) {
-    char           command[MAXCOMMANDLEN];
-    char           cwdbuf[MAXPATHLEN];
-    char           delim;
-    uid_t          uid      = getuid();
-    struct passwd *pw       = getpwuid(uid);
-    const char    *user_dir = pw->pw_dir;
-    char          *show_path;
+    char cwdbuf[MAXPATHLEN];
+    char delim;
+    uid       = getuid();
+    pw        = getpwuid(uid);
+    user_dir  = pw->pw_dir;
+    user_name = pw->pw_name;
     getcwd(cwdbuf, MAXPATHLEN);
-    while ((show_path = strreplace(show_path, cwdbuf, user_dir, "~", MAXPATHLEN)), printf(L_BLUE "%s " L_GREEN "> ", show_path), CLOSE, scanf("%[^\n]%c", command, &delim)) {
+    while ((show_path = strreplace(show_path, cwdbuf, user_dir, "~", MAXPATHLEN)), printf(L_BLUE "%s " L_PURPLE "@%s " L_GREEN "> ", show_path, user_name), CLOSE, scanf("%[^\n]%c", command, &delim)) {
         mysys(command);
         switch (type) {
         case CD: {
@@ -111,9 +120,7 @@ int main(int argc, char *argv[]) {
                 printf("cd: too many arguments\n");
                 break;
             }
-            char *dest_path;
-            dest_path = strreplace(dest_path, sys_argv[1], "~", user_dir, MAXPATHLEN);
-            int code  = chdir(dest_path);
+            int code = chdir(sys_argv[1]);
             if (code == -1) {
                 perror("cd");
             }
