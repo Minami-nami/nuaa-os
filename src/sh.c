@@ -114,13 +114,12 @@ int main(int argc, char *argv[]) {
         case CD: {
             if (sys_argc == 1) {
                 printf("\n");
-                break;
             }
-            if (sys_argc > 2) {
+            else if (sys_argc > 2) {
                 printf("cd: too many arguments\n");
                 break;
             }
-            int code = chdir(sys_argv[1]);
+            int code = chdir(sys_argc == 1 ? user_dir : sys_argv[1]);
             if (code == -1) {
                 perror("cd");
             }
