@@ -20,17 +20,20 @@ enum TOKEN_TYPE { TOKEN_TRUNCATED, TOKEN_APPEND, TOKEN_STR, TOKEN_START, TOKEN_I
 
 enum STATE_TYPE { STATE_FILE, STATE_TRUNC, STATE_APPEND, STATE_INPUT, STATE_DOC };
 
-enum DUP_TYPE { DUP_APPEND, DUP_TRUNC, DUP_INPUT, DUP_NONE };
+enum DUP_TYPE { DUP_APPEND, DUP_TRUNC, DUP_INPUT, DUP_DOC, DUP_NONE };
 
 char redirect_in[MAXREDIRECT][MAXFILEPATH];
 char redirect_out[MAXREDIRECT][MAXFILEPATH];
 char errorBuf[MAXINPUT];
 char tokenBuf[TOKENLEN];
 char lineBuf[MAXINPUT];
-char docs[BUFSIZ][DOCLEN];
+char docs[BUFSIZ];
 int type_out[MAXREDIRECT];
-int lenRedirectIn = 0, lenRedirectOut = 0, lenDoc = 0;
-int state = STATE_FILE;
+int type_in[MAXREDIRECT];
+int lenRedirectIn = 0, lenRedirectOut = 0;
+int state             = STATE_FILE;
+char temp_file_name[] = "temp_file.XXXXXX";
+char new_temp_file[]  = "temp_file.XXXXXX";
 
 void cat();
 
@@ -42,6 +45,14 @@ void cat() {
     }
     putchar('\n');
     fflush(stdout);
+}
+
+void clean() {
+    for (int i = 0; i < lenRedirectIn; ++i) {
+        if (type_in[i] == DUP_DOC) {
+            unlink(redirect_in[i]);
+        }
+    }
 }
 
 void parse(const char *arg) {
@@ -210,7 +221,7 @@ void parse(const char *arg) {
             }
             case STATE_INPUT: {
                 strncpy(redirect_in[lenRedirectIn], arg + startidx, i - startidx);
-                if (stat(redirect_out[lenRedirectIn], &s) == -1) {
+                if (stat(redirect_in[lenRedirectIn], &s) == -1) {
                     perror("cat");
                     exit(EXIT_FAILURE);
                 }
@@ -219,15 +230,30 @@ void parse(const char *arg) {
                     write(STDERR_FILENO, errorBuf, strlen(errorBuf));
                     exit(EXIT_FAILURE);
                 }
+                type_in[lenRedirectIn++] = DUP_INPUT;
                 break;
             }
             case STATE_DOC: {
                 strncpy(tokenBuf, arg + startidx, i - startidx);
-                while (printf("heredoc> "), scanf("%s", lineBuf), strcmp(lineBuf, tokenBuf) != 0) {
-                    strncat(docs[lenDoc], lineBuf, strlen(lineBuf));
-                    strncat(docs[lenDoc], "\n", 1);
+                char t;
+                memset(docs, 0, sizeof(docs));
+                strncpy(tokenBuf, arg + startidx, i - startidx);
+                while (printf("heredoc> "), scanf("%[^\n]%c", lineBuf, &t), strcmp(lineBuf, tokenBuf) != 0) {
+                    strncat(docs, lineBuf, strlen(lineBuf));
+                    strncat(docs, "\n", 1);
                 }
-                ++lenDoc;
+                fflush(stdin);
+                int code_temp;
+                strncpy(temp_file_name, new_temp_file, strlen(new_temp_file));
+                code_temp = mkstemp(temp_file_name);
+                if (code_temp == -1) {
+                    perror("cat");
+                    return clean();
+                }
+                write(code_temp, docs, strlen(docs));
+                close(code_temp);
+                strncpy(redirect_in[lenRedirectIn], temp_file_name, strlen(temp_file_name));
+                type_in[lenRedirectIn++] = DUP_DOC;
                 break;
             }
             }
@@ -250,7 +276,7 @@ int main(int argc, char *argv[]) {
             perror("cat");
             return EXIT_FAILURE;
         }
-        int code_out = open(redirect_out[i], (type_out[i] == DUP_APPEND ? O_APPEND : O_TRUNC) | O_WRONLY);
+        int code_out = open(redirect_out[i], (type_out[i] == DUP_APPEND ? O_APPEND : O_TRUNC) | O_WRONLY | O_CREAT, 0777);
         if (code_out == -1 || dup2(code_out, STDOUT_FILENO) == -1) {
             perror("cat");
             return EXIT_FAILURE;
@@ -261,7 +287,7 @@ int main(int argc, char *argv[]) {
                 perror("cat");
                 return EXIT_FAILURE;
             }
-            int code_in = open(redirect_in[i], O_RDONLY);
+            int code_in = open(redirect_in[j], O_RDONLY);
             if (code_in == -1 || dup2(code_in, STDIN_FILENO) == -1) {
                 perror("cat");
                 return EXIT_FAILURE;
@@ -274,12 +300,7 @@ int main(int argc, char *argv[]) {
             close(code_in);
             close(new_in);
         }
-        for (int j = 0; j < lenDoc; ++j) {
-            write(STDOUT_FILENO, docs[j], strlen(docs[j]));
-            putchar('\n');
-            fflush(stdout);
-        }
-        if (lenRedirectIn == 0 && lenDoc == 0) {
+        if (lenRedirectIn == 0) {
             cat();
         }
         close(code_out);
@@ -290,13 +311,13 @@ int main(int argc, char *argv[]) {
         close(new_out);
     }
     if (lenRedirectOut == 0) {
-        for (int i = 0; i < lenRedirectIn; ++i) {
+        for (int j = 0; j < lenRedirectIn; ++j) {
             int new_in = dup(STDIN_FILENO);
             if (new_in == -1) {
                 perror("cat");
                 return EXIT_FAILURE;
             }
-            int code_in = open(redirect_in[i], O_RDONLY);
+            int code_in = open(redirect_in[j], O_RDONLY);
             if (code_in == -1 || dup2(code_in, STDIN_FILENO) == -1) {
                 perror("cat");
                 return EXIT_FAILURE;
@@ -309,12 +330,6 @@ int main(int argc, char *argv[]) {
             close(code_in);
             close(new_in);
         }
-        for (int j = 0; j < lenDoc; ++j) {
-            write(STDOUT_FILENO, docs[j], strlen(docs[j]));
-            putchar('\n');
-            fflush(stdout);
-        }
     }
-
-    return EXIT_SUCCESS;
+    return clean(), EXIT_SUCCESS;
 }
