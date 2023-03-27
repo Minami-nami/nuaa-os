@@ -8,7 +8,7 @@
 #include <sys/stat.h>
 #include <unistd.h>
 
-int  ret = EXIT_SUCCESS;
+int ret = EXIT_SUCCESS;
 void cat(const char *path);
 
 void cat(const char *path) {
@@ -23,9 +23,9 @@ void cat(const char *path) {
         ret = EXIT_FAILURE;
         return;
     }
-    int  code = open(path, O_RDONLY);
+    int code = open(path, O_RDONLY);
     char buffer[BUFSIZ];
-    int  len = 0;
+    int len = 0;
     while ((len = read(code, buffer, BUFSIZ)) > 0) {
         write(STDOUT_FILENO, buffer, len);
     }
