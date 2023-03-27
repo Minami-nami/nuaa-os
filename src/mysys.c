@@ -10,11 +10,11 @@
 #define MAXCOMMANDLEN 256
 #define MAXARGC 32
 
-int  ret = EXIT_SUCCESS;
+int ret = EXIT_SUCCESS;
 void mysys(const char *Command) {
-    char  command[MAXCOMMANDLEN];
+    char command[MAXCOMMANDLEN];
     char *argv[MAXARGC];
-    int   argc = 0;
+    int argc = 0;
     memset(argv, 0, sizeof(argv));
     strcpy(command, Command);
     argv[argc] = strtok(command, " ");
@@ -23,7 +23,7 @@ void mysys(const char *Command) {
     }
 
     pid_t subprocess = fork();
-    int   status;
+    int status;
     if (subprocess < 0) {
         perror("mysys");
         ret = EXIT_FAILURE;
