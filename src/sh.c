@@ -23,16 +23,16 @@
 #define L_PURPLE "\e[1;35m"
 #define CLOSE printf("\033[0m")  //关闭彩色字体
 
-int            ret  = EXIT_SUCCESS;
-int            type = SYSTEMCALL;
-char           command[MAXCOMMANDLEN];
-char          *sys_argv[MAXARGC];
-int            sys_argc = 0;
-uid_t          uid;
+int ret  = EXIT_SUCCESS;
+int type = SYSTEMCALL;
+char command[MAXCOMMANDLEN];
+char *args[MAXARGC];
+int sys_argc = 0;
+uid_t uid;
 struct passwd *pw;
-char          *user_dir;
-char          *user_name;
-char          *show_path;
+char *user_dir;
+char *user_name;
+char *show_path;
 
 char *strreplace(char *dest, char *src, const char *oldstr, const char *newstr, size_t len) {
     if (strcmp(oldstr, newstr) == 0) return src;
@@ -62,34 +62,34 @@ char *strreplace(char *dest, char *src, const char *oldstr, const char *newstr, 
 void mysys(const char *Command) {
     sys_argc = 0;
     type     = SYSTEMCALL;
-    memset(sys_argv, 0, sizeof(sys_argv));
+    memset(args, 0, sizeof(args));
     strcpy(command, Command);
-    sys_argv[sys_argc] = strtok(command, " ");
+    args[sys_argc] = strtok(command, " ");
     while (1) {
-        sys_argv[++sys_argc] = strtok(NULL, " ");
-        if (sys_argv[sys_argc] == NULL) break;
+        args[++sys_argc] = strtok(NULL, " ");
+        if (args[sys_argc] == NULL) break;
         char *dest;
-        sys_argv[sys_argc] = strreplace(dest, sys_argv[sys_argc], "~", user_dir, MAXPATHLEN);
+        args[sys_argc] = strreplace(dest, args[sys_argc], "~", user_dir, MAXPATHLEN);
     }
-    if (strcmp(sys_argv[0], "cd") == 0) {
+    if (strcmp(args[0], "cd") == 0) {
         type = CD;
     }
-    else if (strcmp(sys_argv[0], "pwd") == 0) {
+    else if (strcmp(args[0], "pwd") == 0) {
         type = PWD;
     }
-    else if (strcmp(sys_argv[0], "exit") == 0) {
+    else if (strcmp(args[0], "exit") == 0) {
         type = EXIT;
     }
     if (type != SYSTEMCALL) return;
     pid_t subprocess = fork();
-    int   status;
+    int status;
     if (subprocess < 0) {
         perror("mysys");
         ret = EXIT_FAILURE;
         return;
     }
     else if (subprocess == 0) {
-        int code = execvp(sys_argv[0], sys_argv);
+        int code = execvp(args[0], args);
         if (code == -1) {
             perror("mysys");
             ret = EXIT_FAILURE;
@@ -119,7 +119,7 @@ int main(int argc, char *argv[]) {
                 printf("cd: too many arguments\n");
                 break;
             }
-            int code = chdir(sys_argc == 1 ? user_dir : sys_argv[1]);
+            int code = chdir(sys_argc == 1 ? user_dir : args[1]);
             if (code == -1) {
                 perror("cd");
             }
@@ -140,7 +140,7 @@ int main(int argc, char *argv[]) {
                 printf("exit: too many arguments\n");
                 break;
             }
-            ret = (sys_argc == 2 ? atoi(sys_argv[1]) : 0);
+            ret = (sys_argc == 2 ? atoi(args[1]) : 0);
             return ret;
         }
         default:
