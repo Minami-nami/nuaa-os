@@ -47,7 +47,7 @@ void cat() {
     fflush(stdout);
 }
 
-void clean() {
+void clean_built_in() {
     for (int i = 0; i < lenRedirectIn; ++i) {
         if (type_in[i] == DUP_DOC) {
             unlink(redirect_in[i]);
@@ -248,7 +248,7 @@ void parse(const char *arg) {
                 code_temp = mkstemp(temp_file_name);
                 if (code_temp == -1) {
                     perror("cat");
-                    return clean();
+                    return clean_built_in();
                 }
                 write(code_temp, docs, strlen(docs));
                 close(code_temp);
@@ -331,5 +331,5 @@ int main(int argc, char *argv[]) {
             close(new_in);
         }
     }
-    return clean(), EXIT_SUCCESS;
+    return clean_built_in(), EXIT_SUCCESS;
 }
