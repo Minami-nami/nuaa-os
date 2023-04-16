@@ -1,0 +1,1 @@
+app0: app0.c:35: test_sub: Assertion `sub(1, 1) == 0' failed.
