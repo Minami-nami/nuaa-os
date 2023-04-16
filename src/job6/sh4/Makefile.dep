@@ -1,0 +1,3 @@
+cmd_utest.o: cmd_utest.c src/cmd.h utest.h
+parse_utest.o: parse_utest.c src/parse.h src/cmd.h utest.h
+utest.o: utest.c utest.h
