@@ -1,43 +1,43 @@
-CC := gcc
+export CC := gcc
 
-MODE := debug
+export MODE := debug
 
-ARGS :=
+export ARGS :=
 
 TARGET := all
 
 target := sh4
 
-CFLAGS	:= -std=gnu17 -fdiagnostics-color=always -Wall -Wextra -Wno-implicit-fallthrough -Wno-unused-parameter
+export CFLAGS	:= -std=gnu17 -fdiagnostics-color=always -Wall -Wextra -Wno-implicit-fallthrough -Wno-unused-parameter
 
 ifeq ($(MODE), debug)
-	CFLAGS += -g3 -O0 -DDEBUG
+export CFLAGS += -g3 -O0 -DDEBUG
 endif
 
 ifeq ($(MODE), release)
-	CFLAGS += -O3 -DNDEBUG
+export CFLAGS += -O3 -DNDEBUG
 endif
 
-OUTPUT := build/$(MODE)
-OBJDIR := build/.objs/$(MODE)
+export OUTPUT := $(CURDIR)/build/$(MODE)
+export OBJDIR := $(CURDIR)/build/.objs/$(MODE)
 
-LFLAGS := 
+export LFLAGS := 
 
-INCLUDE	:= include
+export INCLUDE	:= $(CURDIR)/include
 
-LIB		:= lib
+export LIB		:= $(CURDIR)/lib
 
 LIBRARIES	:= 
 CMD 		:= cmdtest
 PARSE 		:= parsetest
-INCLUDEDIRS	:= $(INCLUDE)
-LIBDIRS		:= $(LIB)
-RM			:= rm -rf
-MD			:= mkdir -p
+export INCLUDEDIRS	:= $(INCLUDE)
+export LIBDIRS		:= $(LIB)
+export RM			:= rm -rf
+export MD			:= mkdir -p
 
-INCLUDES	:= $(patsubst %,-I%, $(INCLUDEDIRS:%/=%))
+export INCLUDES	:= $(patsubst %,-I%, $(INCLUDEDIRS:%/=%))
 
-LIBS		:= $(patsubst %,-L%, $(LIBDIRS:%/=%))
+export LIBS		:= $(patsubst %,-L%, $(LIBDIRS:%/=%))
 
 SOURCE_UTEST	:= utest.c
 SOURCE_CMD		:= cmd_utest.c
@@ -68,30 +68,31 @@ ifeq ($(target), $(PARSE))
 endif
 
 DEPS := Makefile.dep
-# SUBDIRS = $(shell ls -l | grep ^d | awk '{print $$9}')
-exclude_dirs := build .objs	debug release
+
+export exclude_dirs := build .objs	debug release
 dirs:=$(shell find . -maxdepth 1 -type d)
 dirs:=$(basename $(patsubst ./%,%,$(dirs)))
 dirs:=$(filter-out $(exclude_dirs),$(dirs))
 SUBDIRS := $(dirs)
-
-export exclude_dirs, CC, MODE, OUTPUT, OBJDIR, LFLAGS, CFLAGS, INCLUDEDIRS, LIBDIRS, RM, MD, INCLUDES, LIBS, INCLUDE, LIB
+CLEAN_SUBDIRS := $(dirs)
 
 .PHONY: all
-all: MKDIR $(SUBDIRS) MKDEP $(OUTPUT_CMDTEST) $(OUTPUT_PARSETEST)
+all: MKDIR $(DEPS) SUBMODULE $(OUTPUT_CMDTEST) $(OUTPUT_PARSETEST)
 	@echo Executing $(TARGET) complete!
 
 .PHONY: MKDIR
 MKDIR:
-	@$(MD) $(OUTPUT)
-	@$(MD) $(OBJDIR)
+	-@$(MD) $(OUTPUT)
+	-@$(MD) $(OBJDIR)
 
-$(SUBDIRS):
-	$(MAKE) -C $@
-
-.PHONY: MKDEP
-MKDEP: $(SOURCES)
+$(DEPS): $(SOURCES)
+	-@touch $(DEPS) > /dev/null
 	@$(CC) $(CFLAGS) $(INCLUDES) -MM $^ > $(DEPS)
+
+.PHONY: SUBMODULE
+SUBMODULE: $(SUBDIRS)
+	$(MAKE) -C $<
+# $(foreach dir, $(SUBDIRS), $(MAKE) -C $(dir);)
 
 $(OBJDIR)/%.o: %.c
 	$(CC) $(CFLAGS) $(INCLUDES) -c $< -o $@
@@ -103,15 +104,15 @@ $(OUTPUT_PARSETEST): $(OBJECTS)
 	$(CC) $(CFLAGS) $(INCLUDES) -o $(OUTPUT_PARSETEST) $(OBJ_PARSETEST) $(OBJ_DEP) $(LFLAGS) $(LIBS) $(LIBRARIES)
 
 .PHONY: clean
-clean: $(SUBDIRS)
-	$(MAKE) clean -C $<
-	$(RM) $(OUTPUT_CMDTEST) $(OUTPUT_PARSETEST)
-	$(RM) $(OBJECTS)
+clean:
+	$(foreach dir, $(CLEAN_SUBDIRS), $(MAKE) clean -C $(dir);)
+	-$(RM) $(OUTPUT_CMDTEST) $(OUTPUT_PARSETEST)
+	-$(RM) $(OBJECTS)
 	@echo Cleanup $(TARGET) complete!
 
 .PHONY: run
 run: all
-	./$(RUN_TARGET) $(ARGS)
+	$(RUN_TARGET) $(ARGS)
 	@echo Executing 'run: $(TARGET)' complete!
 
 include $(DEPS)
