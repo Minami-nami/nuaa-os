@@ -1,7 +1,9 @@
 #!/usr/bin/python3
+import os
 
+os.chdir(os.path.dirname(__file__))
 f = open('student.txt')
-print('<h1><center>Student List</center></h1>');
+print('<h1><center>Student List</center></h1>')
 print('<table border=1 cellspacing=0 width=100%>')
 
 print('  <tr>')

@@ -3,10 +3,12 @@
 #include "tcp.h"
 #include <pthread.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 #include <strings.h>
 #include <sys/socket.h>
 #include <sys/stat.h>
+#include <unistd.h>
 
 #define BUF_SIZE 1024
 #define METHOD_SIZE 256
@@ -53,10 +55,11 @@
 int   get_line(int sock, char *buf, int size);
 char *get_expansion(const char *filename);
 void  http_error_handler(int client, int status_code);
-void  http_header(int client, const char *file_name, int is_dir);
+void  http_header(int client, const char *file_name, int is_dir, int cgi);
 void  http_send_file(int client, const char *file_name);
 void  http_send_dir(int client, const char *dir_name);
 void *http_handler(void *arg);
+void  execute_cgi(int client, const char *path, const char *method, const char *query_string);
 
 int get_line(int sock, char *buf, int size) {
     int  n, i = 0;
@@ -126,12 +129,12 @@ void http_error_handler(int client, int status_code) {
     send(client, buf, sizeof(buf), 0);
 }
 
-void http_header(int client, const char *filename, int is_dir) {
+void http_header(int client, const char *filename, int is_dir, int cgi) {
     char buf[1024];
     (void)filename; /* could use filename to determine file type */
 
     strcpy(buf, "HTTP/1.0 200 OK\r\n" SERVER_STRING "Content-Type: ");
-    strcat(buf, is_dir ? (HTML) : get_expansion(filename));
+    strcat(buf, (is_dir || cgi) ? (HTML) : get_expansion(filename));
     strcat(buf, "\r\n\r\n");
 
     send(client, buf, strlen(buf), 0);
@@ -148,7 +151,7 @@ void http_send_file(int client, const char *file_name) {
         http_error_handler(client, NOT_FOUND);
         return;
     }
-    http_header(client, file_name, 0);
+    http_header(client, file_name, 0, 0);
 
     fgets(buf, sizeof(buf), fp);
     while (!feof(fp)) {
@@ -167,7 +170,7 @@ void http_send_dir(int client, const char *dir_name) {
 
     DIR *dir = opendir(dir_name);
 
-    http_header(client, dir_name, 1);
+    http_header(client, dir_name, 1, 0);
 
     struct dirent *entry;
 
@@ -186,8 +189,8 @@ void http_send_dir(int client, const char *dir_name) {
 }
 
 void *http_handler(void *arg) {
-    int         client = *(int *)arg;
-    char        buf[BUF_SIZE], method[METHOD_SIZE], url[URL_SIZE], path[PATH_SIZE];
+    int         client        = *(int *)arg;
+    char        buf[BUF_SIZE] = { 0 }, method[METHOD_SIZE] = { 0 }, url[URL_SIZE] = { 0 }, path[PATH_SIZE] = { 0 };
     struct stat st;
     int         cgi = 0, numchars = 0, i = 0, j = 0;
     char       *query_string = NULL;
@@ -221,14 +224,9 @@ void *http_handler(void *arg) {
     while (!isspace(buf[j]) && (i < URL_SIZE - 1) && (j < BUF_SIZE - 1)) {
         url[i++] = buf[j++];
     }
-    url[i] = '\0';
 
-#ifdef DEBUG
-    printf("[http-Web] " GREEN "client IP:" CLOSE "[%s], " GREEN "port:" CLOSE "[%d].\t" BLUE "method: " CLOSE "%s, " BLUE "url: " CLOSE "%s\n", inet_ntoa(client_addr.sin_addr),
-           ntohs(client_addr.sin_port), method, url);
-#endif
-
-    if (strcasecmp(method, "GET")) {
+    // PARSE PARAMS
+    if (strcasecmp(method, "GET") == 0) {
         query_string = url;
 
         while ((*query_string != '?') && (*query_string != '\0')) query_string++;
@@ -238,6 +236,12 @@ void *http_handler(void *arg) {
             *query_string++ = '\0';
         }
     }
+
+#ifdef DEBUG
+    printf("[http-Web] " GREEN "client IP:" CLOSE "[%s], " GREEN "port:" CLOSE "[%d].\t" BLUE "method: " CLOSE "%s, " BLUE "url: " CLOSE "%s, " BLUE "param: " CLOSE "%s\n",
+           inet_ntoa(client_addr.sin_addr), ntohs(client_addr.sin_port), method, url, query_string);
+#endif
+
     if (url[0] == '/')
         sprintf(path, _ROOT "%s", url);
     else
@@ -274,7 +278,7 @@ void *http_handler(void *arg) {
             goto THREAD_END;
         }
         else
-            ;  // execute_cgi(client, path, method, query_string);
+            execute_cgi(client, path, method, query_string);
     }
 
 THREAD_END:
@@ -297,5 +301,68 @@ void httpd_run(int server) {
         pthread_t tid;
         pthread_create(&tid, NULL, http_handler, &client);
         pthread_detach(tid);
+    }
+}
+
+void execute_cgi(int client, const char *path, const char *method, const char *query_string) {
+    char  buf[BUF_SIZE] = { 0, 0 };
+    int   cgi[2];
+    pid_t pid;
+    int   status;
+
+    if (pipe(cgi) < 0) {
+        http_error_handler(client, INTERNAL_SERVER_ERROR);
+        return;
+    }
+
+    if ((pid = fork()) < 0) {
+        http_error_handler(client, INTERNAL_SERVER_ERROR);
+        return;
+    }
+
+    if (pid == 0) {
+        char meth_env[255]   = {};
+        char query_env[255]  = {};
+        char length_env[255] = {};
+
+        dup2(cgi[1], STDOUT_FILENO);
+
+        close(cgi[0]);
+
+        sprintf(meth_env, "REQUEST_METHOD=%s", method);
+        putenv(meth_env);
+
+        if (strcasecmp(method, "GET") == 0) {
+            sprintf(query_env, "QUERY_STRING=%s", query_string);
+            putenv(query_env);
+        }
+        else {
+            sprintf(length_env, "CONTENT_LENGTH=%ld", strlen(query_string));
+            putenv(length_env);
+        }
+
+        execl(path, path, NULL);
+        exit(EXIT_FAILURE);
+    }
+    else {
+        close(cgi[1]);
+
+        http_header(client, path, 0, 1);
+        int readed = 0;
+
+        while ((readed = read(cgi[0], buf, sizeof(buf))) > 0) {
+            send(client, buf, readed, 0);
+        }
+        send(client, "\r\n", 2, 0);
+
+        close(cgi[0]);
+
+        waitpid(pid, &status, 0);
+#ifdef DEBUG
+        if (status != 0)
+            printf("[http-Web] " RED "CGI status: %d\n" CLOSE, status);
+        else
+            printf("[http-Web] " GREEN "CGI status: %d\n" CLOSE, status);
+#endif
     }
 }

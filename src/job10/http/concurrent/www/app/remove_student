@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 import os
 
+os.chdir(os.path.dirname(__file__))
 # name=tom&age=11&gender=male
 
 query_string = os.getenv('QUERY_STRING')
