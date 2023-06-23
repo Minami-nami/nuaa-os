@@ -1,0 +1,1870 @@
+[0;35m/usr/include/paths.h[1;34m:[0m#define	_PATH_UNIX	"/boot/vm[1;31mlinux[0m"
+[0;35m/usr/include/mtd/mtd-abi.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/mtd/nftl-user.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/mtd/ubi-user.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/mtd/inftl-user.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/netrose/rose.h[1;34m:[0m/* What follows is copied from the 2.1.93 <[1;31mlinux[0m/rose.h>.  */
+[0;35m/usr/include/netatalk/at.h[1;34m:[0m#include <[1;31mlinux[0m/atalk.h>
+[0;35m/usr/include/drm/radeon_drm.h[1;34m:[0m/* radeon_drm.h -- Public header for the radeon driver -*- [1;31mlinux[0m-c -*-
+[0;35m/usr/include/drm/radeon_drm.h[1;34m:[0m *    Kevin E. Martin <martin@va[1;31mlinux[0m.com>
+[0;35m/usr/include/drm/radeon_drm.h[1;34m:[0m *    Gareth Hughes <gareth@va[1;31mlinux[0m.com>
+[0;35m/usr/include/drm/amdgpu_drm.h[1;34m:[0m/* amdgpu_drm.h -- Public header for the amdgpu driver -*- [1;31mlinux[0m-c -*-
+[0;35m/usr/include/drm/amdgpu_drm.h[1;34m:[0m *    Kevin E. Martin <martin@va[1;31mlinux[0m.com>
+[0;35m/usr/include/drm/amdgpu_drm.h[1;34m:[0m *    Gareth Hughes <gareth@va[1;31mlinux[0m.com>
+[0;35m/usr/include/drm/drm.h[1;34m:[0m * Author: Rickard E. (Rik) Faith <faith@va[1;31mlinux[0m.com>
+[0;35m/usr/include/drm/drm.h[1;34m:[0m#if   defined(__[1;31mlinux[0m__)
+[0;35m/usr/include/drm/drm.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/drm/sis_drm.h[1;34m:[0m/* sis_drv.h -- Private header for sis driver -*- [1;31mlinux[0m-c -*- */
+[0;35m/usr/include/drm/mga_drm.h[1;34m:[0m/* mga_drm.h -- Public header for the Matrox g200/g400 driver -*- [1;31mlinux[0m-c -*-
+[0;35m/usr/include/drm/mga_drm.h[1;34m:[0m *    Jeff Hartmann <jhartmann@va[1;31mlinux[0m.com>
+[0;35m/usr/include/drm/mga_drm.h[1;34m:[0m *    Gareth Hughes <gareth@va[1;31mlinux[0m.com>
+[0;35m/usr/include/drm/r128_drm.h[1;34m:[0m/* r128_drm.h -- Public header for the r128 driver -*- [1;31mlinux[0m-c -*-
+[0;35m/usr/include/drm/r128_drm.h[1;34m:[0m *    Gareth Hughes <gareth@va[1;31mlinux[0m.com>
+[0;35m/usr/include/drm/r128_drm.h[1;34m:[0m *    Kevin E. Martin <martin@va[1;31mlinux[0m.com>
+[0;35m/usr/include/drm/drm_mode.h[1;34m:[0m * Copyright (c) 2007 Dave Airlie <airlied@[1;31mlinux[0m.ie>
+[0;35m/usr/include/drm/drm_fourcc.h[1;34m:[0m * For more information: see https://[1;31mlinux[0mtv.org/downloads/v4l-dvb-apis/re32.html
+[0;35m/usr/include/netinet/if_ether.h[1;34m:[0m#include <[1;31mlinux[0m/if_ether.h>
+[0;35m/usr/include/netinet/if_tr.h[1;34m:[0m  unsigned long rx_dropped;	/* no space in [1;31mlinux[0m buffers	*/
+[0;35m/usr/include/netinet/if_tr.h[1;34m:[0m  unsigned long tx_dropped;	/* no space available in [1;31mlinux[0m	*/
+[0;35m/usr/include/netinet/if_fddi.h[1;34m:[0m#include <[1;31mlinux[0m/if_fddi.h>
+[0;35m/usr/include/llvm-15/llvm/IR/DataLayout.h[1;34m:[0m  ///     These values are for x86-32 [1;31mlinux[0m.
+[0;35m/usr/include/llvm-15/llvm/DebugInfo/DWARF/DWARFDebugFrame.h[1;34m:[0m  /// https://refspecs.[1;31mlinux[0mfoundation.org/LSB_5.0.0/LSB-Core-generic/LSB-Core-generic/ehframechpt.html
+[0;35m/usr/include/llvm-15/llvm/Support/Host.h[1;34m:[0m  /// Helper functions to extract HostCPUName from /proc/cpuinfo on [1;31mlinux[0m.
+[0;35m/usr/include/llvm-15/llvm/Support/SwapByteOrder.h[1;34m:[0m#if defined(__[1;31mlinux[0m__) || defined(__GNU__) || defined(__HAIKU__) ||            \
+[0;35m/usr/include/llvm-15/llvm/BinaryFormat/ELF.h[1;34m:[0m  EF_MIPS_ARCH_32 = 0x50000000,   // MIPS32 instruction set per [1;31mlinux[0m not elf.h
+[0;35m/usr/include/llvm-15/llvm/BinaryFormat/ELF.h[1;34m:[0m  EF_MIPS_ARCH_64 = 0x60000000,   // MIPS64 instruction set per [1;31mlinux[0m not elf.h
+[0;35m/usr/include/llvm-15/llvm/BinaryFormat/MinidumpConstants.def[1;34m:[0m// These are additional minidump stream values which are specific to the [1;31mlinux[0m
+[0;35m/usr/include/llvm-15/llvm/BinaryFormat/Minidump.h[1;34m:[0m    support::ulittle32_t ElfHWCaps; // [1;31mlinux[0m specific, 0 otherwise
+[0;35m/usr/include/llvm-15/llvm/ObjectYAML/MinidumpYAML.h[1;34m:[0m/// /proc/<pid> file on [1;31mlinux[0m).
+[0;35m/usr/include/llvm-15/llvm/Config/llvm-config.h[1;34m:[0m#define LLVM_DEFAULT_TARGET_TRIPLE "x86_64-pc-[1;31mlinux[0m-gnu"
+[0;35m/usr/include/llvm-15/llvm/Config/llvm-config.h[1;34m:[0m#define LLVM_HOST_TRIPLE "x86_64-pc-[1;31mlinux[0m-gnu"
+[0;35m/usr/include/llvm-15/llvm/MC/MCSectionELF.h[1;34m:[0m/// This represents a section on [1;31mlinux[0m, lots of unix variants and some bare
+[0;35m/usr/include/llvm-15/llvm/MC/MCTargetOptions.h[1;34m:[0m  /// aapcs-[1;31mlinux[0m.
+[0;35m/usr/include/llvm-15/llvm/Object/ELF.h[1;34m:[0m/// analyzed by [1;31mlinux[0m perf or ET_EXEC with llvm-strip --strip-sections).
+[0;35m/usr/include/net/ethernet.h[1;34m:[0m#include <[1;31mlinux[0m/if_ether.h>     /* IEEE 802.3 Ethernet constants */
+[0;35m/usr/include/net/ppp_defs.h[1;34m:[0m#include <[1;31mlinux[0m/ppp_defs.h>
+[0;35m/usr/include/net/ppp-comp.h[1;34m:[0m#include <[1;31mlinux[0m/ppp-comp.h>
+[0;35m/usr/include/net/ppp-comp.h[1;34m:[0m#include <[1;31mlinux[0m/ppp-comp.h>
+[0;35m/usr/include/net/if_slip.h[1;34m:[0m#include <[1;31mlinux[0m/if_slip.h>
+[0;35m/usr/include/nfs/nfs.h[1;34m:[0m#include <[1;31mlinux[0m/nfs.h>
+[0;35m/usr/include/nfs/nfs.h[1;34m:[0m#include <[1;31mlinux[0m/nfs.h>
+[0;35m/usr/include/python3.10/pythread.h[1;34m:[0m#if defined(__APPLE__) || defined(__[1;31mlinux[0m__) || defined(__FreeBSD__) || defined(__FreeBSD_kernel__) || defined(__OpenBSD__) || defined(__NetBSD__) || defined(_WIN32) || defined(_AIX) || defined(__GNU__)
+[0;35m/usr/include/python3.10/pyconfig.h[1;34m:[0m#if defined(__[1;31mlinux[0m__)
+[0;35m/usr/include/python3.10/pyconfig.h[1;34m:[0m#  include <x86_64-[1;31mlinux[0m-gnu/python3.10/pyconfig.h>
+[0;35m/usr/include/python3.10/pyconfig.h[1;34m:[0m#  include <x86_64-[1;31mlinux[0m-gnux32/python3.10/pyconfig.h>
+[0;35m/usr/include/python3.10/pyconfig.h[1;34m:[0m#  include <i386-[1;31mlinux[0m-gnu/python3.10/pyconfig.h>
+[0;35m/usr/include/python3.10/pyconfig.h[1;34m:[0m#  include <aarch64-[1;31mlinux[0m-gnu/python3.10/pyconfig.h>
+[0;35m/usr/include/python3.10/pyconfig.h[1;34m:[0m#  include <arc-[1;31mlinux[0m-gnu/python3.10/pyconfig.h>
+[0;35m/usr/include/python3.10/pyconfig.h[1;34m:[0m#  include <alpha-[1;31mlinux[0m-gnu/python3.10/pyconfig.h>
+[0;35m/usr/include/python3.10/pyconfig.h[1;34m:[0m#  include <arm-[1;31mlinux[0m-gnueabihf/python3.10/pyconfig.h>
+[0;35m/usr/include/python3.10/pyconfig.h[1;34m:[0m#  include <arm-[1;31mlinux[0m-gnueabi/python3.10/pyconfig.h>
+[0;35m/usr/include/python3.10/pyconfig.h[1;34m:[0m#  include <hppa-[1;31mlinux[0m-gnu/python3.10/pyconfig.h>
+[0;35m/usr/include/python3.10/pyconfig.h[1;34m:[0m#  include <ia64-[1;31mlinux[0m-gnu/python3.10/pyconfig.h>
+[0;35m/usr/include/python3.10/pyconfig.h[1;34m:[0m#  include <m68k-[1;31mlinux[0m-gnu/python3.10/pyconfig.h>
+[0;35m/usr/include/python3.10/pyconfig.h[1;34m:[0m#   include <mipsisa32r6el-[1;31mlinux[0m-gnu/python3.10/pyconfig.h>
+[0;35m/usr/include/python3.10/pyconfig.h[1;34m:[0m#   include <mipsisa64r6el-[1;31mlinux[0m-gnuabin32/python3.10/pyconfig.h>
+[0;35m/usr/include/python3.10/pyconfig.h[1;34m:[0m#   include <mipsisa64r6el-[1;31mlinux[0m-gnuabi64/python3.10/pyconfig.h>
+[0;35m/usr/include/python3.10/pyconfig.h[1;34m:[0m#   include <mipsisa32r6-[1;31mlinux[0m-gnu/python3.10/pyconfig.h>
+[0;35m/usr/include/python3.10/pyconfig.h[1;34m:[0m#   include <mipsisa64r6-[1;31mlinux[0m-gnuabin32/python3.10/pyconfig.h>
+[0;35m/usr/include/python3.10/pyconfig.h[1;34m:[0m#   include <mipsisa64r6-[1;31mlinux[0m-gnuabi64/python3.10/pyconfig.h>
+[0;35m/usr/include/python3.10/pyconfig.h[1;34m:[0m#   include <mipsel-[1;31mlinux[0m-gnu/python3.10/pyconfig.h>
+[0;35m/usr/include/python3.10/pyconfig.h[1;34m:[0m#   include <mips64el-[1;31mlinux[0m-gnuabin32/python3.10/pyconfig.h>
+[0;35m/usr/include/python3.10/pyconfig.h[1;34m:[0m#   include <mips64el-[1;31mlinux[0m-gnuabi64/python3.10/pyconfig.h>
+[0;35m/usr/include/python3.10/pyconfig.h[1;34m:[0m#   include <mips-[1;31mlinux[0m-gnu/python3.10/pyconfig.h>
+[0;35m/usr/include/python3.10/pyconfig.h[1;34m:[0m#   include <mips64-[1;31mlinux[0m-gnuabin32/python3.10/pyconfig.h>
+[0;35m/usr/include/python3.10/pyconfig.h[1;34m:[0m#   include <mips64-[1;31mlinux[0m-gnuabi64/python3.10/pyconfig.h>
+[0;35m/usr/include/python3.10/pyconfig.h[1;34m:[0m#  include <or1k-[1;31mlinux[0m-gnu/python3.10/pyconfig.h>
+[0;35m/usr/include/python3.10/pyconfig.h[1;34m:[0m#  include <powerpc-[1;31mlinux[0m-gnuspe/python3.10/pyconfig.h>
+[0;35m/usr/include/python3.10/pyconfig.h[1;34m:[0m#    include <powerpc64le-[1;31mlinux[0m-gnu/python3.10/pyconfig.h>
+[0;35m/usr/include/python3.10/pyconfig.h[1;34m:[0m#    include <powerpc64-[1;31mlinux[0m-gnu/python3.10/pyconfig.h>
+[0;35m/usr/include/python3.10/pyconfig.h[1;34m:[0m#  include <powerpc-[1;31mlinux[0m-gnu/python3.10/pyconfig.h>
+[0;35m/usr/include/python3.10/pyconfig.h[1;34m:[0m#  include <s390x-[1;31mlinux[0m-gnu/python3.10/pyconfig.h>
+[0;35m/usr/include/python3.10/pyconfig.h[1;34m:[0m#  include <s390-[1;31mlinux[0m-gnu/python3.10/pyconfig.h>
+[0;35m/usr/include/python3.10/pyconfig.h[1;34m:[0m#  include <sh4-[1;31mlinux[0m-gnu/python3.10/pyconfig.h>
+[0;35m/usr/include/python3.10/pyconfig.h[1;34m:[0m#  include <sparc64-[1;31mlinux[0m-gnu/python3.10/pyconfig.h>
+[0;35m/usr/include/python3.10/pyconfig.h[1;34m:[0m#  include <sparc-[1;31mlinux[0m-gnu/python3.10/pyconfig.h>
+[0;35m/usr/include/python3.10/pyconfig.h[1;34m:[0m#    include <riscv64-[1;31mlinux[0m-gnu/python3.10/pyconfig.h>
+[0;35m/usr/include/python3.10/pyconfig.h[1;34m:[0m#    include <riscv32-[1;31mlinux[0m-gnu/python3.10/pyconfig.h>
+[0;35m/usr/include/glib-2.0/gio/gfileinfo.h[1;34m:[0m * A key in the "se[1;31mlinux[0m" namespace for getting the file's SELinux
+[0;35m/usr/include/glib-2.0/gio/gfileinfo.h[1;34m:[0m#define G_FILE_ATTRIBUTE_SELINUX_CONTEXT "se[1;31mlinux[0m::context"       /* string */
+[0;35m/usr/include/glib-2.0/glib/gdatetime.h[1;34m:[0m *          Emmanuele Bassi <ebassi@[1;31mlinux[0m.intel.com>
+[0;35m/usr/include/glib-2.0/gobject/gbinding.h[1;34m:[0m * Author: Emmanuele Bassi <ebassi@[1;31mlinux[0m.intel.com>
+[0;35m/usr/include/unicode/platform.h[1;34m:[0m#elif defined([1;31mlinux[0m) || defined(__linux__) || defined(__linux)
+[0;35m/usr/include/c++/11/bits/specfun.h[1;34m:[0m   * [1;31mlinux[0m-x86_64 systems over most of the ranges of validity.
+[0;35m/usr/include/c++/12/bits/specfun.h[1;34m:[0m   * [1;31mlinux[0m-x86_64 systems over most of the ranges of validity.
+[0;35m/usr/include/xen/privcmd.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/xen/gntalloc.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/xen/gntdev.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/libsync.h[1;34m:[0m/* duplicated from [1;31mlinux[0m/sync_file.h to avoid build-time dependency
+[0;35m/usr/include/libsync.h[1;34m:[0m * something newer than v4.7 drop this and #include <[1;31mlinux[0m/sync_file.h>
+[0;35m/usr/include/openssl/e_os2.h[1;34m:[0m#  if defined([1;31mlinux[0m) || defined(__linux__) && !defined(OPENSSL_SYS_LINUX)
+[0;35m/usr/include/X11/dri/xf86dri.h[1;34m:[0m * \author Kevin E. Martin <martin@va[1;31mlinux[0m.com>
+[0;35m/usr/include/X11/dri/xf86dri.h[1;34m:[0m * \author Rickard E. (Rik) Faith <faith@va[1;31mlinux[0m.com>
+[0;35m/usr/include/X11/dri/xf86driproto.h[1;34m:[0m *   Kevin E. Martin <martin@va[1;31mlinux[0m.com>
+[0;35m/usr/include/X11/dri/xf86driproto.h[1;34m:[0m *   Rickard E. (Rik) Faith <faith@va[1;31mlinux[0m.com>
+[0;35m/usr/include/X11/Xtrans/Xtranssock.c[1;34m:[0m#if defined([1;31mlinux[0m) || defined(__GLIBC__)
+[0;35m/usr/include/X11/Xtrans/Xtranssock.c[1;34m:[0m#ifdef [1;31mlinux[0m
+[0;35m/usr/include/X11/Xthreads.h[1;34m:[0m#      if defined(__[1;31mlinux[0m__)
+[0;35m/usr/include/X11/Xthreads.h[1;34m:[0m#      endif /* [1;31mlinux[0m */
+[0;35m/usr/include/X11/Xarch.h[1;34m:[0m#  elif defined([1;31mlinux[0m)
+[0;35m/usr/include/X11/Xfuncproto.h[1;34m:[0m    (defined(__[1;31mlinux[0m__) || defined(__FreeBSD__) || defined(__NetBSD__) || defined(__OpenBSD__))
+[0;35m/usr/include/hwloc/opencl.h[1;34m:[0m#include "hwloc/[1;31mlinux[0m.h"
+[0;35m/usr/include/hwloc/opencl.h[1;34m:[0m	if (hwloc_[1;31mlinux[0m_read_path_as_cpumask(path, set) < 0
+[0;35m/usr/include/hwloc/rsmi.h[1;34m:[0m#include "hwloc/[1;31mlinux[0m.h"
+[0;35m/usr/include/hwloc/rsmi.h[1;34m:[0m  if (hwloc_[1;31mlinux[0m_read_path_as_cpumask(path, set) < 0
+[0;35m/usr/include/hwloc/rename.h[1;34m:[0m/* [1;31mlinux[0m-libnuma.h */
+[0;35m/usr/include/hwloc/rename.h[1;34m:[0m#define hwloc_cpuset_to_[1;31mlinux[0m_libnuma_ulongs HWLOC_NAME(cpuset_to_linux_libnuma_ulongs)
+[0;35m/usr/include/hwloc/rename.h[1;34m:[0m#define hwloc_nodeset_to_[1;31mlinux[0m_libnuma_ulongs HWLOC_NAME(nodeset_to_linux_libnuma_ulongs)
+[0;35m/usr/include/hwloc/rename.h[1;34m:[0m#define hwloc_cpuset_from_[1;31mlinux[0m_libnuma_ulongs HWLOC_NAME(cpuset_from_linux_libnuma_ulongs)
+[0;35m/usr/include/hwloc/rename.h[1;34m:[0m#define hwloc_nodeset_from_[1;31mlinux[0m_libnuma_ulongs HWLOC_NAME(nodeset_from_linux_libnuma_ulongs)
+[0;35m/usr/include/hwloc/rename.h[1;34m:[0m#define hwloc_cpuset_to_[1;31mlinux[0m_libnuma_bitmask HWLOC_NAME(cpuset_to_linux_libnuma_bitmask)
+[0;35m/usr/include/hwloc/rename.h[1;34m:[0m#define hwloc_nodeset_to_[1;31mlinux[0m_libnuma_bitmask HWLOC_NAME(nodeset_to_linux_libnuma_bitmask)
+[0;35m/usr/include/hwloc/rename.h[1;34m:[0m#define hwloc_cpuset_from_[1;31mlinux[0m_libnuma_bitmask HWLOC_NAME(cpuset_from_linux_libnuma_bitmask)
+[0;35m/usr/include/hwloc/rename.h[1;34m:[0m#define hwloc_nodeset_from_[1;31mlinux[0m_libnuma_bitmask HWLOC_NAME(nodeset_from_linux_libnuma_bitmask)
+[0;35m/usr/include/hwloc/rename.h[1;34m:[0m/* [1;31mlinux[0m.h */
+[0;35m/usr/include/hwloc/rename.h[1;34m:[0m#define hwloc_[1;31mlinux[0m_set_tid_cpubind HWLOC_NAME(linux_set_tid_cpubind)
+[0;35m/usr/include/hwloc/rename.h[1;34m:[0m#define hwloc_[1;31mlinux[0m_get_tid_cpubind HWLOC_NAME(linux_get_tid_cpubind)
+[0;35m/usr/include/hwloc/rename.h[1;34m:[0m#define hwloc_[1;31mlinux[0m_get_tid_last_cpu_location HWLOC_NAME(linux_get_tid_last_cpu_location)
+[0;35m/usr/include/hwloc/rename.h[1;34m:[0m#define hwloc_[1;31mlinux[0m_read_path_as_cpumask HWLOC_NAME(linux_read_file_cpumask)
+[0;35m/usr/include/hwloc/rename.h[1;34m:[0m#define hwloc_[1;31mlinux[0m_pci_link_speed_from_string HWLOC_NAME(linux_pci_link_speed_from_string)
+[0;35m/usr/include/hwloc/rename.h[1;34m:[0m#define hwloc_[1;31mlinux[0m_component HWLOC_NAME(linux_component)
+[0;35m/usr/include/hwloc/rename.h[1;34m:[0m#define hwloc_set_[1;31mlinux[0mfs_hooks HWLOC_NAME(set_linuxfs_hooks)
+[0;35m/usr/include/hwloc/cuda.h[1;34m:[0m#include "hwloc/[1;31mlinux[0m.h"
+[0;35m/usr/include/hwloc/cuda.h[1;34m:[0m  if (hwloc_[1;31mlinux[0m_read_path_as_cpumask(path, set) < 0
+[0;35m/usr/include/hwloc/nvml.h[1;34m:[0m#include "hwloc/[1;31mlinux[0m.h"
+[0;35m/usr/include/hwloc/nvml.h[1;34m:[0m  if (hwloc_[1;31mlinux[0m_read_path_as_cpumask(path, set) < 0
+[0;35m/usr/include/hwloc/openfabrics-verbs.h[1;34m:[0m#include "hwloc/[1;31mlinux[0m.h"
+[0;35m/usr/include/hwloc/openfabrics-verbs.h[1;34m:[0m  if (hwloc_[1;31mlinux[0m_read_path_as_cpumask(path, set) < 0
+[0;35m/usr/include/hwloc/cudart.h[1;34m:[0m#include "hwloc/[1;31mlinux[0m.h"
+[0;35m/usr/include/hwloc/cudart.h[1;34m:[0m  if (hwloc_[1;31mlinux[0m_read_path_as_cpumask(path, set) < 0
+[0;35m/usr/include/hwloc/levelzero.h[1;34m:[0m#include "hwloc/[1;31mlinux[0m.h"
+[0;35m/usr/include/hwloc/levelzero.h[1;34m:[0m  if (hwloc_[1;31mlinux[0m_read_path_as_cpumask(path, set) < 0
+[0;35m/usr/include/hwloc/linux.h[1;34m:[0m/** \defgroup hwlocality_[1;31mlinux[0m Linux-specific helpers
+[0;35m/usr/include/hwloc/linux.h[1;34m:[0mHWLOC_DECLSPEC int hwloc_[1;31mlinux[0m_set_tid_cpubind(hwloc_topology_t topology, pid_t tid, hwloc_const_cpuset_t set);
+[0;35m/usr/include/hwloc/linux.h[1;34m:[0mHWLOC_DECLSPEC int hwloc_[1;31mlinux[0m_get_tid_cpubind(hwloc_topology_t topology, pid_t tid, hwloc_cpuset_t set);
+[0;35m/usr/include/hwloc/linux.h[1;34m:[0mHWLOC_DECLSPEC int hwloc_[1;31mlinux[0m_get_tid_last_cpu_location(hwloc_topology_t topology, pid_t tid, hwloc_bitmap_t set);
+[0;35m/usr/include/hwloc/linux.h[1;34m:[0m/** \brief Convert a [1;31mlinux[0m kernel cpumask file \p path into a hwloc bitmap \p set.
+[0;35m/usr/include/hwloc/linux.h[1;34m:[0mHWLOC_DECLSPEC int hwloc_[1;31mlinux[0m_read_path_as_cpumask(const char *path, hwloc_bitmap_t set);
+[0;35m/usr/include/hwloc/linux-libnuma.h[1;34m:[0m/** \defgroup hwlocality_[1;31mlinux[0m_libnuma_ulongs Interoperability with Linux libnuma unsigned long masks
+[0;35m/usr/include/hwloc/linux-libnuma.h[1;34m:[0mhwloc_cpuset_to_[1;31mlinux[0m_libnuma_ulongs(hwloc_topology_t topology, hwloc_const_cpuset_t cpuset,
+[0;35m/usr/include/hwloc/linux-libnuma.h[1;34m:[0mhwloc_nodeset_to_[1;31mlinux[0m_libnuma_ulongs(hwloc_topology_t topology, hwloc_const_nodeset_t nodeset,
+[0;35m/usr/include/hwloc/linux-libnuma.h[1;34m:[0mhwloc_cpuset_from_[1;31mlinux[0m_libnuma_ulongs(hwloc_topology_t topology, hwloc_cpuset_t cpuset,
+[0;35m/usr/include/hwloc/linux-libnuma.h[1;34m:[0mhwloc_nodeset_from_[1;31mlinux[0m_libnuma_ulongs(hwloc_topology_t topology, hwloc_nodeset_t nodeset,
+[0;35m/usr/include/hwloc/linux-libnuma.h[1;34m:[0m/** \defgroup hwlocality_[1;31mlinux[0m_libnuma_bitmask Interoperability with Linux libnuma bitmask
+[0;35m/usr/include/hwloc/linux-libnuma.h[1;34m:[0mhwloc_cpuset_to_[1;31mlinux[0m_libnuma_bitmask(hwloc_topology_t topology, hwloc_const_cpuset_t cpuset) __hwloc_attribute_malloc;
+[0;35m/usr/include/hwloc/linux-libnuma.h[1;34m:[0mhwloc_cpuset_to_[1;31mlinux[0m_libnuma_bitmask(hwloc_topology_t topology, hwloc_const_cpuset_t cpuset)
+[0;35m/usr/include/hwloc/linux-libnuma.h[1;34m:[0mhwloc_nodeset_to_[1;31mlinux[0m_libnuma_bitmask(hwloc_topology_t topology, hwloc_const_nodeset_t nodeset) __hwloc_attribute_malloc;
+[0;35m/usr/include/hwloc/linux-libnuma.h[1;34m:[0mhwloc_nodeset_to_[1;31mlinux[0m_libnuma_bitmask(hwloc_topology_t topology, hwloc_const_nodeset_t nodeset)
+[0;35m/usr/include/hwloc/linux-libnuma.h[1;34m:[0mhwloc_cpuset_from_[1;31mlinux[0m_libnuma_bitmask(hwloc_topology_t topology, hwloc_cpuset_t cpuset,
+[0;35m/usr/include/hwloc/linux-libnuma.h[1;34m:[0mhwloc_nodeset_from_[1;31mlinux[0m_libnuma_bitmask(hwloc_topology_t topology, hwloc_nodeset_t nodeset,
+[0;35m/usr/include/nspr/prcpucfg.h[1;34m:[0m#if !defined(LINUX) && defined(__[1;31mlinux[0m__)
+[0;35m/usr/include/nspr/md/_linux.cfg[1;34m:[0m#if !defined(LINUX) && defined(__[1;31mlinux[0m__)
+[0;35m/usr/include/nspr/pratom.h[1;34m:[0m       (defined(__[1;31mlinux[0m__) && \
+[0;35m/usr/include/selinux/label.h[1;34m:[0m#include <se[1;31mlinux[0m/selinux.h>
+[0;35m/usr/include/selinux/label.h[1;34m:[0m					   const struct se[1;31mlinux[0m_opt *opts,
+[0;35m/usr/include/selinux/restorecon.h[1;34m:[0m * se[1;31mlinux[0m_restorecon - Relabel files.
+[0;35m/usr/include/selinux/restorecon.h[1;34m:[0m * se[1;31mlinux[0m_restorecon(3) will automatically call
+[0;35m/usr/include/selinux/restorecon.h[1;34m:[0m * se[1;31mlinux[0m_restorecon_default_handle(3) and selinux_restorecon_set_sehandle(3)
+[0;35m/usr/include/selinux/restorecon.h[1;34m:[0m * se[1;31mlinux[0m_restorecon_set_sehandle(3).
+[0;35m/usr/include/selinux/restorecon.h[1;34m:[0mextern int se[1;31mlinux[0m_restorecon(const char *pathname,
+[0;35m/usr/include/selinux/restorecon.h[1;34m:[0m * Log changes to se[1;31mlinux[0m log. Note that if VERBOSE and
+[0;35m/usr/include/selinux/restorecon.h[1;34m:[0m * se[1;31mlinux[0m_restorecon_set_sehandle - Set the global fc handle.
+[0;35m/usr/include/selinux/restorecon.h[1;34m:[0m * required parameters, or if se[1;31mlinux[0m_restorecon_default_handle(3) has been
+[0;35m/usr/include/selinux/restorecon.h[1;34m:[0mextern void se[1;31mlinux[0m_restorecon_set_sehandle(struct selabel_handle *hndl);
+[0;35m/usr/include/selinux/restorecon.h[1;34m:[0m * se[1;31mlinux[0m_restorecon_default_handle - Sets default selabel_open(3) parameters
+[0;35m/usr/include/selinux/restorecon.h[1;34m:[0mextern struct selabel_handle *se[1;31mlinux[0m_restorecon_default_handle(void);
+[0;35m/usr/include/selinux/restorecon.h[1;34m:[0m * se[1;31mlinux[0m_restorecon_set_exclude_list - Add a list of directories that are
+[0;35m/usr/include/selinux/restorecon.h[1;34m:[0mextern void se[1;31mlinux[0m_restorecon_set_exclude_list(const char **exclude_list);
+[0;35m/usr/include/selinux/restorecon.h[1;34m:[0m * se[1;31mlinux[0m_restorecon_set_alt_rootpath - Use alternate rootpath.
+[0;35m/usr/include/selinux/restorecon.h[1;34m:[0mextern int se[1;31mlinux[0m_restorecon_set_alt_rootpath(const char *alt_rootpath);
+[0;35m/usr/include/selinux/restorecon.h[1;34m:[0m * se[1;31mlinux[0m_restorecon_xattr - Read/remove security.sehash xattr entries.
+[0;35m/usr/include/selinux/restorecon.h[1;34m:[0m * se[1;31mlinux[0m_restorecon_xattr(3) will automatically call
+[0;35m/usr/include/selinux/restorecon.h[1;34m:[0m * se[1;31mlinux[0m_restorecon_default_handle(3) and selinux_restorecon_set_sehandle(3)
+[0;35m/usr/include/selinux/restorecon.h[1;34m:[0m * se[1;31mlinux[0m_restorecon_set_sehandle(3), however note that a file_contexts
+[0;35m/usr/include/selinux/restorecon.h[1;34m:[0m * computed digest is required for se[1;31mlinux[0m_restorecon_xattr().
+[0;35m/usr/include/selinux/restorecon.h[1;34m:[0mextern int se[1;31mlinux[0m_restorecon_xattr(const char *pathname,
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern int is_se[1;31mlinux[0m_enabled(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern int is_se[1;31mlinux[0m_mls_enabled(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0m/* Wrappers for the se[1;31mlinux[0mfs (policy) API. */
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mstruct se[1;31mlinux[0m_opt {
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0munion se[1;31mlinux[0m_callback {
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern union se[1;31mlinux[0m_callback selinux_get_callback(int type);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern void se[1;31mlinux[0m_set_callback(int type, union selinux_callback cb);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern int se[1;31mlinux[0m_mkload_policy(int preservebools);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0m * It also internally handles the initial se[1;31mlinux[0mfs mount required to
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern int se[1;31mlinux[0m_init_load_policy(int *enforce);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0m * se[1;31mlinux[0m_set_mapping - Enable dynamic mapping between integer offsets and security class names
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern int se[1;31mlinux[0m_set_mapping(struct security_class_mapping *map);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern void se[1;31mlinux[0m_flush_class_cache(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0m   i.e. the path returned by se[1;31mlinux[0m_file_context_path().
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0m  se[1;31mlinux[0m_getenforcemode reads the /etc/selinux/config file and determines 
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern int se[1;31mlinux[0m_getenforcemode(int *enforce);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0m  se[1;31mlinux[0m_boolean_sub reads the /etc/selinux/TYPE/booleans.subs_dist file
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0m  looking for a record with boolean_name.  If a record exists se[1;31mlinux[0m_boolean_sub
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern char *se[1;31mlinux[0m_boolean_sub(const char *boolean_name);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0m  se[1;31mlinux[0m_getpolicytype reads the /etc/selinux/config file and determines 
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern int se[1;31mlinux[0m_getpolicytype(char **policytype);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0m  se[1;31mlinux[0m_policy_root reads the /etc/selinux/config file and returns 
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern const char *se[1;31mlinux[0m_policy_root(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0m  se[1;31mlinux[0m_set_policy_root sets an alternate policy root directory path under
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern int se[1;31mlinux[0m_set_policy_root(const char *rootpath);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern const char *se[1;31mlinux[0m_current_policy_path(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern const char *se[1;31mlinux[0m_binary_policy_path(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern const char *se[1;31mlinux[0m_failsafe_context_path(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern const char *se[1;31mlinux[0m_removable_context_path(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern const char *se[1;31mlinux[0m_default_context_path(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern const char *se[1;31mlinux[0m_user_contexts_path(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern const char *se[1;31mlinux[0m_file_context_path(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern const char *se[1;31mlinux[0m_file_context_homedir_path(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern const char *se[1;31mlinux[0m_file_context_local_path(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern const char *se[1;31mlinux[0m_file_context_subs_path(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern const char *se[1;31mlinux[0m_file_context_subs_dist_path(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern const char *se[1;31mlinux[0m_homedir_context_path(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern const char *se[1;31mlinux[0m_media_context_path(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern const char *se[1;31mlinux[0m_virtual_domain_context_path(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern const char *se[1;31mlinux[0m_virtual_image_context_path(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern const char *se[1;31mlinux[0m_lxc_contexts_path(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern const char *se[1;31mlinux[0m_x_context_path(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern const char *se[1;31mlinux[0m_sepgsql_context_path(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern const char *se[1;31mlinux[0m_openrc_contexts_path(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern const char *se[1;31mlinux[0m_openssh_contexts_path(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern const char *se[1;31mlinux[0m_snapperd_contexts_path(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern const char *se[1;31mlinux[0m_systemd_contexts_path(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern const char *se[1;31mlinux[0m_contexts_path(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern const char *se[1;31mlinux[0m_securetty_types_path(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern const char *se[1;31mlinux[0m_booleans_subs_path(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern const char *se[1;31mlinux[0m_booleans_path(void)
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern const char *se[1;31mlinux[0m_customizable_types_path(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern const char *se[1;31mlinux[0m_users_path(void)
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern const char *se[1;31mlinux[0m_usersconf_path(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern const char *se[1;31mlinux[0m_translations_path(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern const char *se[1;31mlinux[0m_colors_path(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern const char *se[1;31mlinux[0m_netfilter_context_path(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern const char *se[1;31mlinux[0m_path(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0m * se[1;31mlinux[0m_check_access - Check permissions and perform appropriate auditing.
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern int se[1;31mlinux[0m_check_access(const char * scon, const char * tcon, const char *tclass, const char *perm, void *auditdata);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern int se[1;31mlinux[0m_check_passwd_access(access_vector_t requested)
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0m  __attribute__ ((deprecated("Use se[1;31mlinux[0m_check_access")))
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0m   __attribute__ ((deprecated("Use se[1;31mlinux[0m_check_access")))
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern int se[1;31mlinux[0m_check_securetty_context(const char * tty_context);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0m/* Set the path to the se[1;31mlinux[0mfs mount point explicitly.
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0m   Normally, this is determined automatically during libse[1;31mlinux[0m 
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0m   which performs the initial mount of se[1;31mlinux[0mfs. */
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern void set_se[1;31mlinux[0mmnt(const char *mnt);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0m/* Check if se[1;31mlinux[0mfs exists as a kernel filesystem */
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern int se[1;31mlinux[0mfs_exists(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0m/* clear se[1;31mlinux[0mmnt variable and free allocated memory */
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern void fini_se[1;31mlinux[0mmnt(void);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern int se[1;31mlinux[0m_trans_to_raw_context(const char * trans,
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern int se[1;31mlinux[0m_raw_to_trans_context(const char * raw,
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern int se[1;31mlinux[0m_raw_context_to_color(const char * raw,
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern int getseuserbyname(const char *[1;31mlinux[0muser, char **seuser, char **level);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern int se[1;31mlinux[0m_file_context_cmp(const char * a,
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern int se[1;31mlinux[0m_file_context_verify(const char *path, mode_t mode);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern int se[1;31mlinux[0m_lsetfilecon_default(const char *path);
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0m * are calling into libse[1;31mlinux[0m when this is called.
+[0;35m/usr/include/selinux/selinux.h[1;34m:[0mextern void se[1;31mlinux[0m_reset_config(void);
+[0;35m/usr/include/selinux/get_context_list.h[1;34m:[0m#include <se[1;31mlinux[0m/selinux.h>
+[0;35m/usr/include/selinux/get_default_type.h[1;34m:[0m	extern const char *se[1;31mlinux[0m_default_type_path(void);
+[0;35m/usr/include/selinux/avc.h[1;34m:[0m#include <se[1;31mlinux[0m/selinux.h>
+[0;35m/usr/include/selinux/avc.h[1;34m:[0m	__attribute__ ((deprecated("Use avc_open and se[1;31mlinux[0m_set_callback")))
+[0;35m/usr/include/selinux/avc.h[1;34m:[0m * se[1;31mlinux[0m_set_callback().  Available options are listed above.
+[0;35m/usr/include/selinux/avc.h[1;34m:[0mextern int avc_open(struct se[1;31mlinux[0m_opt *opts, unsigned nopts);
+[0;35m/usr/include/selinux/avc.h[1;34m:[0m * se[1;31mlinux[0m_status_open - Open and map SELinux kernel status page
+[0;35m/usr/include/selinux/avc.h[1;34m:[0mextern int se[1;31mlinux[0m_status_open(int fallback);
+[0;35m/usr/include/selinux/avc.h[1;34m:[0m * se[1;31mlinux[0m_status_close - Unmap and close SELinux kernel status page
+[0;35m/usr/include/selinux/avc.h[1;34m:[0mextern void se[1;31mlinux[0m_status_close(void);
+[0;35m/usr/include/selinux/avc.h[1;34m:[0m * se[1;31mlinux[0m_status_updated - Inform us whether the kernel status has been updated
+[0;35m/usr/include/selinux/avc.h[1;34m:[0mextern int se[1;31mlinux[0m_status_updated(void);
+[0;35m/usr/include/selinux/avc.h[1;34m:[0m * se[1;31mlinux[0m_status_getenforce - Get the enforce flag value
+[0;35m/usr/include/selinux/avc.h[1;34m:[0mextern int se[1;31mlinux[0m_status_getenforce(void);
+[0;35m/usr/include/selinux/avc.h[1;34m:[0m * se[1;31mlinux[0m_status_policyload - Get the number of policy reloaded
+[0;35m/usr/include/selinux/avc.h[1;34m:[0mextern int se[1;31mlinux[0m_status_policyload(void);
+[0;35m/usr/include/selinux/avc.h[1;34m:[0m * se[1;31mlinux[0m_status_deny_unknown - Get the  behavior for undefined classes/permissions
+[0;35m/usr/include/selinux/avc.h[1;34m:[0mextern int se[1;31mlinux[0m_status_deny_unknown(void);
+[0;35m/usr/include/sound/skl-tplg-interface.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/sound/compress_params.h[1;34m:[0m *  Authors:	Pierre-Louis Bossart <pierre-louis.bossart@[1;31mlinux[0m.intel.com>
+[0;35m/usr/include/sound/compress_params.h[1;34m:[0m *              Vinod Koul <vinod.koul@[1;31mlinux[0m.intel.com>
+[0;35m/usr/include/sound/compress_params.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/sound/asound.h[1;34m:[0m#if defined(__KERNEL__) || defined(__[1;31mlinux[0m__)
+[0;35m/usr/include/sound/asound.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/sound/sof/tokens.h[1;34m:[0m * Author: Liam Girdwood <liam.r.girdwood@[1;31mlinux[0m.intel.com>
+[0;35m/usr/include/sound/sof/tokens.h[1;34m:[0m *         Keyon Jie <yang.jie@[1;31mlinux[0m.intel.com>
+[0;35m/usr/include/sound/sof/fw.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/sound/sof/header.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/sound/hdspm.h[1;34m:[0m#ifdef __[1;31mlinux[0m__
+[0;35m/usr/include/sound/hdspm.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/sound/compress_offload.h[1;34m:[0m *  Authors:	Vinod Koul <vinod.koul@[1;31mlinux[0m.intel.com>
+[0;35m/usr/include/sound/compress_offload.h[1;34m:[0m *		Pierre-Louis Bossart <pierre-louis.bossart@[1;31mlinux[0m.intel.com>
+[0;35m/usr/include/sound/compress_offload.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/sound/firewire.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/sound/firewire.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/sound/emu10k1.h[1;34m:[0m#ifdef __[1;31mlinux[0m__
+[0;35m/usr/include/sound/emu10k1.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/sound/emu10k1.h[1;34m:[0m * Following definition is copied from [1;31mlinux[0m/types.h to support compiling
+[0;35m/usr/include/sound/hdsp.h[1;34m:[0m#ifdef __[1;31mlinux[0m__
+[0;35m/usr/include/sound/hdsp.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/sound/asoc.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/libdrm/radeon_drm.h[1;34m:[0m/* radeon_drm.h -- Public header for the radeon driver -*- [1;31mlinux[0m-c -*-
+[0;35m/usr/include/libdrm/radeon_drm.h[1;34m:[0m *    Kevin E. Martin <martin@va[1;31mlinux[0m.com>
+[0;35m/usr/include/libdrm/radeon_drm.h[1;34m:[0m *    Gareth Hughes <gareth@va[1;31mlinux[0m.com>
+[0;35m/usr/include/libdrm/amdgpu_drm.h[1;34m:[0m/* amdgpu_drm.h -- Public header for the amdgpu driver -*- [1;31mlinux[0m-c -*-
+[0;35m/usr/include/libdrm/amdgpu_drm.h[1;34m:[0m *    Kevin E. Martin <martin@va[1;31mlinux[0m.com>
+[0;35m/usr/include/libdrm/amdgpu_drm.h[1;34m:[0m *    Gareth Hughes <gareth@va[1;31mlinux[0m.com>
+[0;35m/usr/include/libdrm/drm.h[1;34m:[0m * Author: Rickard E. (Rik) Faith <faith@va[1;31mlinux[0m.com>
+[0;35m/usr/include/libdrm/drm.h[1;34m:[0m#if   defined(__[1;31mlinux[0m__)
+[0;35m/usr/include/libdrm/drm.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/libdrm/sis_drm.h[1;34m:[0m/* sis_drv.h -- Private header for sis driver -*- [1;31mlinux[0m-c -*- */
+[0;35m/usr/include/libdrm/mga_drm.h[1;34m:[0m/* mga_drm.h -- Public header for the Matrox g200/g400 driver -*- [1;31mlinux[0m-c -*-
+[0;35m/usr/include/libdrm/mga_drm.h[1;34m:[0m *    Jeff Hartmann <jhartmann@va[1;31mlinux[0m.com>
+[0;35m/usr/include/libdrm/mga_drm.h[1;34m:[0m *    Gareth Hughes <gareth@va[1;31mlinux[0m.com>
+[0;35m/usr/include/libdrm/r128_drm.h[1;34m:[0m/* r128_drm.h -- Public header for the r128 driver -*- [1;31mlinux[0m-c -*-
+[0;35m/usr/include/libdrm/r128_drm.h[1;34m:[0m *    Gareth Hughes <gareth@va[1;31mlinux[0m.com>
+[0;35m/usr/include/libdrm/r128_drm.h[1;34m:[0m *    Kevin E. Martin <martin@va[1;31mlinux[0m.com>
+[0;35m/usr/include/libdrm/drm_mode.h[1;34m:[0m * Copyright (c) 2007 Dave Airlie <airlied@[1;31mlinux[0m.ie>
+[0;35m/usr/include/libdrm/mach64_drm.h[1;34m:[0m/* mach64_drm.h -- Public header for the mach64 driver -*- [1;31mlinux[0m-c -*-
+[0;35m/usr/include/libdrm/mach64_drm.h[1;34m:[0m * Created: Thu Nov 30 20:04:32 2000 by gareth@va[1;31mlinux[0m.com
+[0;35m/usr/include/libdrm/mach64_drm.h[1;34m:[0m *    Gareth Hughes <gareth@va[1;31mlinux[0m.com>
+[0;35m/usr/include/libdrm/drm_fourcc.h[1;34m:[0m * For more information: see https://[1;31mlinux[0mtv.org/downloads/v4l-dvb-apis/re32.html
+[0;35m/usr/include/xkbcommon/xkbcommon.h[1;34m:[0m * and Linux evdev scan codes (see [1;31mlinux[0m/input.h), a fixed offset is used:
+[0;35m/usr/include/sepol/cil/cil.h[1;34m:[0mextern int cil_se[1;31mlinux[0musers_to_string(cil_db_t *db, char **out, size_t *size);
+[0;35m/usr/include/sepol/policydb/flask_types.h[1;34m:[0m/* -*- [1;31mlinux[0m-c -*- */
+[0;35m/usr/include/sepol/policydb/services.h[1;34m:[0m/* -*- [1;31mlinux[0m-c -*- */
+[0;35m/usr/include/x86_64-linux-gnu/python3.10/pyconfig.h[1;34m:[0m/* Define to 1 if you have the <[1;31mlinux[0m/auxvec.h> header file. */
+[0;35m/usr/include/x86_64-linux-gnu/python3.10/pyconfig.h[1;34m:[0m/* Define to 1 if you have the <[1;31mlinux[0m/can/bcm.h> header file. */
+[0;35m/usr/include/x86_64-linux-gnu/python3.10/pyconfig.h[1;34m:[0m/* Define to 1 if you have the <[1;31mlinux[0m/can.h> header file. */
+[0;35m/usr/include/x86_64-linux-gnu/python3.10/pyconfig.h[1;34m:[0m/* Define to 1 if you have the <[1;31mlinux[0m/can/j1939.h> header file. */
+[0;35m/usr/include/x86_64-linux-gnu/python3.10/pyconfig.h[1;34m:[0m/* Define to 1 if you have the <[1;31mlinux[0m/can/raw.h> header file. */
+[0;35m/usr/include/x86_64-linux-gnu/python3.10/pyconfig.h[1;34m:[0m/* Define to 1 if you have the <[1;31mlinux[0m/memfd.h> header file. */
+[0;35m/usr/include/x86_64-linux-gnu/python3.10/pyconfig.h[1;34m:[0m/* Define to 1 if you have the <[1;31mlinux[0m/netlink.h> header file. */
+[0;35m/usr/include/x86_64-linux-gnu/python3.10/pyconfig.h[1;34m:[0m/* Define to 1 if you have the <[1;31mlinux[0m/qrtr.h> header file. */
+[0;35m/usr/include/x86_64-linux-gnu/python3.10/pyconfig.h[1;34m:[0m/* Define to 1 if you have the <[1;31mlinux[0m/random.h> header file. */
+[0;35m/usr/include/x86_64-linux-gnu/python3.10/pyconfig.h[1;34m:[0m/* Define to 1 if you have the <[1;31mlinux[0m/tipc.h> header file. */
+[0;35m/usr/include/x86_64-linux-gnu/python3.10/pyconfig.h[1;34m:[0m/* Define to 1 if you have the <[1;31mlinux[0m/vm_sockets.h> header file. */
+[0;35m/usr/include/x86_64-linux-gnu/python3.10/pyconfig.h[1;34m:[0m/* Define to 1 if you have the <[1;31mlinux[0m/wait.h> header file. */
+[0;35m/usr/include/x86_64-linux-gnu/python3.10/pyconfig.h[1;34m:[0m/* struct sockaddr_alg ([1;31mlinux[0m/if_alg.h) */
+[0;35m/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h[1;34m:[0m/* Define to 1 if you have the <[1;31mlinux[0m/random.h> header file. */
+[0;35m/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h[1;34m:[0m/* Define to 1 if you have the <[1;31mlinux[0m/types.h> header file. */
+[0;35m/usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h[1;34m:[0m/* Define to 1 if you have the <[1;31mlinux[0m/random.h> header file. */
+[0;35m/usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h[1;34m:[0m/* Define to 1 if you have the <[1;31mlinux[0m/types.h> header file. */
+[0;35m/usr/include/x86_64-linux-gnu/unwind.h[1;34m:[0m    http://www.[1;31mlinux[0mbase.org/spec/refspecs/LSB_1.3.0/gLSB/gLSB/libgcc-s.html */
+[0;35m/usr/include/x86_64-linux-gnu/sys/kd.h[1;34m:[0m/* Make sure the <[1;31mlinux[0m/types.h> header is not loaded.  */
+[0;35m/usr/include/x86_64-linux-gnu/sys/kd.h[1;34m:[0m#include <[1;31mlinux[0m/kd.h>
+[0;35m/usr/include/x86_64-linux-gnu/sys/rseq.h[1;34m:[0m# if __has_include ("[1;31mlinux[0m/rseq.h")
+[0;35m/usr/include/x86_64-linux-gnu/sys/rseq.h[1;34m:[0m# include <[1;31mlinux[0m/version.h>
+[0;35m/usr/include/x86_64-linux-gnu/sys/rseq.h[1;34m:[0m# include <[1;31mlinux[0m/rseq.h>
+[0;35m/usr/include/x86_64-linux-gnu/sys/rseq.h[1;34m:[0m/* We use a copy of the include/uapi/[1;31mlinux[0m/rseq.h kernel header.  */
+[0;35m/usr/include/x86_64-linux-gnu/sys/vt.h[1;34m:[0m#include <[1;31mlinux[0m/vt.h>
+[0;35m/usr/include/x86_64-linux-gnu/sys/vt.h[1;34m:[0m#include <[1;31mlinux[0m/vt.h>
+[0;35m/usr/include/x86_64-linux-gnu/sys/fanotify.h[1;34m:[0m#include <[1;31mlinux[0m/fanotify.h>
+[0;35m/usr/include/x86_64-linux-gnu/sys/quota.h[1;34m:[0m/* This just represents the non-kernel parts of <[1;31mlinux[0m/quota.h>.
+[0;35m/usr/include/x86_64-linux-gnu/sys/quota.h[1;34m:[0m#include <[1;31mlinux[0m/quota.h>
+[0;35m/usr/include/x86_64-linux-gnu/sys/select.h[1;34m:[0m/* Some versions of <[1;31mlinux[0m/posix_types.h> define this macros.  */
+[0;35m/usr/include/x86_64-linux-gnu/sys/personality.h[1;34m:[0m/* Taken verbatim from Linux 2.6 (include/[1;31mlinux[0m/personality.h).  */
+[0;35m/usr/include/x86_64-linux-gnu/sys/soundcard.h[1;34m:[0m#include <[1;31mlinux[0m/soundcard.h>
+[0;35m/usr/include/x86_64-linux-gnu/sys/soundcard.h[1;34m:[0m#include <[1;31mlinux[0m/soundcard.h>
+[0;35m/usr/include/x86_64-linux-gnu/sys/mount.h[1;34m:[0m/* This is taken from /usr/include/[1;31mlinux[0m/fs.h.  */
+[0;35m/usr/include/x86_64-linux-gnu/sys/timex.h[1;34m:[0m/* These definitions from [1;31mlinux[0m/timex.h as of 2.6.30.  */
+[0;35m/usr/include/x86_64-linux-gnu/sys/acct.h[1;34m:[0m  exponent and a 13-bit fraction. See [1;31mlinux[0m/kernel/acct.c for the
+[0;35m/usr/include/x86_64-linux-gnu/sys/pci.h[1;34m:[0m#include <[1;31mlinux[0m/pci.h>
+[0;35m/usr/include/x86_64-linux-gnu/sys/prctl.h[1;34m:[0m#include <[1;31mlinux[0m/prctl.h>  /*  The magic values come from here  */
+[0;35m/usr/include/x86_64-linux-gnu/sys/prctl.h[1;34m:[0m/* Recent extensions to [1;31mlinux[0m which may post-date the kernel headers
+[0;35m/usr/include/x86_64-linux-gnu/sys/sysinfo.h[1;34m:[0m#include <[1;31mlinux[0m/kernel.h>
+[0;35m/usr/include/x86_64-linux-gnu/sys/debugreg.h[1;34m:[0m   is global meaning that we have to explicitly reset the bit.  With [1;31mlinux[0m,
+[0;35m/usr/include/x86_64-linux-gnu/libxslt/xsltconfig.h[1;34m:[0m#define LIBXSLT_DEFAULT_PLUGINS_PATH() "/usr/lib/x86_64-[1;31mlinux[0m-gnu/libxslt-plugins"
+[0;35m/usr/include/x86_64-linux-gnu/gnu/lib-names-64.h[1;34m:[0m#define LD_LINUX_X86_64_SO              "ld-[1;31mlinux[0m-x86-64.so.2"
+[0;35m/usr/include/x86_64-linux-gnu/gnu/lib-names-64.h[1;34m:[0m#define LD_SO                           "ld-[1;31mlinux[0m-x86-64.so.2"
+[0;35m/usr/include/x86_64-linux-gnu/bits/mman.h[1;34m:[0m#include <bits/mman-[1;31mlinux[0m.h>
+[0;35m/usr/include/x86_64-linux-gnu/bits/mman.h[1;34m:[0m#include <bits/mman-[1;31mlinux[0m.h>
+[0;35m/usr/include/x86_64-linux-gnu/bits/socket.h[1;34m:[0m   <[1;31mlinux[0m/socket.h>.  */
+[0;35m/usr/include/x86_64-linux-gnu/bits/shm.h[1;34m:[0m#define SHM_R		0400		/* or S_IRUGO from <[1;31mlinux[0m/stat.h> */
+[0;35m/usr/include/x86_64-linux-gnu/bits/shm.h[1;34m:[0m#define SHM_W		0200		/* or S_IWUGO from <[1;31mlinux[0m/stat.h> */
+[0;35m/usr/include/x86_64-linux-gnu/bits/local_lim.h[1;34m:[0m#include <[1;31mlinux[0m/limits.h>
+[0;35m/usr/include/x86_64-linux-gnu/bits/statx.h[1;34m:[0m/* This interface is based on <[1;31mlinux[0m/stat.h> in Linux.  */
+[0;35m/usr/include/x86_64-linux-gnu/bits/statx.h[1;34m:[0m# if __has_include ("[1;31mlinux[0m/stat.h")
+[0;35m/usr/include/x86_64-linux-gnu/bits/statx.h[1;34m:[0m#  include "[1;31mlinux[0m/stat.h"
+[0;35m/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h[1;34m:[0m/* NB: Include guard matches what <[1;31mlinux[0m/time.h> uses.  */
+[0;35m/usr/include/x86_64-linux-gnu/bits/errno.h[1;34m:[0m# include <[1;31mlinux[0m/errno.h>
+[0;35m/usr/include/x86_64-linux-gnu/bits/fcntl.h[1;34m:[0m#include <bits/fcntl-[1;31mlinux[0m.h>
+[0;35m/usr/include/x86_64-linux-gnu/bits/fcntl.h[1;34m:[0m#include <bits/fcntl-[1;31mlinux[0m.h>
+[0;35m/usr/include/x86_64-linux-gnu/bits/timex.h[1;34m:[0m/* These definitions from [1;31mlinux[0m/timex.h as of 3.18.  */
+[0;35m/usr/include/x86_64-linux-gnu/bits/param.h[1;34m:[0m#include <[1;31mlinux[0m/limits.h>
+[0;35m/usr/include/x86_64-linux-gnu/bits/param.h[1;34m:[0m#include <[1;31mlinux[0m/param.h>
+[0;35m/usr/include/x86_64-linux-gnu/bits/unistd_ext.h[1;34m:[0m# if __has_include ("[1;31mlinux[0m/close_range.h")
+[0;35m/usr/include/x86_64-linux-gnu/bits/unistd_ext.h[1;34m:[0m#  include "[1;31mlinux[0m/close_range.h"
+[0;35m/usr/include/x86_64-linux-gnu/bits/in.h[1;34m:[0m/* If the application has already included [1;31mlinux[0m/in6.h from a linux-based
+[0;35m/usr/include/x86_64-linux-gnu/bits/in.h[1;34m:[0m   in [1;31mlinux[0m/ipv6.h. The ABI used by the linux-kernel and glibc match exactly.
+[0;35m/usr/include/x86_64-linux-gnu/bits/in.h[1;34m:[0m   Neither the [1;31mlinux[0m kernel nor glibc should break this ABI without coordination.
+[0;35m/usr/include/x86_64-linux-gnu/bits/mman-linux.h[1;34m:[0m# error "Never use <bits/mman-[1;31mlinux[0m.h> directly; include <sys/mman.h> instead."
+[0;35m/usr/include/x86_64-linux-gnu/bits/fcntl-linux.h[1;34m:[0m# error "Never use <bits/fcntl-[1;31mlinux[0m.h> directly; include <fcntl.h> instead."
+[0;35m/usr/include/x86_64-linux-gnu/bits/fcntl-linux.h[1;34m:[0m   #include <bits/fcntl-[1;31mlinux[0m.h>
+[0;35m/usr/include/x86_64-linux-gnu/bits/fcntl-linux.h[1;34m:[0m# include <[1;31mlinux[0m/falloc.h>
+[0;35m/usr/include/x86_64-linux-gnu/bits/statx-generic.h[1;34m:[0m/* This interface is based on <[1;31mlinux[0m/stat.h> in Linux.  */
+[0;35m/usr/include/x86_64-linux-gnu/asm/sgx.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/x86_64-linux-gnu/asm/sgx.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/x86_64-linux-gnu/asm/ist.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/x86_64-linux-gnu/asm/kvm_para.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/x86_64-linux-gnu/asm/msr.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/x86_64-linux-gnu/asm/msr.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/x86_64-linux-gnu/asm/bootparam.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/x86_64-linux-gnu/asm/bootparam.h[1;34m:[0m#include <[1;31mlinux[0m/screen_info.h>
+[0;35m/usr/include/x86_64-linux-gnu/asm/bootparam.h[1;34m:[0m#include <[1;31mlinux[0m/apm_bios.h>
+[0;35m/usr/include/x86_64-linux-gnu/asm/bootparam.h[1;34m:[0m#include <[1;31mlinux[0m/edd.h>
+[0;35m/usr/include/x86_64-linux-gnu/asm/bootparam.h[1;34m:[0m/* Gleaned from OFW's set-parameters in cpu/x86/pc/[1;31mlinux[0m.fth */
+[0;35m/usr/include/x86_64-linux-gnu/asm/signal.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/x86_64-linux-gnu/asm/signal.h[1;34m:[0m#include <[1;31mlinux[0m/time.h>
+[0;35m/usr/include/x86_64-linux-gnu/asm/swab.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/x86_64-linux-gnu/asm/sigcontext.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/x86_64-linux-gnu/asm/kvm.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/x86_64-linux-gnu/asm/kvm.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/x86_64-linux-gnu/asm/kvm.h[1;34m:[0m/* Select x86 specific features in <[1;31mlinux[0m/kvm.h> */
+[0;35m/usr/include/x86_64-linux-gnu/asm/mtrr.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/x86_64-linux-gnu/asm/mtrr.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/x86_64-linux-gnu/asm/mtrr.h[1;34m:[0m#include <[1;31mlinux[0m/errno.h>
+[0;35m/usr/include/x86_64-linux-gnu/asm/hwcap2.h[1;34m:[0m#include <[1;31mlinux[0m/const.h>
+[0;35m/usr/include/x86_64-linux-gnu/asm/mce.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/x86_64-linux-gnu/asm/mce.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/x86_64-linux-gnu/asm/byteorder.h[1;34m:[0m#include <[1;31mlinux[0m/byteorder/little_endian.h>
+[0;35m/usr/include/x86_64-linux-gnu/asm/processor-flags.h[1;34m:[0m#include <[1;31mlinux[0m/const.h>
+[0;35m/usr/include/x86_64-linux-gnu/asm/ptrace-abi.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/x86_64-linux-gnu/asm/debugreg.h[1;34m:[0m   is global meaning that we have to explicitly reset the bit.  With [1;31mlinux[0m,
+[0;35m/usr/include/x86_64-linux-gnu/asm/e820.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/scsi/fc/fc_els.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/scsi/fc/fc_fs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/scsi/fc/fc_gs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/scsi/fc/fc_ns.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/scsi/scsi.h[1;34m:[0m * the scsi code for [1;31mlinux[0m.
+[0;35m/usr/include/scsi/scsi_bsg_ufs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/scsi/cxlflash_ioctl.h[1;34m:[0m * Written by: Manoj N. Kumar <manoj@[1;31mlinux[0m.vnet.ibm.com>, IBM Corporation
+[0;35m/usr/include/scsi/cxlflash_ioctl.h[1;34m:[0m *             Matthew R. Ochs <mrochs@[1;31mlinux[0m.vnet.ibm.com>, IBM Corporation
+[0;35m/usr/include/scsi/cxlflash_ioctl.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/scsi/scsi_bsg_fc.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/scsi/scsi_netlink_fc.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/scsi/scsi_bsg_mpi3mr.h[1;34m:[0m *  (mailto: mpi3mr-[1;31mlinux[0mdrv.pdl@broadcom.com)
+[0;35m/usr/include/scsi/scsi_bsg_mpi3mr.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/scsi/scsi_netlink.h[1;34m:[0m#include <[1;31mlinux[0m/netlink.h>
+[0;35m/usr/include/scsi/scsi_netlink.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/boost/serialization/item_version_type.hpp[1;34m:[0m// fixes broken example build on x86_64-[1;31mlinux[0m-gnu-gcc-4.6.0
+[0;35m/usr/include/boost/uuid/detail/random_provider_detect_platform.hpp[1;34m:[0m#if (defined(__[1;31mlinux[0m__) || defined(__linux) || defined(linux)) && (!defined(__ANDROID__) || __ANDROID_API__ >= 28)
+[0;35m/usr/include/boost/uuid/detail/random_provider_detect_platform.hpp[1;34m:[0m#if !defined(BOOST_UUID_RANDOM_PROVIDER_DISABLE_GETENTROPY) && (defined(__[1;31mlinux[0m__) || defined(__linux) || defined(linux) || defined(__ANDROID__))
+[0;35m/usr/include/boost/asio/detail/socket_types.hpp[1;34m:[0m   || defined(__OpenBSD__) || defined(__[1;31mlinux[0m__) \
+[0;35m/usr/include/boost/asio/detail/impl/socket_ops.ipp[1;34m:[0m#if defined(__[1;31mlinux[0m__)
+[0;35m/usr/include/boost/asio/detail/impl/socket_ops.ipp[1;34m:[0m#endif // defined(__[1;31mlinux[0m__)
+[0;35m/usr/include/boost/asio/detail/impl/socket_ops.ipp[1;34m:[0m#if defined(__[1;31mlinux[0m__)
+[0;35m/usr/include/boost/asio/detail/impl/socket_ops.ipp[1;34m:[0m#endif // defined(__[1;31mlinux[0m__)
+[0;35m/usr/include/boost/asio/detail/impl/socket_ops.ipp[1;34m:[0m#if defined(__[1;31mlinux[0m__)
+[0;35m/usr/include/boost/asio/detail/impl/socket_ops.ipp[1;34m:[0m#endif // defined(__[1;31mlinux[0m__)
+[0;35m/usr/include/boost/asio/detail/impl/socket_ops.ipp[1;34m:[0m#if defined(__[1;31mlinux[0m__)
+[0;35m/usr/include/boost/asio/detail/impl/socket_ops.ipp[1;34m:[0m#endif // defined(__[1;31mlinux[0m__)
+[0;35m/usr/include/boost/asio/detail/impl/socket_ops.ipp[1;34m:[0m#if defined(__[1;31mlinux[0m__)
+[0;35m/usr/include/boost/asio/detail/impl/socket_ops.ipp[1;34m:[0m#endif // defined(__[1;31mlinux[0m__)
+[0;35m/usr/include/boost/asio/detail/impl/socket_ops.ipp[1;34m:[0m#if defined(__[1;31mlinux[0m__)
+[0;35m/usr/include/boost/asio/detail/impl/socket_ops.ipp[1;34m:[0m#endif // defined(__[1;31mlinux[0m__)
+[0;35m/usr/include/boost/asio/detail/config.hpp[1;34m:[0m   || defined(__[1;31mlinux[0m__) \
+[0;35m/usr/include/boost/asio/detail/config.hpp[1;34m:[0m#if defined(__[1;31mlinux[0m__)
+[0;35m/usr/include/boost/asio/detail/config.hpp[1;34m:[0m# include <[1;31mlinux[0m/version.h>
+[0;35m/usr/include/boost/asio/detail/config.hpp[1;34m:[0m#endif // defined(__[1;31mlinux[0m__)
+[0;35m/usr/include/boost/asio/detail/config.hpp[1;34m:[0m     && !defined([1;31mlinux[0m) && !defined(__linux) && !defined(__linux__)
+[0;35m/usr/include/boost/asio/detail/config.hpp[1;34m:[0m# if defined(__[1;31mlinux[0m__)
+[0;35m/usr/include/boost/asio/detail/config.hpp[1;34m:[0m# endif // defined(__[1;31mlinux[0m__)
+[0;35m/usr/include/boost/asio/detail/config.hpp[1;34m:[0m# if defined(__[1;31mlinux[0m__) \
+[0;35m/usr/include/boost/asio/detail/config.hpp[1;34m:[0m# endif // defined(__[1;31mlinux[0m__)
+[0;35m/usr/include/boost/lockfree/spsc_queue.hpp[1;34m:[0m//  this algorithm is implemented in various projects ([1;31mlinux[0m kernel)
+[0;35m/usr/include/boost/config/stdlib/libcpp.hpp[1;34m:[0m#if defined(__[1;31mlinux[0m__) && (_LIBCPP_VERSION < 6000) && !defined(BOOST_NO_CXX11_THREAD_LOCAL)
+[0;35m/usr/include/boost/config/stdlib/libstdcpp3.hpp[1;34m:[0m#if (defined([1;31mlinux[0m) || defined(__linux) || defined(__linux__)) && defined(__arm__) && defined(_GLIBCPP_HAVE_GTHR_DEFAULT)
+[0;35m/usr/include/boost/config/stdlib/libstdcpp3.hpp[1;34m:[0m// [1;31mlinux[0m on arm apparently doesn't define _REENTRANT
+[0;35m/usr/include/boost/config/platform/linux.hpp[1;34m:[0m//  [1;31mlinux[0m specific config options:
+[0;35m/usr/include/boost/config/platform/linux.hpp[1;34m:[0m#define BOOST_PLATFORM "[1;31mlinux[0m"
+[0;35m/usr/include/boost/config/platform/linux.hpp[1;34m:[0m   // como on [1;31mlinux[0m doesn't have std:: c functions:
+[0;35m/usr/include/boost/config/compiler/clang.hpp[1;34m:[0m#if (defined([1;31mlinux[0m) || defined(__linux) || defined(__linux__) || defined(__GNU__) || defined(__GLIBC__)) && !defined(_CRAYC)
+[0;35m/usr/include/boost/config/compiler/gcc.hpp[1;34m:[0m#if !defined(__MINGW32__) && !defined([1;31mlinux[0m) && !defined(__linux) && !defined(__linux__)
+[0;35m/usr/include/boost/config/compiler/gcc_xml.hpp[1;34m:[0m#if !defined(__MINGW32__) && !defined(_MSC_VER) && !defined([1;31mlinux[0m) && !defined(__linux) && !defined(__linux__)
+[0;35m/usr/include/boost/config/compiler/borland.hpp[1;34m:[0m#  elif defined([1;31mlinux[0m) || defined(__linux__) || defined(__linux)
+[0;35m/usr/include/boost/config/detail/select_platform_config.hpp[1;34m:[0m// name (for example "[1;31mlinux[0m" is a macro on linux systems).
+[0;35m/usr/include/boost/config/detail/select_platform_config.hpp[1;34m:[0m#if (defined([1;31mlinux[0m) || defined(__linux) || defined(__linux__) || defined(__GNU__) || defined(__GLIBC__)) && !defined(_CRAYC)
+[0;35m/usr/include/boost/config/detail/select_platform_config.hpp[1;34m:[0m// [1;31mlinux[0m, also other platforms (Hurd etc) that use GLIBC, should these really have their own config headers though?
+[0;35m/usr/include/boost/config/detail/select_platform_config.hpp[1;34m:[0m#  define BOOST_PLATFORM_CONFIG "boost/config/platform/[1;31mlinux[0m.hpp"
+[0;35m/usr/include/boost/config/detail/select_platform_config.hpp[1;34m:[0m#  include "boost/config/platform/[1;31mlinux[0m.hpp"
+[0;35m/usr/include/boost/config/detail/posix_features.hpp[1;34m:[0m      // but at least one platform - [1;31mlinux[0m - defines that flag without
+[0;35m/usr/include/boost/thread/detail/platform.hpp[1;34m:[0m#if defined([1;31mlinux[0m) || defined(__linux) || defined(__linux__)
+[0;35m/usr/include/boost/beast/core/file_posix.hpp[1;34m:[0m# if ! defined(__APPLE__) && ! defined(__[1;31mlinux[0m__)
+[0;35m/usr/include/boost/beast/core/impl/file_posix.ipp[1;34m:[0m        http://man7.org/[1;31mlinux[0m/man-pages/man2/close.2.html
+[0;35m/usr/include/boost/compute/interop/opengl/context.hpp[1;34m:[0m#ifdef __[1;31mlinux[0m__
+[0;35m/usr/include/boost/compute/interop/opengl/context.hpp[1;34m:[0m        #if defined(__[1;31mlinux[0m__)
+[0;35m/usr/include/boost/test/impl/debug.ipp[1;34m:[0m#  elif defined([1;31mlinux[0m) || defined(__linux__)
+[0;35m/usr/include/boost/iostreams/chain.hpp[1;34m:[0m    (defined([1;31mlinux[0m) && defined(__INTEL_COMPILER) && defined(__ICC)) \
+[0;35m/usr/include/boost/log/detail/event.hpp[1;34m:[0m#   if (defined([1;31mlinux[0m) || defined(__linux) || defined(__linux__)) && BOOST_ATOMIC_INT_LOCK_FREE == 2
+[0;35m/usr/include/boost/math/tools/config.hpp[1;34m:[0m   || (defined(__hppa) && !defined(__OpenBSD__) && !defined(__[1;31mlinux[0m__)) \
+[0;35m/usr/include/boost/math/tools/config.hpp[1;34m:[0m#if ((defined(__[1;31mlinux[0m__) && !defined(__UCLIBC__) && !defined(BOOST_MATH_HAVE_FIXED_GLIBC)) || defined(__QNX__) || defined(__IBMCPP__)) && !defined(BOOST_NO_FENV_H)
+[0;35m/usr/include/boost/compatibility/cpp_c_headers/cwchar[1;34m:[0m#if !(defined(__[1;31mlinux[0m) && defined(__DECCXX_VER) && __DECCXX_VER <= 60390005)
+[0;35m/usr/include/boost/compatibility/cpp_c_headers/cwchar[1;34m:[0m#if !(defined(__[1;31mlinux[0m) && defined(__DECCXX_VER) && __DECCXX_VER <= 60390005)
+[0;35m/usr/include/boost/compatibility/cpp_c_headers/cwchar[1;34m:[0m#if !(defined(__[1;31mlinux[0m) && defined(__DECCXX_VER) && __DECCXX_VER <= 60390005)
+[0;35m/usr/include/boost/compatibility/cpp_c_headers/cwchar[1;34m:[0m#if !(defined(__[1;31mlinux[0m) && defined(__DECCXX_VER) && __DECCXX_VER <= 60390005)
+[0;35m/usr/include/boost/compatibility/cpp_c_headers/cwchar[1;34m:[0m#if !(defined(__[1;31mlinux[0m) && defined(__DECCXX_VER) && __DECCXX_VER <= 60390005)
+[0;35m/usr/include/boost/compatibility/cpp_c_headers/cwchar[1;34m:[0m#if !(defined(__[1;31mlinux[0m) && defined(__DECCXX_VER) && __DECCXX_VER <= 60390005)
+[0;35m/usr/include/boost/compatibility/cpp_c_headers/cwchar[1;34m:[0m#if !(defined(__[1;31mlinux[0m) && defined(__DECCXX_VER) && __DECCXX_VER <= 60390005)
+[0;35m/usr/include/boost/compatibility/cpp_c_headers/cwchar[1;34m:[0m#if !(defined(__[1;31mlinux[0m) && defined(__DECCXX_VER) && __DECCXX_VER <= 60390005)
+[0;35m/usr/include/boost/compatibility/cpp_c_headers/cwchar[1;34m:[0m#if !(defined(__[1;31mlinux[0m) && defined(__DECCXX_VER) && __DECCXX_VER <= 60390005)
+[0;35m/usr/include/boost/compatibility/cpp_c_headers/cwchar[1;34m:[0m#if !(defined(__[1;31mlinux[0m) && defined(__DECCXX_VER) && __DECCXX_VER <= 60390005)
+[0;35m/usr/include/boost/compatibility/cpp_c_headers/cwchar[1;34m:[0m#if !(defined(__[1;31mlinux[0m) && defined(__DECCXX_VER) && __DECCXX_VER <= 60390005)
+[0;35m/usr/include/boost/compatibility/cpp_c_headers/cwchar[1;34m:[0m#if !(defined(__[1;31mlinux[0m) && defined(__DECCXX_VER) && __DECCXX_VER <= 60390005)
+[0;35m/usr/include/boost/compatibility/cpp_c_headers/cwchar[1;34m:[0m#if !(defined(__[1;31mlinux[0m) && defined(__DECCXX_VER) && __DECCXX_VER <= 60390005)
+[0;35m/usr/include/boost/compatibility/cpp_c_headers/cwchar[1;34m:[0m#if !(defined(__[1;31mlinux[0m) && defined(__DECCXX_VER) && __DECCXX_VER <= 60390005)
+[0;35m/usr/include/boost/compatibility/cpp_c_headers/cwchar[1;34m:[0m#if !(defined(__[1;31mlinux[0m) && defined(__DECCXX_VER) && __DECCXX_VER <= 60390005)
+[0;35m/usr/include/boost/compatibility/cpp_c_headers/cwchar[1;34m:[0m#if !(defined(__[1;31mlinux[0m) && defined(__DECCXX_VER) && __DECCXX_VER <= 60390005)
+[0;35m/usr/include/boost/compatibility/cpp_c_headers/cwchar[1;34m:[0m#if !(defined(__[1;31mlinux[0m) && defined(__DECCXX_VER) && __DECCXX_VER <= 60390005)
+[0;35m/usr/include/boost/compatibility/cpp_c_headers/cwchar[1;34m:[0m#if !(defined(__[1;31mlinux[0m) && defined(__DECCXX_VER) && __DECCXX_VER <= 60390005)
+[0;35m/usr/include/boost/compatibility/cpp_c_headers/cwchar[1;34m:[0m#if !(defined(__[1;31mlinux[0m) && defined(__DECCXX_VER) && __DECCXX_VER <= 60390005)
+[0;35m/usr/include/boost/compatibility/cpp_c_headers/cwchar[1;34m:[0m#if !(defined(__[1;31mlinux[0m) && defined(__DECCXX_VER) && __DECCXX_VER <= 60390005)
+[0;35m/usr/include/boost/endian/detail/intrinsic.hpp[1;34m:[0m#elif defined(__[1;31mlinux[0m__)
+[0;35m/usr/include/boost/endian/detail/intrinsic.hpp[1;34m:[0m//  don't check for obsolete forms defined([1;31mlinux[0m) and defined(__linux) on the theory that
+[0;35m/usr/include/boost/python/detail/translate_exception.hpp[1;34m:[0m# if defined(__[1;31mlinux[0m__) && defined(__GNUC__) \
+[0;35m/usr/include/boost/python/detail/translate_exception.hpp[1;34m:[0m# if defined(__[1;31mlinux[0m__) && defined(__GNUC__) \
+[0;35m/usr/include/boost/python/type_id.hpp[1;34m:[0m || (defined([1;31mlinux[0m) && defined(__INTEL_COMPILER) && defined(__ICC))
+[0;35m/usr/include/boost/process/error.hpp[1;34m:[0mon [1;31mlinux[0m, where error handling will require a pipe.*/
+[0;35m/usr/include/boost/process/detail/config.hpp[1;34m:[0m//copied from [1;31mlinux[0m spec.
+[0;35m/usr/include/boost/atomic/detail/fence_ops_linux_arm.hpp[1;34m:[0m * \file   atomic/detail/fence_ops_[1;31mlinux[0m_arm.hpp
+[0;35m/usr/include/boost/atomic/detail/fence_ops_linux_arm.hpp[1;34m:[0mstruct fence_operations_[1;31mlinux[0m_arm
+[0;35m/usr/include/boost/atomic/detail/fence_ops_linux_arm.hpp[1;34m:[0m        // See the comment in core_ops_[1;31mlinux[0m_arm.hpp regarding the function pointer below
+[0;35m/usr/include/boost/atomic/detail/fence_ops_linux_arm.hpp[1;34m:[0mtypedef fence_operations_[1;31mlinux[0m_arm fence_operations;
+[0;35m/usr/include/boost/atomic/detail/core_ops_linux_arm.hpp[1;34m:[0m * \file   atomic/detail/core_ops_[1;31mlinux[0m_arm.hpp
+[0;35m/usr/include/boost/atomic/detail/core_ops_linux_arm.hpp[1;34m:[0mstruct [1;31mlinux[0m_arm_cas_base
+[0;35m/usr/include/boost/atomic/detail/core_ops_linux_arm.hpp[1;34m:[0mstruct [1;31mlinux[0m_arm_cas :
+[0;35m/usr/include/boost/atomic/detail/core_ops_linux_arm.hpp[1;34m:[0m    public [1;31mlinux[0m_arm_cas_base
+[0;35m/usr/include/boost/atomic/detail/core_ops_linux_arm.hpp[1;34m:[0m    public extending_cas_based_arithmetic< core_operations_cas_based< cas_based_exchange< [1;31mlinux[0m_arm_cas< Signed, Interprocess > > >, 1u, Signed >
+[0;35m/usr/include/boost/atomic/detail/core_ops_linux_arm.hpp[1;34m:[0m    public extending_cas_based_arithmetic< core_operations_cas_based< cas_based_exchange< [1;31mlinux[0m_arm_cas< Signed, Interprocess > > >, 2u, Signed >
+[0;35m/usr/include/boost/atomic/detail/core_ops_linux_arm.hpp[1;34m:[0m    public core_operations_cas_based< cas_based_exchange< [1;31mlinux[0m_arm_cas< Signed, Interprocess > > >
+[0;35m/usr/include/boost/atomic/detail/platform.hpp[1;34m:[0m#if defined(__[1;31mlinux[0m__) && defined(__arm__)
+[0;35m/usr/include/boost/atomic/detail/platform.hpp[1;34m:[0m#define BOOST_ATOMIC_DETAIL_CORE_BACKEND [1;31mlinux[0m_arm
+[0;35m/usr/include/boost/atomic/detail/futex.hpp[1;34m:[0m * http://man7.org/[1;31mlinux[0m/man-pages/man2/futex.2.html
+[0;35m/usr/include/boost/atomic/detail/futex.hpp[1;34m:[0m#if defined(__[1;31mlinux[0m__) || defined(__OpenBSD__) || defined(__NETBSD__) || defined(__NetBSD__)
+[0;35m/usr/include/boost/atomic/detail/futex.hpp[1;34m:[0m#if defined(__[1;31mlinux[0m__)
+[0;35m/usr/include/boost/atomic/detail/futex.hpp[1;34m:[0m#include <[1;31mlinux[0m/futex.h>
+[0;35m/usr/include/boost/atomic/detail/futex.hpp[1;34m:[0m#endif // defined(__[1;31mlinux[0m__) || defined(__OpenBSD__) || defined(__NETBSD__) || defined(__NetBSD__)
+[0;35m/usr/include/boost/atomic/detail/caps_linux_arm.hpp[1;34m:[0m * \file   atomic/detail/caps_[1;31mlinux[0m_arm.hpp
+[0;35m/usr/include/boost/fiber/detail/futex.hpp[1;34m:[0m#include <[1;31mlinux[0m/futex.h>
+[0;35m/usr/include/boost/system/linux_error.hpp[1;34m:[0m//  boost/system/[1;31mlinux[0m_error.hpp  -------------------------------------------//
+[0;35m/usr/include/boost/system/linux_error.hpp[1;34m:[0m#if defined([1;31mlinux[0m) || defined(__linux) || defined(__linux__)
+[0;35m/usr/include/boost/system/linux_error.hpp[1;34m:[0m    namespace [1;31mlinux[0m_error
+[0;35m/usr/include/boost/system/linux_error.hpp[1;34m:[0m      enum [1;31mlinux[0m_errno
+[0;35m/usr/include/boost/system/linux_error.hpp[1;34m:[0m    }  // namespace [1;31mlinux[0m_error
+[0;35m/usr/include/boost/system/linux_error.hpp[1;34m:[0m    namespace Linux = [1;31mlinux[0m_error;
+[0;35m/usr/include/boost/system/linux_error.hpp[1;34m:[0m    template<> struct is_error_code_enum<[1;31mlinux[0m_error::linux_errno>
+[0;35m/usr/include/boost/system/linux_error.hpp[1;34m:[0m    namespace [1;31mlinux[0m_error
+[0;35m/usr/include/boost/system/linux_error.hpp[1;34m:[0m      inline error_code make_error_code( [1;31mlinux[0m_errno e )
+[0;35m/usr/include/boost/outcome/experimental/status-code/posix_code.hpp[1;34m:[0m#elif defined(__gnu_[1;31mlinux[0m__) && !defined(__ANDROID__)  // handle glibc's weird strerror_r()
+[0;35m/usr/include/boost/dll/runtime_symbol_info.hpp[1;34m:[0m    *    dll::symbol_location(std::cerr);               // returns location of libstdc++: "/usr/lib/x86_64-[1;31mlinux[0m-gnu/libstdc++.so.6"
+[0;35m/usr/include/boost/dll/runtime_symbol_info.hpp[1;34m:[0m    *    dll::symbol_location(std::placeholders::_1);   // returns location of libstdc++: "/usr/lib/x86_64-[1;31mlinux[0m-gnu/libstdc++.so.6"
+[0;35m/usr/include/boost/dll/runtime_symbol_info.hpp[1;34m:[0m    *    dll::symbol_location(std::puts);               // returns location of libc: "/lib/x86_64-[1;31mlinux[0m-gnu/libc.so.6"
+[0;35m/usr/include/boost/dll/smart_library.hpp[1;34m:[0m* BOOST_DLL_MEMBER_EXPORT for this, so that MinGW and MSVC can provide those functions. This does however not work with gcc on [1;31mlinux[0m.
+[0;35m/usr/include/boost/dll/smart_library.hpp[1;34m:[0m* On [1;31mlinux[0m the following member variable i will not be initialized when using the allocating constructor:
+[0;35m/usr/include/boost/dll/library_info.hpp[1;34m:[0m    static void throw_if_in_[1;31mlinux[0m() {
+[0;35m/usr/include/boost/dll/library_info.hpp[1;34m:[0m            if (throw_if_not_native) { throw_if_in_[1;31mlinux[0m(); throw_if_in_macos(); }
+[0;35m/usr/include/boost/dll/library_info.hpp[1;34m:[0m            if (throw_if_not_native) { throw_if_in_[1;31mlinux[0m(); throw_if_in_macos(); throw_if_in_32bit(); }
+[0;35m/usr/include/boost/dll/library_info.hpp[1;34m:[0m            if (throw_if_not_native) { throw_if_in_[1;31mlinux[0m(); throw_if_in_windows(); }
+[0;35m/usr/include/boost/dll/library_info.hpp[1;34m:[0m            if (throw_if_not_native) { throw_if_in_[1;31mlinux[0m(); throw_if_in_windows(); throw_if_in_32bit(); }
+[0;35m/usr/include/boost/type_index/stl_type_index.hpp[1;34m:[0m    || (defined([1;31mlinux[0m) && defined(__INTEL_COMPILER) && defined(__ICC))
+[0;35m/usr/include/boost/graph/bipartite.hpp[1;34m:[0m * Copyright (c) 2010 Matthias Walter (xammy@xammy.home[1;31mlinux[0m.net)
+[0;35m/usr/include/boost/predef/os/linux.h[1;34m:[0m| `[1;31mlinux[0m` | {predef_detection}
+[0;35m/usr/include/boost/predef/os/linux.h[1;34m:[0m| `+__[1;31mlinux[0m+` | {predef_detection}
+[0;35m/usr/include/boost/predef/os/linux.h[1;34m:[0m| `+__[1;31mlinux[0m__+` | {predef_detection}
+[0;35m/usr/include/boost/predef/os/linux.h[1;34m:[0m| `+__gnu_[1;31mlinux[0m__+` | {predef_detection}
+[0;35m/usr/include/boost/predef/os/linux.h[1;34m:[0m    defined([1;31mlinux[0m) || defined(__linux) || \
+[0;35m/usr/include/boost/predef/os/linux.h[1;34m:[0m    defined(__[1;31mlinux[0m__) || defined(__gnu_linux__) \
+[0;35m/usr/include/boost/predef/os.h[1;34m:[0m#include <boost/predef/os/[1;31mlinux[0m.h>
+[0;35m/usr/include/libnl3/netlink/netfilter/exp.h[1;34m:[0m#include <[1;31mlinux[0m/version.h>
+[0;35m/usr/include/libnl3/netlink/xfrm/ae.h[1;34m:[0m#include <[1;31mlinux[0m/xfrm.h>
+[0;35m/usr/include/libnl3/netlink/xfrm/lifetime.h[1;34m:[0m#include <[1;31mlinux[0m/xfrm.h>
+[0;35m/usr/include/libnl3/netlink/xfrm/template.h[1;34m:[0m#include <[1;31mlinux[0m/xfrm.h>
+[0;35m/usr/include/libnl3/netlink/xfrm/selector.h[1;34m:[0m#include <[1;31mlinux[0m/xfrm.h>
+[0;35m/usr/include/libnl3/netlink/xfrm/sa.h[1;34m:[0m#include <[1;31mlinux[0m/xfrm.h>
+[0;35m/usr/include/libnl3/netlink/xfrm/sp.h[1;34m:[0m#include <[1;31mlinux[0m/xfrm.h>
+[0;35m/usr/include/libnl3/netlink/netlink.h[1;34m:[0m#include <[1;31mlinux[0m/netlink.h>
+[0;35m/usr/include/libnl3/netlink/netlink.h[1;34m:[0m#include <[1;31mlinux[0m/rtnetlink.h>
+[0;35m/usr/include/libnl3/netlink/netlink.h[1;34m:[0m#include <[1;31mlinux[0m/genetlink.h>
+[0;35m/usr/include/libnl3/netlink/netlink.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter/nfnetlink.h>
+[0;35m/usr/include/libnl3/netlink/netlink-kernel.h[1;34m:[0m * to keep [1;31mlinux[0m/netlink.h in sync. Maybe use named documentation
+[0;35m/usr/include/libnl3/netlink/cli/ct.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter/nf_conntrack_common.h>
+[0;35m/usr/include/libnl3/netlink/cli/exp.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter/nf_conntrack_common.h>
+[0;35m/usr/include/libnl3/netlink/route/pktloc.h[1;34m:[0m#include <[1;31mlinux[0m/tc_ematch/tc_em_cmp.h>
+[0;35m/usr/include/libnl3/netlink/route/link/macsec.h[1;34m:[0m#include <[1;31mlinux[0m/if_link.h>
+[0;35m/usr/include/libnl3/netlink/route/link/macsec.h[1;34m:[0m#include <[1;31mlinux[0m/if_macsec.h>
+[0;35m/usr/include/libnl3/netlink/route/link/can.h[1;34m:[0m#include <[1;31mlinux[0m/can/netlink.h>
+[0;35m/usr/include/libnl3/netlink/route/tc.h[1;34m:[0m#include <[1;31mlinux[0m/pkt_sched.h>
+[0;35m/usr/include/libnl3/netlink/route/tc.h[1;34m:[0m#include <[1;31mlinux[0m/pkt_cls.h>
+[0;35m/usr/include/libnl3/netlink/route/route.h[1;34m:[0m#include <[1;31mlinux[0m/in_route.h>
+[0;35m/usr/include/libnl3/netlink/route/rule.h[1;34m:[0m#include <[1;31mlinux[0m/fib_rules.h>
+[0;35m/usr/include/libnl3/netlink/route/cls/ematch/text.h[1;34m:[0m#include <[1;31mlinux[0m/tc_ematch/tc_em_text.h>
+[0;35m/usr/include/libnl3/netlink/route/cls/ematch/nbyte.h[1;34m:[0m#include <[1;31mlinux[0m/tc_ematch/tc_em_nbyte.h>
+[0;35m/usr/include/libnl3/netlink/route/cls/ematch/meta.h[1;34m:[0m#include <[1;31mlinux[0m/tc_ematch/tc_em_meta.h>
+[0;35m/usr/include/libnl3/netlink/route/cls/ematch/cmp.h[1;34m:[0m#include <[1;31mlinux[0m/tc_ematch/tc_em_cmp.h>
+[0;35m/usr/include/libnl3/netlink/route/cls/ematch.h[1;34m:[0m#include <[1;31mlinux[0m/pkt_cls.h>
+[0;35m/usr/include/libnl3/netlink/route/act/gact.h[1;34m:[0m#include <[1;31mlinux[0m/tc_act/tc_gact.h>
+[0;35m/usr/include/libnl3/netlink/route/act/skbedit.h[1;34m:[0m#include <[1;31mlinux[0m/tc_act/tc_skbedit.h>
+[0;35m/usr/include/libnl3/netlink/route/act/mirred.h[1;34m:[0m#include <[1;31mlinux[0m/tc_act/tc_mirred.h>
+[0;35m/usr/include/libnl3/netlink/idiag/idiagnl.h[1;34m:[0m#include <[1;31mlinux[0m/sock_diag.h>
+[0;35m/usr/include/libnl3/netlink/idiag/idiagnl.h[1;34m:[0m * INET_DIAG_GETSOCK_MAX from [1;31mlinux[0m/inet_diag.h
+[0;35m/usr/include/linux/nfs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/vhost_types.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/vhost_types.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_config.h>
+[0;35m/usr/include/linux/vhost_types.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_ring.h>
+[0;35m/usr/include/linux/qemu_fw_cfg.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/if_fc.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/dn.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/dn.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/dn.h[1;34m:[0m#include <[1;31mlinux[0m/if_ether.h>
+[0;35m/usr/include/linux/keyboard.h[1;34m:[0m#include <[1;31mlinux[0m/wait.h>
+[0;35m/usr/include/linux/netfilter_ipv4.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter.h>
+[0;35m/usr/include/linux/rio_cm_cdev.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/dma-heap.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/dma-heap.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/i2c-dev.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/kd.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/x25.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/x25.h[1;34m:[0m#include <[1;31mlinux[0m/socket.h>
+[0;35m/usr/include/linux/shm.h[1;34m:[0m#include <[1;31mlinux[0m/ipc.h>
+[0;35m/usr/include/linux/shm.h[1;34m:[0m#include <[1;31mlinux[0m/errno.h>
+[0;35m/usr/include/linux/shm.h[1;34m:[0m#define SHM_R		0400	/* or S_IRUGO from <[1;31mlinux[0m/stat.h> */
+[0;35m/usr/include/linux/shm.h[1;34m:[0m#define SHM_W		0200	/* or S_IWUGO from <[1;31mlinux[0m/stat.h> */
+[0;35m/usr/include/linux/atmsvc.h[1;34m:[0m#include <[1;31mlinux[0m/atmapi.h>
+[0;35m/usr/include/linux/atmsvc.h[1;34m:[0m#include <[1;31mlinux[0m/atm.h>
+[0;35m/usr/include/linux/atmsvc.h[1;34m:[0m#include <[1;31mlinux[0m/atmioc.h>
+[0;35m/usr/include/linux/atmsvc.h[1;34m:[0m * Message contents: see ftp://icaftp.epfl.ch/pub/[1;31mlinux[0m/atm/docs/isp-*.tar.gz
+[0;35m/usr/include/linux/virtio_scmi.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_types.h>
+[0;35m/usr/include/linux/seccomp.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/seccomp.h[1;34m:[0m *        as defined in <[1;31mlinux[0m/audit.h>.
+[0;35m/usr/include/linux/atm_idt77105.h[1;34m:[0m/* Written 1999 by Greg Banks <gnb@[1;31mlinux[0mfan.com>. Copied from atm_suni.h. */
+[0;35m/usr/include/linux/atm_idt77105.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/atm_idt77105.h[1;34m:[0m#include <[1;31mlinux[0m/atmioc.h>
+[0;35m/usr/include/linux/atm_idt77105.h[1;34m:[0m#include <[1;31mlinux[0m/atmdev.h>
+[0;35m/usr/include/linux/errqueue.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/errqueue.h[1;34m:[0m#include <[1;31mlinux[0m/time_types.h>
+[0;35m/usr/include/linux/xattr.h[1;34m:[0m  File: [1;31mlinux[0m/xattr.h
+[0;35m/usr/include/linux/xattr.h[1;34m:[0m#include <[1;31mlinux[0m/libc-compat.h>
+[0;35m/usr/include/linux/xattr.h[1;34m:[0m#define XATTR_SELINUX_SUFFIX "se[1;31mlinux[0m"
+[0;35m/usr/include/linux/fpga-dfl.h[1;34m:[0m *   Xiao Guangrong <guangrong.xiao@[1;31mlinux[0m.intel.com>
+[0;35m/usr/include/linux/fpga-dfl.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/fpga-dfl.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/fpga-dfl.h[1;34m:[0m * interface (include/uapi/[1;31mlinux[0m/vfio.h).
+[0;35m/usr/include/linux/keyctl.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/tls.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/raid/md_p.h[1;34m:[0m   (for example /usr/src/[1;31mlinux[0m/COPYING); if not, write to the Free
+[0;35m/usr/include/linux/raid/md_p.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/raid/md_u.h[1;34m:[0m   (for example /usr/src/[1;31mlinux[0m/COPYING); if not, write to the Free
+[0;35m/usr/include/linux/if_xdp.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/mctp.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/mctp.h[1;34m:[0m#include <[1;31mlinux[0m/socket.h>
+[0;35m/usr/include/linux/nfc.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/nfc.h[1;34m:[0m#include <[1;31mlinux[0m/socket.h>
+[0;35m/usr/include/linux/if_packet.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/smc.h[1;34m:[0m *  Author(s):  Thomas Richter <tmricht@[1;31mlinux[0m.vnet.ibm.com>
+[0;35m/usr/include/linux/gfs2_ondisk.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/nf_conntrack_tuple_common.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/nf_conntrack_tuple_common.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter.h>
+[0;35m/usr/include/linux/netfilter/nf_conntrack_tuple_common.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter/nf_conntrack_common.h> /* IP_CT_IS_REPLY */
+[0;35m/usr/include/linux/netfilter/nf_tables.h[1;34m:[0m * @NFTA_NAT_FLAGS: NAT flags (see NF_NAT_RANGE_* in [1;31mlinux[0m/netfilter/nf_nat.h) (NLA_U32)
+[0;35m/usr/include/linux/netfilter/nf_tables.h[1;34m:[0m * @NFTA_MASQ_FLAGS: NAT flags (see NF_NAT_RANGE_* in [1;31mlinux[0m/netfilter/nf_nat.h) (NLA_U32)
+[0;35m/usr/include/linux/netfilter/nf_tables.h[1;34m:[0m * @NFTA_REDIR_FLAGS: NAT flags (see NF_NAT_RANGE_* in [1;31mlinux[0m/netfilter/nf_nat.h) (NLA_U32)
+[0;35m/usr/include/linux/netfilter/xt_dscp.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/nf_conntrack_sctp.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter/nf_conntrack_tuple_common.h>
+[0;35m/usr/include/linux/netfilter/xt_SECMARK.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_DSCP.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter/xt_dscp.h>
+[0;35m/usr/include/linux/netfilter/xt_DSCP.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/nfnetlink_compat.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_mark.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_CONNSECMARK.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/nfnetlink_conntrack.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter/nfnetlink.h>
+[0;35m/usr/include/linux/netfilter/xt_TPROXY.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_TPROXY.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter.h>
+[0;35m/usr/include/linux/netfilter/xt_policy.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter.h>
+[0;35m/usr/include/linux/netfilter/xt_policy.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_policy.h[1;34m:[0m#include <[1;31mlinux[0m/in.h>
+[0;35m/usr/include/linux/netfilter/xt_policy.h[1;34m:[0m#include <[1;31mlinux[0m/in6.h>
+[0;35m/usr/include/linux/netfilter/xt_ipcomp.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_owner.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_connlabel.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_connlimit.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_connlimit.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter.h>
+[0;35m/usr/include/linux/netfilter/nf_synproxy.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_TEE.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter.h>
+[0;35m/usr/include/linux/netfilter/xt_AUDIT.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_string.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_cpu.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_NFLOG.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_recent.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_recent.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter.h>
+[0;35m/usr/include/linux/netfilter/xt_esp.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/nfnetlink.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/nfnetlink.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter/nfnetlink_compat.h>
+[0;35m/usr/include/linux/netfilter/xt_multiport.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_l2tp.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/nf_conntrack_tcp.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_conntrack.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_conntrack.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter.h>
+[0;35m/usr/include/linux/netfilter/xt_conntrack.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter/nf_conntrack_tuple_common.h>
+[0;35m/usr/include/linux/netfilter/xt_dccp.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_LED.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_bpf.h[1;34m:[0m#include <[1;31mlinux[0m/filter.h>
+[0;35m/usr/include/linux/netfilter/xt_bpf.h[1;34m:[0m#include <[1;31mlinux[0m/limits.h>
+[0;35m/usr/include/linux/netfilter/xt_bpf.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_CT.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_addrtype.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_u32.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_limit.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_connmark.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_mac.h[1;34m:[0m#include <[1;31mlinux[0m/if_ether.h>
+[0;35m/usr/include/linux/netfilter/xt_sctp.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_hashlimit.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_hashlimit.h[1;34m:[0m#include <[1;31mlinux[0m/limits.h>
+[0;35m/usr/include/linux/netfilter/xt_hashlimit.h[1;34m:[0m#include <[1;31mlinux[0m/if.h>
+[0;35m/usr/include/linux/netfilter/nfnetlink_osf.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/nfnetlink_osf.h[1;34m:[0m#include <[1;31mlinux[0m/ip.h>
+[0;35m/usr/include/linux/netfilter/nfnetlink_osf.h[1;34m:[0m#include <[1;31mlinux[0m/tcp.h>
+[0;35m/usr/include/linux/netfilter/xt_CONNMARK.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter/xt_connmark.h>
+[0;35m/usr/include/linux/netfilter/xt_tcpmss.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_CHECKSUM.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_realm.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/x_tables.h[1;34m:[0m#include <[1;31mlinux[0m/const.h>
+[0;35m/usr/include/linux/netfilter/x_tables.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_TCPMSS.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_quota.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_MARK.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter/xt_mark.h>
+[0;35m/usr/include/linux/netfilter/xt_socket.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_ipvs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_ipvs.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter.h>
+[0;35m/usr/include/linux/netfilter/xt_cgroup.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_cgroup.h[1;34m:[0m#include <[1;31mlinux[0m/limits.h>
+[0;35m/usr/include/linux/netfilter/nfnetlink_cttimeout.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter/nfnetlink.h>
+[0;35m/usr/include/linux/netfilter/xt_set.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_set.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter/ipset/ip_set.h>
+[0;35m/usr/include/linux/netfilter/xt_ecn.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_ecn.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter/xt_dscp.h>
+[0;35m/usr/include/linux/netfilter/xt_rpfilter.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_length.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_osf.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_osf.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter/nfnetlink_osf.h>
+[0;35m/usr/include/linux/netfilter/xt_devgroup.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/nfnetlink_queue.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/nfnetlink_queue.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter/nfnetlink.h>
+[0;35m/usr/include/linux/netfilter/xt_TCPOPTSTRIP.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_nfacct.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter/nfnetlink_acct.h>
+[0;35m/usr/include/linux/netfilter/xt_rateest.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_rateest.h[1;34m:[0m#include <[1;31mlinux[0m/if.h>
+[0;35m/usr/include/linux/netfilter/xt_IDLETIMER.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_SYNPROXY.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter/nf_synproxy.h>
+[0;35m/usr/include/linux/netfilter/xt_CLASSIFY.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_physdev.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_physdev.h[1;34m:[0m#include <[1;31mlinux[0m/if.h>
+[0;35m/usr/include/linux/netfilter/xt_time.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_connbytes.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/nf_nat.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter.h>
+[0;35m/usr/include/linux/netfilter/nf_nat.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter/nf_conntrack_tuple_common.h>
+[0;35m/usr/include/linux/netfilter/xt_NFQUEUE.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_tcpudp.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_statistic.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_RATEEST.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_RATEEST.h[1;34m:[0m#include <[1;31mlinux[0m/if.h>
+[0;35m/usr/include/linux/netfilter/xt_cluster.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_HMARK.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_HMARK.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter.h>
+[0;35m/usr/include/linux/netfilter/ipset/ip_set_bitmap.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter/ipset/ip_set.h>
+[0;35m/usr/include/linux/netfilter/ipset/ip_set_hash.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter/ipset/ip_set.h>
+[0;35m/usr/include/linux/netfilter/ipset/ip_set.h[1;34m:[0m/* Copyright (C) 2000-2002 Joakim Axelsson <gozem@[1;31mlinux[0m.nu>
+[0;35m/usr/include/linux/netfilter/ipset/ip_set.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/ipset/ip_set_list.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter/ipset/ip_set.h>
+[0;35m/usr/include/linux/netfilter/nfnetlink_log.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/nfnetlink_log.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter/nfnetlink.h>
+[0;35m/usr/include/linux/netfilter/xt_iprange.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter/xt_iprange.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter.h>
+[0;35m/usr/include/linux/ethtool_netlink.h[1;34m:[0m * include/uapi/[1;31mlinux[0m/ethtool_netlink.h - netlink interface for ethtool
+[0;35m/usr/include/linux/ethtool_netlink.h[1;34m:[0m#include <[1;31mlinux[0m/ethtool.h>
+[0;35m/usr/include/linux/cdrom.h[1;34m:[0m * -- <[1;31mlinux[0m/cdrom.h>
+[0;35m/usr/include/linux/cdrom.h[1;34m:[0m * General header file for [1;31mlinux[0m CD-ROM drivers 
+[0;35m/usr/include/linux/cdrom.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/cdrom.h[1;34m:[0m *  can be found at:  ftp://ftp.gwdg.de/pub/[1;31mlinux[0m/cdrom/drivers/cm206/
+[0;35m/usr/include/linux/neighbour.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/neighbour.h[1;34m:[0m#include <[1;31mlinux[0m/netlink.h>
+[0;35m/usr/include/linux/qnxtypes.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/sed-opal.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/virtio_fs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/virtio_fs.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_ids.h>
+[0;35m/usr/include/linux/virtio_fs.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_config.h>
+[0;35m/usr/include/linux/virtio_fs.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_types.h>
+[0;35m/usr/include/linux/netfilter.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter.h[1;34m:[0m#include <[1;31mlinux[0m/in.h>
+[0;35m/usr/include/linux/netfilter.h[1;34m:[0m#include <[1;31mlinux[0m/in6.h>
+[0;35m/usr/include/linux/fsi.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/fsi.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/ioam6.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/pr.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netrom.h[1;34m:[0m#include <[1;31mlinux[0m/ax25.h>
+[0;35m/usr/include/linux/sonypi.h[1;34m:[0m * Copyright (C) 2000 Andrew Tridgell <tridge@va[1;31mlinux[0m.com>
+[0;35m/usr/include/linux/sonypi.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/openvswitch.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/openvswitch.h[1;34m:[0m#include <[1;31mlinux[0m/if_ether.h>
+[0;35m/usr/include/linux/openvswitch.h[1;34m:[0m	__u64   rx_dropped;		/* no space in [1;31mlinux[0m buffers    */
+[0;35m/usr/include/linux/openvswitch.h[1;34m:[0m	__u64   tx_dropped;		/* no space available in [1;31mlinux[0m  */
+[0;35m/usr/include/linux/rseq.h[1;34m:[0m * [1;31mlinux[0m/rseq.h
+[0;35m/usr/include/linux/rseq.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/virtio_mem.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/virtio_mem.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_types.h>
+[0;35m/usr/include/linux/virtio_mem.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_ids.h>
+[0;35m/usr/include/linux/virtio_mem.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_config.h>
+[0;35m/usr/include/linux/wireless.h[1;34m:[0m *	# include/[1;31mlinux[0m/netdevice.h (one place)
+[0;35m/usr/include/linux/wireless.h[1;34m:[0m *	# include/[1;31mlinux[0m/proc_fs.h (one place)
+[0;35m/usr/include/linux/wireless.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>		/* for __u* and __s* typedefs */
+[0;35m/usr/include/linux/wireless.h[1;34m:[0m#include <[1;31mlinux[0m/socket.h>		/* for "struct sockaddr" et al	*/
+[0;35m/usr/include/linux/wireless.h[1;34m:[0m#include <[1;31mlinux[0m/if.h>			/* for IFNAMSIZ and co... */
+[0;35m/usr/include/linux/v4l2-mediabus.h[1;34m:[0m#include <[1;31mlinux[0m/media-bus-format.h>
+[0;35m/usr/include/linux/v4l2-mediabus.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/v4l2-mediabus.h[1;34m:[0m#include <[1;31mlinux[0m/videodev2.h>
+[0;35m/usr/include/linux/pkt_cls.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/pkt_cls.h[1;34m:[0m#include <[1;31mlinux[0m/pkt_sched.h>
+[0;35m/usr/include/linux/dma-buf.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/i2o-dev.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/i2o-dev.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/reiserfs_xattr.h[1;34m:[0m  File: [1;31mlinux[0m/reiserfs_xattr.h
+[0;35m/usr/include/linux/reiserfs_xattr.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/watch_queue.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/watch_queue.h[1;34m:[0m#include <[1;31mlinux[0m/fcntl.h>
+[0;35m/usr/include/linux/watch_queue.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/wmi.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/wmi.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/sockios.h[1;34m:[0m/* hardware time stamping: parameters in [1;31mlinux[0m/net_tstamp.h */
+[0;35m/usr/include/linux/time.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/time.h[1;34m:[0m#include <[1;31mlinux[0m/time_types.h>
+[0;35m/usr/include/linux/ethtool.h[1;34m:[0m#include <[1;31mlinux[0m/const.h>
+[0;35m/usr/include/linux/ethtool.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/ethtool.h[1;34m:[0m#include <[1;31mlinux[0m/if_ether.h>
+[0;35m/usr/include/linux/ethtool.h[1;34m:[0m * using the interface defined in <[1;31mlinux[0m/mii.h>.  This should not be
+[0;35m/usr/include/linux/ethtool.h[1;34m:[0m * using the interface defined in <[1;31mlinux[0m/mii.h> and <linux/mdio.h>.
+[0;35m/usr/include/linux/virtio_pci.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/mpls.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/nl80211.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/auto_fs4.h[1;34m:[0m#include <[1;31mlinux[0m/auto_fs.h>
+[0;35m/usr/include/linux/mii.h[1;34m:[0m * [1;31mlinux[0m/mii.h: definitions for MII-compatible transceivers
+[0;35m/usr/include/linux/mii.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/mii.h[1;34m:[0m#include <[1;31mlinux[0m/ethtool.h>
+[0;35m/usr/include/linux/uio.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/lirc.h[1;34m:[0m * lirc.h - [1;31mlinux[0m infrared remote control header file
+[0;35m/usr/include/linux/lirc.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/lirc.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/if_arp.h[1;34m:[0m#include <[1;31mlinux[0m/netdevice.h>
+[0;35m/usr/include/linux/android/binderfs.h[1;34m:[0m#include <[1;31mlinux[0m/android/binder.h>
+[0;35m/usr/include/linux/android/binderfs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/android/binderfs.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/android/binder.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/android/binder.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/if_team.h[1;34m:[0m * include/[1;31mlinux[0m/if_team.h - Network team device driver header
+[0;35m/usr/include/linux/can/bcm.h[1;34m:[0m * [1;31mlinux[0m/can/bcm.h
+[0;35m/usr/include/linux/can/bcm.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/can/bcm.h[1;34m:[0m#include <[1;31mlinux[0m/can.h>
+[0;35m/usr/include/linux/can/raw.h[1;34m:[0m * [1;31mlinux[0m/can/raw.h
+[0;35m/usr/include/linux/can/raw.h[1;34m:[0m#include <[1;31mlinux[0m/can.h>
+[0;35m/usr/include/linux/can/error.h[1;34m:[0m * [1;31mlinux[0m/can/error.h
+[0;35m/usr/include/linux/can/j1939.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/can/j1939.h[1;34m:[0m#include <[1;31mlinux[0m/socket.h>
+[0;35m/usr/include/linux/can/j1939.h[1;34m:[0m#include <[1;31mlinux[0m/can.h>
+[0;35m/usr/include/linux/can/isotp.h[1;34m:[0m * [1;31mlinux[0m/can/isotp.h
+[0;35m/usr/include/linux/can/isotp.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/can/isotp.h[1;34m:[0m#include <[1;31mlinux[0m/can.h>
+[0;35m/usr/include/linux/can/netlink.h[1;34m:[0m * [1;31mlinux[0m/can/netlink.h
+[0;35m/usr/include/linux/can/netlink.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/can/gw.h[1;34m:[0m * [1;31mlinux[0m/can/gw.h
+[0;35m/usr/include/linux/can/gw.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/can/gw.h[1;34m:[0m#include <[1;31mlinux[0m/can.h>
+[0;35m/usr/include/linux/can/gw.h[1;34m:[0m * struct can_filter described in include/[1;31mlinux[0m/can.h
+[0;35m/usr/include/linux/icmp.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/icmp.h[1;34m:[0m#include <[1;31mlinux[0m/if.h>
+[0;35m/usr/include/linux/icmp.h[1;34m:[0m#include <[1;31mlinux[0m/in6.h>
+[0;35m/usr/include/linux/hidraw.h[1;34m:[0m#include <[1;31mlinux[0m/hid.h>
+[0;35m/usr/include/linux/hidraw.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/kexec.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/posix_acl_xattr.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/sunrpc/debug.h[1;34m:[0m * [1;31mlinux[0m/include/linux/sunrpc/debug.h
+[0;35m/usr/include/linux/virtio_vsock.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/virtio_vsock.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_ids.h>
+[0;35m/usr/include/linux/virtio_vsock.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_config.h>
+[0;35m/usr/include/linux/fd.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/nfs_idmap.h[1;34m:[0m * include/uapi/[1;31mlinux[0m/nfs_idmap.h
+[0;35m/usr/include/linux/nfs_idmap.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/xilinx-v4l2-controls.h[1;34m:[0m#include <[1;31mlinux[0m/v4l2-controls.h>
+[0;35m/usr/include/linux/dqblk_xfs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/fanotify.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/sock_diag.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/if_plip.h[1;34m:[0m#include <[1;31mlinux[0m/sockios.h>
+[0;35m/usr/include/linux/lwtunnel.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/i2c.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/matroxfb.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/matroxfb.h[1;34m:[0m#include <[1;31mlinux[0m/videodev2.h>
+[0;35m/usr/include/linux/matroxfb.h[1;34m:[0m#include <[1;31mlinux[0m/fb.h>
+[0;35m/usr/include/linux/udmabuf.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/udmabuf.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/atalk.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/atalk.h[1;34m:[0m#include <[1;31mlinux[0m/socket.h>
+[0;35m/usr/include/linux/v4l2-common.h[1;34m:[0m * include/[1;31mlinux[0m/v4l2-common.h
+[0;35m/usr/include/linux/v4l2-common.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/udp.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/dlm.h[1;34m:[0m#include <[1;31mlinux[0m/dlmconstants.h>
+[0;35m/usr/include/linux/dlm.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/if_arcnet.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/if_arcnet.h[1;34m:[0m#include <[1;31mlinux[0m/if_ether.h>
+[0;35m/usr/include/linux/nfs_fs.h[1;34m:[0m *  [1;31mlinux[0m/include/linux/nfs_fs.h
+[0;35m/usr/include/linux/nfs_fs.h[1;34m:[0m#include <[1;31mlinux[0m/magic.h>
+[0;35m/usr/include/linux/mroute.h[1;34m:[0m#include <[1;31mlinux[0m/sockios.h>
+[0;35m/usr/include/linux/mroute.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/mroute.h[1;34m:[0m#include <[1;31mlinux[0m/in.h>		/* For struct in_addr. */
+[0;35m/usr/include/linux/inotify.h[1;34m:[0m#include <[1;31mlinux[0m/fcntl.h>
+[0;35m/usr/include/linux/inotify.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/eventpoll.h[1;34m:[0m *  include/[1;31mlinux[0m/eventpoll.h ( Efficient event polling implementation )
+[0;35m/usr/include/linux/eventpoll.h[1;34m:[0m#include <[1;31mlinux[0m/fcntl.h>
+[0;35m/usr/include/linux/eventpoll.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/nilfs2_api.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/nilfs2_api.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/coff.h[1;34m:[0m   location of the .text section. This is not a good idea for [1;31mlinux[0m. So,
+[0;35m/usr/include/linux/pidfd.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/pidfd.h[1;34m:[0m#include <[1;31mlinux[0m/fcntl.h>
+[0;35m/usr/include/linux/input.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/devlink.h[1;34m:[0m * include/uapi/[1;31mlinux[0m/devlink.h - Network physical device Netlink interface
+[0;35m/usr/include/linux/devlink.h[1;34m:[0m#include <[1;31mlinux[0m/const.h>
+[0;35m/usr/include/linux/erspan.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>	/* For __beXX in userspace */
+[0;35m/usr/include/linux/target_core_user.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/target_core_user.h[1;34m:[0m#include <[1;31mlinux[0m/uio.h>
+[0;35m/usr/include/linux/if_pppox.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/if_pppox.h[1;34m:[0m#include <[1;31mlinux[0m/socket.h>
+[0;35m/usr/include/linux/if_pppox.h[1;34m:[0m#include <[1;31mlinux[0m/if.h>
+[0;35m/usr/include/linux/if_pppox.h[1;34m:[0m#include <[1;31mlinux[0m/if_ether.h>
+[0;35m/usr/include/linux/if_pppox.h[1;34m:[0m#include <[1;31mlinux[0m/if_pppol2tp.h>
+[0;35m/usr/include/linux/if_pppox.h[1;34m:[0m#include <[1;31mlinux[0m/in.h>
+[0;35m/usr/include/linux/if_pppox.h[1;34m:[0m#include <[1;31mlinux[0m/in6.h>
+[0;35m/usr/include/linux/seg6_hmac.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/seg6_hmac.h[1;34m:[0m#include <[1;31mlinux[0m/seg6.h>
+[0;35m/usr/include/linux/ipv6.h[1;34m:[0m#include <[1;31mlinux[0m/libc-compat.h>
+[0;35m/usr/include/linux/ipv6.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/ipv6.h[1;34m:[0m#include <[1;31mlinux[0m/in6.h>
+[0;35m/usr/include/linux/smiapp.h[1;34m:[0m * include/uapi/[1;31mlinux[0m/smiapp.h
+[0;35m/usr/include/linux/watchdog.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/watchdog.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/spi/spidev.h[1;34m:[0m * include/[1;31mlinux[0m/spi/spidev.h
+[0;35m/usr/include/linux/spi/spidev.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/spi/spidev.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/spi/spidev.h[1;34m:[0m#include <[1;31mlinux[0m/spi/spi.h>
+[0;35m/usr/include/linux/spi/spi.h[1;34m:[0m#include <[1;31mlinux[0m/const.h>
+[0;35m/usr/include/linux/spi/spi.h[1;34m:[0m * 'include/[1;31mlinux[0m/spi/spi.h'. The bits defined here are from bit 0 upwards
+[0;35m/usr/include/linux/audit.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/audit.h[1;34m:[0m#include <[1;31mlinux[0m/elf-em.h>
+[0;35m/usr/include/linux/efs_fs_sb.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/efs_fs_sb.h[1;34m:[0m#include <[1;31mlinux[0m/magic.h>
+[0;35m/usr/include/linux/icmpv6.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/in6.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/in6.h[1;34m:[0m#include <[1;31mlinux[0m/libc-compat.h>
+[0;35m/usr/include/linux/in6.h[1;34m:[0m * see include/[1;31mlinux[0m/netfilter_ipv6/ip6_tables.h.
+[0;35m/usr/include/linux/in6.h[1;34m:[0m * see include/[1;31mlinux[0m/netfilter_ipv6/ip6_tables.h.
+[0;35m/usr/include/linux/in6.h[1;34m:[0m * see include/uapi/[1;31mlinux[0m/mroute6.h.
+[0;35m/usr/include/linux/videodev2.h[1;34m:[0m *	See https://[1;31mlinux[0mtv.org for more info
+[0;35m/usr/include/linux/videodev2.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/videodev2.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/videodev2.h[1;34m:[0m#include <[1;31mlinux[0m/v4l2-common.h>
+[0;35m/usr/include/linux/videodev2.h[1;34m:[0m#include <[1;31mlinux[0m/v4l2-controls.h>
+[0;35m/usr/include/linux/iio/events.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/iio/events.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/ip.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/fs.h[1;34m:[0m * sending patches for review to [1;31mlinux[0m-fsdevel@vger.kernel.org and
+[0;35m/usr/include/linux/fs.h[1;34m:[0m * [1;31mlinux[0m-api@vger.kernel.org.
+[0;35m/usr/include/linux/fs.h[1;34m:[0m#include <[1;31mlinux[0m/limits.h>
+[0;35m/usr/include/linux/fs.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/fs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/fs.h[1;34m:[0m#include <[1;31mlinux[0m/fscrypt.h>
+[0;35m/usr/include/linux/fs.h[1;34m:[0m#include <[1;31mlinux[0m/mount.h>
+[0;35m/usr/include/linux/fs.h[1;34m:[0m * (see uapi/[1;31mlinux[0m/blkzoned.h)
+[0;35m/usr/include/linux/fs.h[1;34m:[0m * [1;31mlinux[0m-fsdevel@vger.kernel.org and linux-api@vger.kernel.org.
+[0;35m/usr/include/linux/virtio_pcidev.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/uuid.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/sctp.h[1;34m:[0m *    lksctp developers <[1;31mlinux[0m-sctp@vger.kernel.org>
+[0;35m/usr/include/linux/sctp.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/sctp.h[1;34m:[0m#include <[1;31mlinux[0m/socket.h>
+[0;35m/usr/include/linux/ipmi.h[1;34m:[0m#include <[1;31mlinux[0m/ipmi_msgdefs.h>
+[0;35m/usr/include/linux/media.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/media.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/connector.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/if_tun.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/if_tun.h[1;34m:[0m#include <[1;31mlinux[0m/if_ether.h>
+[0;35m/usr/include/linux/if_tun.h[1;34m:[0m#include <[1;31mlinux[0m/filter.h>
+[0;35m/usr/include/linux/aufs_type.h[1;34m:[0m/* todo? move this to [1;31mlinux[0m-2.6.19/include/magic.h */
+[0;35m/usr/include/linux/aufs_type.h[1;34m:[0m						   [1;31mlinux[0m-3.18-rc1 */
+[0;35m/usr/include/linux/aufs_type.h[1;34m:[0m/* borrowed from [1;31mlinux[0m/include/linux/kernel.h */
+[0;35m/usr/include/linux/aufs_type.h[1;34m:[0m/* borrowed from [1;31mlinux[0m/include/linux/compiler-gcc3.h */
+[0;35m/usr/include/linux/if.h[1;34m:[0m#include <[1;31mlinux[0m/libc-compat.h>          /* for compatibility with glibc */
+[0;35m/usr/include/linux/if.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>		/* for "__kernel_caddr_t" et al	*/
+[0;35m/usr/include/linux/if.h[1;34m:[0m#include <[1;31mlinux[0m/socket.h>		/* for "struct sockaddr" et al	*/
+[0;35m/usr/include/linux/if.h[1;34m:[0m#include <[1;31mlinux[0m/hdlc/ioctl.h>
+[0;35m/usr/include/linux/quota.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/uvcvideo.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/uvcvideo.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/uvcvideo.h[1;34m:[0m				/* defined in [1;31mlinux[0m/usb/video.h A.8.  */
+[0;35m/usr/include/linux/serio.h[1;34m:[0m#include <[1;31mlinux[0m/const.h>
+[0;35m/usr/include/linux/serio.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/ptp_clock.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/ptp_clock.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/btrfs_tree.h[1;34m:[0m#include <[1;31mlinux[0m/btrfs.h>
+[0;35m/usr/include/linux/btrfs_tree.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/usbdevice_fs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/usbdevice_fs.h[1;34m:[0m#include <[1;31mlinux[0m/magic.h>
+[0;35m/usr/include/linux/usbdevice_fs.h[1;34m:[0m * [1;31mlinux[0m/usb/ch9.h
+[0;35m/usr/include/linux/utime.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/inet_diag.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/kfd_ioctl.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/iso_fs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/iso_fs.h[1;34m:[0m#include <[1;31mlinux[0m/magic.h>
+[0;35m/usr/include/linux/landlock.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/coresight-stm.h[1;34m:[0m#include <[1;31mlinux[0m/const.h>
+[0;35m/usr/include/linux/vfio_ccw.h[1;34m:[0m * Author(s): Dong Jia Shi <bjsdjshi@[1;31mlinux[0m.vnet.ibm.com>
+[0;35m/usr/include/linux/vfio_ccw.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/nilfs2_ondisk.h[1;34m:[0m *  [1;31mlinux[0m/include/linux/ext2_fs.h
+[0;35m/usr/include/linux/nilfs2_ondisk.h[1;34m:[0m *  [1;31mlinux[0m/include/linux/minix_fs.h
+[0;35m/usr/include/linux/nilfs2_ondisk.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/nilfs2_ondisk.h[1;34m:[0m#include <[1;31mlinux[0m/magic.h>
+[0;35m/usr/include/linux/atmbr2684.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/atmbr2684.h[1;34m:[0m#include <[1;31mlinux[0m/atm.h>
+[0;35m/usr/include/linux/atmbr2684.h[1;34m:[0m#include <[1;31mlinux[0m/if.h>		/* For IFNAMSIZ */
+[0;35m/usr/include/linux/uhid.h[1;34m:[0m#include <[1;31mlinux[0m/input.h>
+[0;35m/usr/include/linux/uhid.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/uhid.h[1;34m:[0m#include <[1;31mlinux[0m/hid.h>
+[0;35m/usr/include/linux/map_to_7segment.h[1;34m:[0m * 2005-05-31	RFC [1;31mlinux[0m-kernel@vger.kernel.org
+[0;35m/usr/include/linux/map_to_7segment.h[1;34m:[0m#include <[1;31mlinux[0m/errno.h>
+[0;35m/usr/include/linux/serial.h[1;34m:[0m * include/[1;31mlinux[0m/serial.h
+[0;35m/usr/include/linux/serial.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/serial.h[1;34m:[0m#include <[1;31mlinux[0m/tty_flags.h>
+[0;35m/usr/include/linux/cfm_bridge.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/cfm_bridge.h[1;34m:[0m#include <[1;31mlinux[0m/if_ether.h>
+[0;35m/usr/include/linux/if_bridge.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/if_bridge.h[1;34m:[0m#include <[1;31mlinux[0m/if_ether.h>
+[0;35m/usr/include/linux/if_bridge.h[1;34m:[0m#include <[1;31mlinux[0m/in6.h>
+[0;35m/usr/include/linux/igmp.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/membarrier.h[1;34m:[0m * [1;31mlinux[0m/membarrier.h
+[0;35m/usr/include/linux/loop.h[1;34m:[0m * include/[1;31mlinux[0m/loop.h
+[0;35m/usr/include/linux/loop.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>	/* for __u64 */
+[0;35m/usr/include/linux/uinput.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/uinput.h[1;34m:[0m#include <[1;31mlinux[0m/input.h>
+[0;35m/usr/include/linux/cec-funcs.h[1;34m:[0m#include <[1;31mlinux[0m/cec.h>
+[0;35m/usr/include/linux/sysctl.h[1;34m:[0m * sysctl.h: General [1;31mlinux[0m system control interface
+[0;35m/usr/include/linux/sysctl.h[1;34m:[0m#include <[1;31mlinux[0m/const.h>
+[0;35m/usr/include/linux/sysctl.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/net.h[1;34m:[0m#include <[1;31mlinux[0m/socket.h>
+[0;35m/usr/include/linux/netfilter_arp.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter.h>
+[0;35m/usr/include/linux/nfsd/cld.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/nfsd/export.h[1;34m:[0m * include/[1;31mlinux[0m/nfsd/export.h
+[0;35m/usr/include/linux/nfsd/export.h[1;34m:[0m# include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/nfsd/debug.h[1;34m:[0m * [1;31mlinux[0m/include/linux/nfsd/debug.h
+[0;35m/usr/include/linux/nfsd/debug.h[1;34m:[0m#include <[1;31mlinux[0m/sunrpc/debug.h>
+[0;35m/usr/include/linux/nfsd/stats.h[1;34m:[0m * [1;31mlinux[0m/include/linux/nfsd/stats.h
+[0;35m/usr/include/linux/nfsd/stats.h[1;34m:[0m#include <[1;31mlinux[0m/nfs4.h>
+[0;35m/usr/include/linux/nfsd/nfsfh.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/nfsd/nfsfh.h[1;34m:[0m#include <[1;31mlinux[0m/nfs.h>
+[0;35m/usr/include/linux/nfsd/nfsfh.h[1;34m:[0m#include <[1;31mlinux[0m/nfs2.h>
+[0;35m/usr/include/linux/nfsd/nfsfh.h[1;34m:[0m#include <[1;31mlinux[0m/nfs3.h>
+[0;35m/usr/include/linux/nfsd/nfsfh.h[1;34m:[0m#include <[1;31mlinux[0m/nfs4.h>
+[0;35m/usr/include/linux/nfsd/nfsfh.h[1;34m:[0m *   in include/[1;31mlinux[0m/exportfs.h for currently registered values.
+[0;35m/usr/include/linux/ccs.h[1;34m:[0m#include <[1;31mlinux[0m/v4l2-controls.h>
+[0;35m/usr/include/linux/edd.h[1;34m:[0m * [1;31mlinux[0m/include/linux/edd.h
+[0;35m/usr/include/linux/edd.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/mempolicy.h[1;34m:[0m#include <[1;31mlinux[0m/errno.h>
+[0;35m/usr/include/linux/atmdev.h[1;34m:[0m#include <[1;31mlinux[0m/atmapi.h>
+[0;35m/usr/include/linux/atmdev.h[1;34m:[0m#include <[1;31mlinux[0m/atm.h>
+[0;35m/usr/include/linux/atmdev.h[1;34m:[0m#include <[1;31mlinux[0m/atmioc.h>
+[0;35m/usr/include/linux/packet_diag.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netlink_diag.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/ivtv.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/ivtv.h[1;34m:[0m#include <[1;31mlinux[0m/videodev2.h>
+[0;35m/usr/include/linux/psp-sev.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/auto_dev-ioctl.h[1;34m:[0m#include <[1;31mlinux[0m/auto_fs.h>
+[0;35m/usr/include/linux/auto_dev-ioctl.h[1;34m:[0m#include <[1;31mlinux[0m/string.h>
+[0;35m/usr/include/linux/soundcard.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/soundcard.h[1;34m:[0m#include <[1;31mlinux[0m/patchkey.h>
+[0;35m/usr/include/linux/virtio_console.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/virtio_console.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_types.h>
+[0;35m/usr/include/linux/virtio_console.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_ids.h>
+[0;35m/usr/include/linux/virtio_console.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_config.h>
+[0;35m/usr/include/linux/mmc/ioctl.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/mmc/ioctl.h[1;34m:[0m#include <[1;31mlinux[0m/major.h>
+[0;35m/usr/include/linux/elf-fdpic.h[1;34m:[0m#include <[1;31mlinux[0m/elf.h>
+[0;35m/usr/include/linux/meye.h[1;34m:[0m * Motion Eye video4[1;31mlinux[0m driver for Sony Vaio PictureBook
+[0;35m/usr/include/linux/meye.h[1;34m:[0m * Copyright (C) 2000 Andrew Tridgell <tridge@va[1;31mlinux[0m.com>
+[0;35m/usr/include/linux/meye.h[1;34m:[0m * Some parts borrowed from various video4[1;31mlinux[0m drivers, especially
+[0;35m/usr/include/linux/vduse.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/minix_fs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/minix_fs.h[1;34m:[0m#include <[1;31mlinux[0m/magic.h>
+[0;35m/usr/include/linux/minix_fs.h[1;34m:[0m/* Not the same as the bogus LINK_MAX in <[1;31mlinux[0m/limits.h>. Oh well. */
+[0;35m/usr/include/linux/cciss_ioctl.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/cciss_ioctl.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/cciss_ioctl.h[1;34m:[0m#include <[1;31mlinux[0m/cciss_defs.h>
+[0;35m/usr/include/linux/bpqether.h[1;34m:[0m#include <[1;31mlinux[0m/if_ether.h>
+[0;35m/usr/include/linux/nsfs.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/ipmi_bmc.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/hdreg.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/iommu.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/blkpg.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/times.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/nexthop.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/omap3isp.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/omap3isp.h[1;34m:[0m#include <[1;31mlinux[0m/videodev2.h>
+[0;35m/usr/include/linux/ipc.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/unix_diag.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/smc_diag.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/smc_diag.h[1;34m:[0m#include <[1;31mlinux[0m/inet_diag.h>
+[0;35m/usr/include/linux/elf.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/elf.h[1;34m:[0m#include <[1;31mlinux[0m/elf-em.h>
+[0;35m/usr/include/linux/if_bonding.h[1;34m:[0m#include <[1;31mlinux[0m/if.h>
+[0;35m/usr/include/linux/if_bonding.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/if_bonding.h[1;34m:[0m#include <[1;31mlinux[0m/if_ether.h>
+[0;35m/usr/include/linux/route.h[1;34m:[0m#include <[1;31mlinux[0m/if.h>
+[0;35m/usr/include/linux/route.h[1;34m:[0m *	<[1;31mlinux[0m/ipv6_route.h> uses RTF values >= 64k
+[0;35m/usr/include/linux/ax25.h[1;34m:[0m#include <[1;31mlinux[0m/socket.h>
+[0;35m/usr/include/linux/if_addrlabel.h[1;34m:[0m *	YOSHIFUJI Hideaki @ USAGI/WIDE <yoshfuji@[1;31mlinux[0m-ipv6.org>
+[0;35m/usr/include/linux/if_addrlabel.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/if_ether.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/nitro_enclaves.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/time_types.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/vm_sockets_diag.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/affs_hardblocks.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/taskstats.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/taskstats.h[1;34m:[0m					 * in [1;31mlinux[0m/sched.h */
+[0;35m/usr/include/linux/taskstats.h[1;34m:[0m	 * TAKSTATS_VERSION, which is defined in <[1;31mlinux[0m/taskstats.h>.
+[0;35m/usr/include/linux/taskstats.h[1;34m:[0m	/* The accounting flags of a task as defined in <[1;31mlinux[0m/acct.h>
+[0;35m/usr/include/linux/mount.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/virtio_types.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/seg6_iptunnel.h[1;34m:[0m#include <[1;31mlinux[0m/seg6.h>		/* For struct ipv6_sr_hdr. */
+[0;35m/usr/include/linux/phantom.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/switchtec_ioctl.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/scc.h[1;34m:[0m#include <[1;31mlinux[0m/sockios.h>
+[0;35m/usr/include/linux/atm_nicstar.h[1;34m:[0m#include <[1;31mlinux[0m/atmapi.h>
+[0;35m/usr/include/linux/atm_nicstar.h[1;34m:[0m#include <[1;31mlinux[0m/atmioc.h>
+[0;35m/usr/include/linux/serial_reg.h[1;34m:[0m * include/[1;31mlinux[0m/serial_reg.h
+[0;35m/usr/include/linux/aspeed-p2a-ctrl.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/aspeed-p2a-ctrl.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/ipv6_route.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/ipv6_route.h[1;34m:[0m#include <[1;31mlinux[0m/in6.h>			/* For struct in6_addr. */
+[0;35m/usr/include/linux/swab.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/swab.h[1;34m:[0m#include <[1;31mlinux[0m/stddef.h>
+[0;35m/usr/include/linux/qnx4_fs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/qnx4_fs.h[1;34m:[0m#include <[1;31mlinux[0m/qnxtypes.h>
+[0;35m/usr/include/linux/qnx4_fs.h[1;34m:[0m#include <[1;31mlinux[0m/magic.h>
+[0;35m/usr/include/linux/rfkill.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/max2175.h[1;34m:[0m#include <[1;31mlinux[0m/v4l2-controls.h>
+[0;35m/usr/include/linux/mqueue.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/fcntl.h[1;34m:[0m#include <[1;31mlinux[0m/openat2.h>
+[0;35m/usr/include/linux/if_ppp.h[1;34m:[0m#include <[1;31mlinux[0m/ppp-ioctl.h>
+[0;35m/usr/include/linux/if_ppp.h[1;34m:[0m#include <[1;31mlinux[0m/ppp-ioctl.h>
+[0;35m/usr/include/linux/pfkeyv2.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/pfkeyv2.h[1;34m:[0m	__u8		sadb_x_ctx_alg;  /* LSMs: e.g., se[1;31mlinux[0m == 1 */
+[0;35m/usr/include/linux/cgroupstats.h[1;34m:[0m * Author Balbir Singh <balbir@[1;31mlinux[0m.vnet.ibm.com>
+[0;35m/usr/include/linux/cgroupstats.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/cgroupstats.h[1;34m:[0m#include <[1;31mlinux[0m/taskstats.h>
+[0;35m/usr/include/linux/types.h[1;34m:[0m#include <[1;31mlinux[0m/posix_types.h>
+[0;35m/usr/include/linux/types.h[1;34m:[0m * any application/library that wants [1;31mlinux[0m/types.h.
+[0;35m/usr/include/linux/apm_bios.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/apm_bios.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/isst_if.h[1;34m:[0m * Author: Srinivas Pandruvada <srinivas.pandruvada@[1;31mlinux[0m.intel.com>
+[0;35m/usr/include/linux/isst_if.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter_arp/arpt_mangle.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter_arp/arp_tables.h>
+[0;35m/usr/include/linux/netfilter_arp/arp_tables.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter_arp/arp_tables.h[1;34m:[0m#include <[1;31mlinux[0m/if.h>
+[0;35m/usr/include/linux/netfilter_arp/arp_tables.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter_arp.h>
+[0;35m/usr/include/linux/netfilter_arp/arp_tables.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter/x_tables.h>
+[0;35m/usr/include/linux/netfilter_arp/arp_tables.h[1;34m:[0m * ATTENTION: check [1;31mlinux[0m/in.h before adding new number here.
+[0;35m/usr/include/linux/netfilter_ipv6.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter.h>
+[0;35m/usr/include/linux/serial_core.h[1;34m:[0m *  [1;31mlinux[0m/drivers/char/serial_core.h
+[0;35m/usr/include/linux/serial_core.h[1;34m:[0m#include <[1;31mlinux[0m/serial.h>
+[0;35m/usr/include/linux/mptcp.h[1;34m:[0m#include <[1;31mlinux[0m/const.h>
+[0;35m/usr/include/linux/mptcp.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/hsi/hsi_char.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/hsi/cs-protocol.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/hsi/cs-protocol.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/usb/g_uvc.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/usb/g_uvc.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/usb/g_uvc.h[1;34m:[0m#include <[1;31mlinux[0m/usb/ch9.h>
+[0;35m/usr/include/linux/usb/ch11.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>	/* __u8 etc */
+[0;35m/usr/include/linux/usb/cdc.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/usb/audio.h[1;34m:[0m * <[1;31mlinux[0m/usb/audio.h> -- USB Audio definitions.
+[0;35m/usr/include/linux/usb/audio.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/usb/video.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/usb/cdc-wdm.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/usb/tmc.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>   /* __u8 etc */
+[0;35m/usr/include/linux/usb/raw_gadget.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/usb/raw_gadget.h[1;34m:[0m#include <[1;31mlinux[0m/usb/ch9.h>
+[0;35m/usr/include/linux/usb/raw_gadget.h[1;34m:[0m *     the submitted USB request, see include/[1;31mlinux[0m/usb/gadget.h for details.
+[0;35m/usr/include/linux/usb/functionfs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/usb/functionfs.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/usb/functionfs.h[1;34m:[0m#include <[1;31mlinux[0m/usb/ch9.h>
+[0;35m/usr/include/linux/usb/ch9.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>	/* __u8 etc */
+[0;35m/usr/include/linux/usb/gadgetfs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/usb/gadgetfs.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/usb/gadgetfs.h[1;34m:[0m#include <[1;31mlinux[0m/usb/ch9.h>
+[0;35m/usr/include/linux/usb/midi.h[1;34m:[0m * <[1;31mlinux[0m/usb/midi.h> -- USB MIDI definitions.
+[0;35m/usr/include/linux/usb/midi.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/virtio_config.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/ip6_tunnel.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/ip6_tunnel.h[1;34m:[0m#include <[1;31mlinux[0m/if.h>		/* For IFNAMSIZ. */
+[0;35m/usr/include/linux/ip6_tunnel.h[1;34m:[0m#include <[1;31mlinux[0m/in6.h>		/* For struct in6_addr. */
+[0;35m/usr/include/linux/atmppp.h[1;34m:[0m#include <[1;31mlinux[0m/atm.h>
+[0;35m/usr/include/linux/mroute6.h[1;34m:[0m#include <[1;31mlinux[0m/const.h>
+[0;35m/usr/include/linux/mroute6.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/mroute6.h[1;34m:[0m#include <[1;31mlinux[0m/sockios.h>
+[0;35m/usr/include/linux/mroute6.h[1;34m:[0m#include <[1;31mlinux[0m/in6.h>		/* For struct sockaddr_in6. */
+[0;35m/usr/include/linux/gpio.h[1;34m:[0m * <[1;31mlinux[0m/gpio.h> - userspace ABI for the GPIO character devices
+[0;35m/usr/include/linux/gpio.h[1;34m:[0m#include <[1;31mlinux[0m/const.h>
+[0;35m/usr/include/linux/gpio.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/gpio.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/virtio_gpio.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/binfmts.h[1;34m:[0m#include <[1;31mlinux[0m/capability.h>
+[0;35m/usr/include/linux/binfmts.h[1;34m:[0m/* sizeof([1;31mlinux[0m_binprm->buf) */
+[0;35m/usr/include/linux/lp.h[1;34m:[0m * usr/include/[1;31mlinux[0m/lp.h c.1991-1992 James Wiegand
+[0;35m/usr/include/linux/lp.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/lp.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/virtio_pmem.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/virtio_pmem.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_ids.h>
+[0;35m/usr/include/linux/virtio_pmem.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_config.h>
+[0;35m/usr/include/linux/perf_event.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/perf_event.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/sem.h[1;34m:[0m#include <[1;31mlinux[0m/ipc.h>
+[0;35m/usr/include/linux/f2fs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/f2fs.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/surface_aggregator/dtx.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/surface_aggregator/dtx.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/surface_aggregator/cdev.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/surface_aggregator/cdev.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/rpmsg.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/rpmsg.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/l2tp.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/l2tp.h[1;34m:[0m#include <[1;31mlinux[0m/socket.h>
+[0;35m/usr/include/linux/l2tp.h[1;34m:[0m#include <[1;31mlinux[0m/in.h>
+[0;35m/usr/include/linux/l2tp.h[1;34m:[0m#include <[1;31mlinux[0m/in6.h>
+[0;35m/usr/include/linux/rds.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/rds.h[1;34m:[0m#include <[1;31mlinux[0m/socket.h>		/* For __kernel_sockaddr_storage. */
+[0;35m/usr/include/linux/rds.h[1;34m:[0m#include <[1;31mlinux[0m/in6.h>			/* For struct in6_addr. */
+[0;35m/usr/include/linux/if_alg.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/rpl.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/rpl.h[1;34m:[0m#include <[1;31mlinux[0m/in6.h>
+[0;35m/usr/include/linux/tc_ematch/tc_em_text.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/tc_ematch/tc_em_text.h[1;34m:[0m#include <[1;31mlinux[0m/pkt_cls.h>
+[0;35m/usr/include/linux/tc_ematch/tc_em_ipt.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/tc_ematch/tc_em_ipt.h[1;34m:[0m#include <[1;31mlinux[0m/pkt_cls.h>
+[0;35m/usr/include/linux/tc_ematch/tc_em_cmp.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/tc_ematch/tc_em_cmp.h[1;34m:[0m#include <[1;31mlinux[0m/pkt_cls.h>
+[0;35m/usr/include/linux/tc_ematch/tc_em_nbyte.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/tc_ematch/tc_em_nbyte.h[1;34m:[0m#include <[1;31mlinux[0m/pkt_cls.h>
+[0;35m/usr/include/linux/tc_ematch/tc_em_meta.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/tc_ematch/tc_em_meta.h[1;34m:[0m#include <[1;31mlinux[0m/pkt_cls.h>
+[0;35m/usr/include/linux/timex.h[1;34m:[0m *      Derived [1;31mlinux[0m/timex.h
+[0;35m/usr/include/linux/timex.h[1;34m:[0m#include <[1;31mlinux[0m/time.h>
+[0;35m/usr/include/linux/ptrace.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/net_tstamp.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/net_tstamp.h[1;34m:[0m#include <[1;31mlinux[0m/socket.h>   /* for SO_TIMESTAMPING */
+[0;35m/usr/include/linux/kernel.h[1;34m:[0m#include <[1;31mlinux[0m/sysinfo.h>
+[0;35m/usr/include/linux/kernel.h[1;34m:[0m#include <[1;31mlinux[0m/const.h>
+[0;35m/usr/include/linux/kvm.h[1;34m:[0m#include <[1;31mlinux[0m/const.h>
+[0;35m/usr/include/linux/kvm.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/kvm.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/kvm.h[1;34m:[0m * include/[1;31mlinux[0m/kvm_host.h.
+[0;35m/usr/include/linux/ipsec.h[1;34m:[0m#include <[1;31mlinux[0m/pfkeyv2.h>
+[0;35m/usr/include/linux/fsmap.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/vtpm_proxy.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/vtpm_proxy.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/cciss_defs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/hyperv.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/virtio_input.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/nvme_ioctl.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/dm-ioctl.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/patchkey.h[1;34m:[0m * <[1;31mlinux[0m/patchkey.h> -- definition of _PATCHKEY macro
+[0;35m/usr/include/linux/patchkey.h[1;34m:[0m * For kernel code, use <[1;31mlinux[0m/soundcard.h>
+[0;35m/usr/include/linux/virtio_crypto.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/virtio_crypto.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_types.h>
+[0;35m/usr/include/linux/virtio_crypto.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_ids.h>
+[0;35m/usr/include/linux/virtio_crypto.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_config.h>
+[0;35m/usr/include/linux/screen_info.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/romfs_fs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/romfs_fs.h[1;34m:[0m#include <[1;31mlinux[0m/fs.h>
+[0;35m/usr/include/linux/atmarp.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/atmarp.h[1;34m:[0m#include <[1;31mlinux[0m/atmapi.h>
+[0;35m/usr/include/linux/atmarp.h[1;34m:[0m#include <[1;31mlinux[0m/atmioc.h>
+[0;35m/usr/include/linux/capability.h[1;34m:[0m * This is <[1;31mlinux[0m/capability.h>
+[0;35m/usr/include/linux/capability.h[1;34m:[0m * ftp://www.kernel.org/pub/[1;31mlinux[0m/libs/security/linux-privs/kernel-2.6/
+[0;35m/usr/include/linux/capability.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/capi.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/capi.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/capi.h[1;34m:[0m#include <[1;31mlinux[0m/kernelcapi.h>
+[0;35m/usr/include/linux/phonet.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/phonet.h[1;34m:[0m#include <[1;31mlinux[0m/socket.h>
+[0;35m/usr/include/linux/rtc.h[1;34m:[0m * from <[1;31mlinux[0m/mc146818rtc.h> to this file for 2.4 kernels.
+[0;35m/usr/include/linux/rtc.h[1;34m:[0m#include <[1;31mlinux[0m/const.h>
+[0;35m/usr/include/linux/rtc.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/am437x-vpfe.h[1;34m:[0m#include <[1;31mlinux[0m/videodev2.h>
+[0;35m/usr/include/linux/netlink.h[1;34m:[0m#include <[1;31mlinux[0m/const.h>
+[0;35m/usr/include/linux/netlink.h[1;34m:[0m#include <[1;31mlinux[0m/socket.h> /* for __kernel_sa_family_t */
+[0;35m/usr/include/linux/netlink.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/genetlink.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/genetlink.h[1;34m:[0m#include <[1;31mlinux[0m/netlink.h>
+[0;35m/usr/include/linux/dccp.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/bsg.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/virtio_i2c.h[1;34m:[0m#include <[1;31mlinux[0m/const.h>
+[0;35m/usr/include/linux/virtio_i2c.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/ppp_defs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netconf.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netconf.h[1;34m:[0m#include <[1;31mlinux[0m/netlink.h>
+[0;35m/usr/include/linux/acct.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/acct.h[1;34m:[0m *  See [1;31mlinux[0m/kernel/acct.c for the specific encoding systems used.
+[0;35m/usr/include/linux/vboxguest.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/vboxguest.h[1;34m:[0m#include <[1;31mlinux[0m/vbox_err.h>
+[0;35m/usr/include/linux/vboxguest.h[1;34m:[0m#include <[1;31mlinux[0m/vbox_vmmdev_types.h>
+[0;35m/usr/include/linux/pci.h[1;34m:[0m#include <[1;31mlinux[0m/pci_regs.h>	/* The pci register defines */
+[0;35m/usr/include/linux/dlm_netlink.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/dlm_netlink.h[1;34m:[0m#include <[1;31mlinux[0m/dlmconstants.h>
+[0;35m/usr/include/linux/dm-log-userspace.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/dm-log-userspace.h[1;34m:[0m#include <[1;31mlinux[0m/dm-ioctl.h> /* For DM_UUID_LEN */
+[0;35m/usr/include/linux/atmclip.h[1;34m:[0m#include <[1;31mlinux[0m/sockios.h>
+[0;35m/usr/include/linux/atmclip.h[1;34m:[0m#include <[1;31mlinux[0m/atmioc.h>
+[0;35m/usr/include/linux/reiserfs_fs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/reiserfs_fs.h[1;34m:[0m#include <[1;31mlinux[0m/magic.h>
+[0;35m/usr/include/linux/reiserfs_fs.h[1;34m:[0m *  include/[1;31mlinux[0m/reiser_fs.h
+[0;35m/usr/include/linux/userfaultfd.h[1;34m:[0m *  include/[1;31mlinux[0m/userfaultfd.h
+[0;35m/usr/include/linux/userfaultfd.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/xdp_diag.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/if_hippi.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/if_hippi.h[1;34m:[0m	int	rx_dropped;		/* no space in [1;31mlinux[0m buffers	*/
+[0;35m/usr/include/linux/if_hippi.h[1;34m:[0m	int	tx_dropped;		/* no space available in [1;31mlinux[0m	*/
+[0;35m/usr/include/linux/virtio_rng.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_ids.h>
+[0;35m/usr/include/linux/virtio_rng.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_config.h>
+[0;35m/usr/include/linux/fsverity.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/fsverity.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/batadv_packet.h[1;34m:[0m#include <[1;31mlinux[0m/if_ether.h>
+[0;35m/usr/include/linux/batadv_packet.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter_ipv4/ipt_ecn.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter/xt_ecn.h>
+[0;35m/usr/include/linux/netfilter_ipv4/ipt_ttl.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter_ipv4/ipt_CLUSTERIP.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter_ipv4/ipt_CLUSTERIP.h[1;34m:[0m#include <[1;31mlinux[0m/if_ether.h>
+[0;35m/usr/include/linux/netfilter_ipv4/ipt_TTL.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter_ipv4/ip_tables.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter_ipv4/ip_tables.h[1;34m:[0m#include <[1;31mlinux[0m/if.h>
+[0;35m/usr/include/linux/netfilter_ipv4/ip_tables.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter_ipv4.h>
+[0;35m/usr/include/linux/netfilter_ipv4/ip_tables.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter/x_tables.h>
+[0;35m/usr/include/linux/netfilter_ipv4/ip_tables.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter/xt_tcpudp.h>
+[0;35m/usr/include/linux/netfilter_ipv4/ip_tables.h[1;34m:[0m * ATTENTION: check [1;31mlinux[0m/in.h before adding new number here.
+[0;35m/usr/include/linux/netfilter_ipv4/ipt_ECN.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter_ipv4/ipt_ECN.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter/xt_DSCP.h>
+[0;35m/usr/include/linux/netfilter_ipv4/ipt_ah.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/un.h[1;34m:[0m#include <[1;31mlinux[0m/socket.h>
+[0;35m/usr/include/linux/random.h[1;34m:[0m * include/[1;31mlinux[0m/random.h
+[0;35m/usr/include/linux/random.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/random.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/random.h[1;34m:[0m#include <[1;31mlinux[0m/irqnr.h>
+[0;35m/usr/include/linux/coda.h[1;34m:[0m#if defined(__[1;31mlinux[0m__)
+[0;35m/usr/include/linux/coda.h[1;34m:[0m#include <[1;31mlinux[0m/time.h>
+[0;35m/usr/include/linux/omapfb.h[1;34m:[0m * File: include/[1;31mlinux[0m/omapfb.h
+[0;35m/usr/include/linux/omapfb.h[1;34m:[0m#include <[1;31mlinux[0m/fb.h>
+[0;35m/usr/include/linux/omapfb.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/omapfb.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/nfs4.h[1;34m:[0m *  include/[1;31mlinux[0m/nfs4.h
+[0;35m/usr/include/linux/nfs4.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/atm_zatm.h[1;34m:[0m#include <[1;31mlinux[0m/atmapi.h>
+[0;35m/usr/include/linux/atm_zatm.h[1;34m:[0m#include <[1;31mlinux[0m/atmioc.h>
+[0;35m/usr/include/linux/netfilter_decnet.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter.h>
+[0;35m/usr/include/linux/virtio_balloon.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/virtio_balloon.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_types.h>
+[0;35m/usr/include/linux/virtio_balloon.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_ids.h>
+[0;35m/usr/include/linux/virtio_balloon.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_config.h>
+[0;35m/usr/include/linux/nbd.h[1;34m:[0m *            New nbd_end_request() for compatibility with new [1;31mlinux[0m block
+[0;35m/usr/include/linux/nbd.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/snmp.h[1;34m:[0m * Author: Hideaki YOSHIFUJI <yoshfuji@[1;31mlinux[0m-ipv6.org>
+[0;35m/usr/include/linux/snmp.h[1;34m:[0m/* [1;31mlinux[0m mib definitions */
+[0;35m/usr/include/linux/snmp.h[1;34m:[0m/* [1;31mlinux[0m Xfrm mib definitions */
+[0;35m/usr/include/linux/snmp.h[1;34m:[0m/* [1;31mlinux[0m TLS mib definitions */
+[0;35m/usr/include/linux/suspend_ioctls.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/cn_proc.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/gsmmux.h[1;34m:[0m#include <[1;31mlinux[0m/if.h>
+[0;35m/usr/include/linux/gsmmux.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/gsmmux.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/joystick.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/joystick.h[1;34m:[0m#include <[1;31mlinux[0m/input.h>
+[0;35m/usr/include/linux/dlm_plock.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/cm4000_cs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/cm4000_cs.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/ivtvfb.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/agpgart.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/atmlec.h[1;34m:[0m#include <[1;31mlinux[0m/atmapi.h>
+[0;35m/usr/include/linux/atmlec.h[1;34m:[0m#include <[1;31mlinux[0m/atmioc.h>
+[0;35m/usr/include/linux/atmlec.h[1;34m:[0m#include <[1;31mlinux[0m/atm.h>
+[0;35m/usr/include/linux/atmlec.h[1;34m:[0m#include <[1;31mlinux[0m/if_ether.h>
+[0;35m/usr/include/linux/atmlec.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/bpf.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/bpf.h[1;34m:[0m#include <[1;31mlinux[0m/bpf_common.h>
+[0;35m/usr/include/linux/bpf.h[1;34m:[0m		__u32	btf_vm[1;31mlinux[0m_value_type_id;/* BTF type_id of a kernel-
+[0;35m/usr/include/linux/bpf.h[1;34m:[0m			/* or valid module BTF object fd or 0 to attach to vm[1;31mlinux[0m */
+[0;35m/usr/include/linux/bpf.h[1;34m:[0m *             --filename include/uapi/[1;31mlinux[0m/bpf.h > /tmp/bpf-helpers.rst
+[0;35m/usr/include/linux/bpf.h[1;34m:[0m *		can be used to look up vm[1;31mlinux[0m BTF type ids. Traversing the
+[0;35m/usr/include/linux/bpf.h[1;34m:[0m * long bpf_bprm_opts_set(struct [1;31mlinux[0m_binprm *bprm, u64 flags)
+[0;35m/usr/include/linux/bpf.h[1;34m:[0m * 		Find BTF type with given name and kind in vm[1;31mlinux[0m BTF or in module's BTFs.
+[0;35m/usr/include/linux/bpf.h[1;34m:[0m	__u32 btf_vm[1;31mlinux[0m_value_type_id;
+[0;35m/usr/include/linux/bpf.h[1;34m:[0m	__u32 bpf_sock_ops_cb_flags; /* flags defined in uapi/[1;31mlinux[0m/tcp.h */
+[0;35m/usr/include/linux/aio_abi.h[1;34m:[0m/* include/[1;31mlinux[0m/aio_abi.h
+[0;35m/usr/include/linux/aio_abi.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/aio_abi.h[1;34m:[0m#include <[1;31mlinux[0m/fs.h>
+[0;35m/usr/include/linux/auto_fs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/auto_fs.h[1;34m:[0m#include <[1;31mlinux[0m/limits.h>
+[0;35m/usr/include/linux/if_link.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/if_link.h[1;34m:[0m#include <[1;31mlinux[0m/netlink.h>
+[0;35m/usr/include/linux/kcov.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/bcm933xx_hcs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/mtio.h[1;34m:[0m * [1;31mlinux[0m/mtio.h header file for Linux. Written by H. Bergman
+[0;35m/usr/include/linux/mtio.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/mtio.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/msg.h[1;34m:[0m#include <[1;31mlinux[0m/ipc.h>
+[0;35m/usr/include/linux/if_macsec.h[1;34m:[0m * include/uapi/[1;31mlinux[0m/if_macsec.h - MACsec device
+[0;35m/usr/include/linux/if_macsec.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/v4l2-subdev.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/v4l2-subdev.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/v4l2-subdev.h[1;34m:[0m#include <[1;31mlinux[0m/v4l2-common.h>
+[0;35m/usr/include/linux/v4l2-subdev.h[1;34m:[0m#include <[1;31mlinux[0m/v4l2-mediabus.h>
+[0;35m/usr/include/linux/sound.h[1;34m:[0m#include <[1;31mlinux[0m/fs.h>
+[0;35m/usr/include/linux/bpfilter.h[1;34m:[0m#include <[1;31mlinux[0m/if.h>
+[0;35m/usr/include/linux/atm.h[1;34m:[0m * WARNING: User-space programs should not #include <[1;31mlinux[0m/atm.h> directly.
+[0;35m/usr/include/linux/atm.h[1;34m:[0m#include <[1;31mlinux[0m/atmapi.h>
+[0;35m/usr/include/linux/atm.h[1;34m:[0m#include <[1;31mlinux[0m/atmsap.h>
+[0;35m/usr/include/linux/atm.h[1;34m:[0m#include <[1;31mlinux[0m/atmioc.h>
+[0;35m/usr/include/linux/atm.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/atm.h[1;34m:[0m * The following items should stay in [1;31mlinux[0m/atm.h, which should be linked to
+[0;35m/usr/include/linux/atm.h[1;34m:[0m * Some stuff for [1;31mlinux[0m/sockios.h
+[0;35m/usr/include/linux/dns_resolver.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/virtio_scsi.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_types.h>
+[0;35m/usr/include/linux/filter.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/filter.h[1;34m:[0m#include <[1;31mlinux[0m/bpf_common.h>
+[0;35m/usr/include/linux/bt-bmc.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/msdos_fs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/msdos_fs.h[1;34m:[0m#include <[1;31mlinux[0m/magic.h>
+[0;35m/usr/include/linux/msdos_fs.h[1;34m:[0m/* <[1;31mlinux[0m/videotext.h> has used 0x72 ('r') in collision, so skip a few */
+[0;35m/usr/include/linux/vhost.h[1;34m:[0m#include <[1;31mlinux[0m/vhost_types.h>
+[0;35m/usr/include/linux/vhost.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/vhost.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/io_uring.h[1;34m:[0m#include <[1;31mlinux[0m/fs.h>
+[0;35m/usr/include/linux/io_uring.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/pktcdvd.h[1;34m:[0m * License.  See [1;31mlinux[0m/COPYING for more information.
+[0;35m/usr/include/linux/pktcdvd.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/adfs_fs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/adfs_fs.h[1;34m:[0m#include <[1;31mlinux[0m/magic.h>
+[0;35m/usr/include/linux/prctl.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/prctl.h[1;34m:[0m * asking se[1;31mlinux[0m for a specific new context (e.g. with runcon) will result
+[0;35m/usr/include/linux/misc/bcm_vk.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/misc/bcm_vk.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/if_fddi.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/in.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/in.h[1;34m:[0m#include <[1;31mlinux[0m/libc-compat.h>
+[0;35m/usr/include/linux/in.h[1;34m:[0m#include <[1;31mlinux[0m/socket.h>
+[0;35m/usr/include/linux/pkt_sched.h[1;34m:[0m#include <[1;31mlinux[0m/const.h>
+[0;35m/usr/include/linux/pkt_sched.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/atm_tcp.h[1;34m:[0m#include <[1;31mlinux[0m/atmapi.h>
+[0;35m/usr/include/linux/atm_tcp.h[1;34m:[0m#include <[1;31mlinux[0m/atm.h>
+[0;35m/usr/include/linux/atm_tcp.h[1;34m:[0m#include <[1;31mlinux[0m/atmioc.h>
+[0;35m/usr/include/linux/atm_tcp.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netdevice.h[1;34m:[0m *		Moved to /usr/include/[1;31mlinux[0m for NET3
+[0;35m/usr/include/linux/netdevice.h[1;34m:[0m#include <[1;31mlinux[0m/if.h>
+[0;35m/usr/include/linux/netdevice.h[1;34m:[0m#include <[1;31mlinux[0m/if_ether.h>
+[0;35m/usr/include/linux/netdevice.h[1;34m:[0m#include <[1;31mlinux[0m/if_packet.h>
+[0;35m/usr/include/linux/netdevice.h[1;34m:[0m#include <[1;31mlinux[0m/if_link.h>
+[0;35m/usr/include/linux/rxrpc.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/rxrpc.h[1;34m:[0m#include <[1;31mlinux[0m/in.h>
+[0;35m/usr/include/linux/rxrpc.h[1;34m:[0m#include <[1;31mlinux[0m/in6.h>
+[0;35m/usr/include/linux/timerfd.h[1;34m:[0m *  include/[1;31mlinux[0m/timerfd.h
+[0;35m/usr/include/linux/timerfd.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/timerfd.h[1;34m:[0m#include <[1;31mlinux[0m/fcntl.h>
+[0;35m/usr/include/linux/timerfd.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/timerfd.h[1;34m:[0m * Also make sure to update the masks in include/[1;31mlinux[0m/timerfd.h
+[0;35m/usr/include/linux/stm.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/libc-compat.h[1;34m:[0m *      e.g. #include <[1;31mlinux[0m/libc-compat.h>
+[0;35m/usr/include/linux/libc-compat.h[1;34m:[0m * This fixes the situation where the [1;31mlinux[0m headers are included *after* the
+[0;35m/usr/include/linux/dlm_device.h[1;34m:[0m#include <[1;31mlinux[0m/dlm.h>
+[0;35m/usr/include/linux/dlm_device.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/virtio_iommu.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/byteorder/big_endian.h[1;34m:[0m#include <[1;31mlinux[0m/stddef.h>
+[0;35m/usr/include/linux/byteorder/big_endian.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/byteorder/big_endian.h[1;34m:[0m#include <[1;31mlinux[0m/swab.h>
+[0;35m/usr/include/linux/byteorder/little_endian.h[1;34m:[0m#include <[1;31mlinux[0m/stddef.h>
+[0;35m/usr/include/linux/byteorder/little_endian.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/byteorder/little_endian.h[1;34m:[0m#include <[1;31mlinux[0m/swab.h>
+[0;35m/usr/include/linux/pmu.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/sysinfo.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/virtio_snd.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_types.h>
+[0;35m/usr/include/linux/caif/caif_socket.h[1;34m:[0m/* [1;31mlinux[0m/caif_socket.h
+[0;35m/usr/include/linux/caif/caif_socket.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/caif/caif_socket.h[1;34m:[0m#include <[1;31mlinux[0m/socket.h>
+[0;35m/usr/include/linux/caif/if_caif.h[1;34m:[0m#include <[1;31mlinux[0m/sockios.h>
+[0;35m/usr/include/linux/caif/if_caif.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/caif/if_caif.h[1;34m:[0m#include <[1;31mlinux[0m/socket.h>
+[0;35m/usr/include/linux/fiemap.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/bcache.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/atmmpc.h[1;34m:[0m#include <[1;31mlinux[0m/atmapi.h>
+[0;35m/usr/include/linux/atmmpc.h[1;34m:[0m#include <[1;31mlinux[0m/atmioc.h>
+[0;35m/usr/include/linux/atmmpc.h[1;34m:[0m#include <[1;31mlinux[0m/atm.h>
+[0;35m/usr/include/linux/atmmpc.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter_ipv6/ip6t_srh.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter_ipv6/ip6t_srh.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter.h>
+[0;35m/usr/include/linux/netfilter_ipv6/ip6t_REJECT.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter_ipv6/ip6t_HL.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter_ipv6/ip6t_NPT.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter_ipv6/ip6t_NPT.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter.h>
+[0;35m/usr/include/linux/netfilter_ipv6/ip6t_opts.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter_ipv6/ip6t_frag.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter_ipv6/ip6_tables.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter_ipv6/ip6_tables.h[1;34m:[0m#include <[1;31mlinux[0m/if.h>
+[0;35m/usr/include/linux/netfilter_ipv6/ip6_tables.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter_ipv6.h>
+[0;35m/usr/include/linux/netfilter_ipv6/ip6_tables.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter/x_tables.h>
+[0;35m/usr/include/linux/netfilter_ipv6/ip6_tables.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter/xt_tcpudp.h>
+[0;35m/usr/include/linux/netfilter_ipv6/ip6_tables.h[1;34m:[0m * ATTENTION: check [1;31mlinux[0m/in6.h before adding new number here.
+[0;35m/usr/include/linux/netfilter_ipv6/ip6t_hl.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter_ipv6/ip6t_ipv6header.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter_ipv6/ip6t_mh.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter_ipv6/ip6t_rt.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter_ipv6/ip6t_rt.h[1;34m:[0m#include <[1;31mlinux[0m/in6.h>
+[0;35m/usr/include/linux/netfilter_ipv6/ip6t_ah.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/selinux_netlink.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/selinux_netlink.h[1;34m:[0menum se[1;31mlinux[0m_nlgroups {
+[0;35m/usr/include/linux/scif_ioctl.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/atmsap.h[1;34m:[0m#include <[1;31mlinux[0m/atmapi.h>
+[0;35m/usr/include/linux/seg6.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/seg6.h[1;34m:[0m#include <[1;31mlinux[0m/in6.h>		/* For struct in6_addr. */
+[0;35m/usr/include/linux/if_pppol2tp.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/if_pppol2tp.h[1;34m:[0m#include <[1;31mlinux[0m/in.h>
+[0;35m/usr/include/linux/if_pppol2tp.h[1;34m:[0m#include <[1;31mlinux[0m/in6.h>
+[0;35m/usr/include/linux/if_pppol2tp.h[1;34m:[0m#include <[1;31mlinux[0m/l2tp.h>
+[0;35m/usr/include/linux/fscrypt.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/fscrypt.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/nfs_mount.h[1;34m:[0m *  [1;31mlinux[0m/include/linux/nfs_mount.h
+[0;35m/usr/include/linux/nfs_mount.h[1;34m:[0m#include <[1;31mlinux[0m/in.h>
+[0;35m/usr/include/linux/nfs_mount.h[1;34m:[0m#include <[1;31mlinux[0m/nfs.h>
+[0;35m/usr/include/linux/nfs_mount.h[1;34m:[0m#include <[1;31mlinux[0m/nfs2.h>
+[0;35m/usr/include/linux/nfs_mount.h[1;34m:[0m#include <[1;31mlinux[0m/nfs3.h>
+[0;35m/usr/include/linux/rtnetlink.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/rtnetlink.h[1;34m:[0m#include <[1;31mlinux[0m/netlink.h>
+[0;35m/usr/include/linux/rtnetlink.h[1;34m:[0m#include <[1;31mlinux[0m/if_link.h>
+[0;35m/usr/include/linux/rtnetlink.h[1;34m:[0m#include <[1;31mlinux[0m/if_addr.h>
+[0;35m/usr/include/linux/rtnetlink.h[1;34m:[0m#include <[1;31mlinux[0m/neighbour.h>
+[0;35m/usr/include/linux/rtnetlink.h[1;34m:[0m					    * include/uapi/[1;31mlinux[0m/ipv6_route.h
+[0;35m/usr/include/linux/tee.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/tee.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/if_tunnel.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/if_tunnel.h[1;34m:[0m#include <[1;31mlinux[0m/if.h>
+[0;35m/usr/include/linux/if_tunnel.h[1;34m:[0m#include <[1;31mlinux[0m/ip.h>
+[0;35m/usr/include/linux/if_tunnel.h[1;34m:[0m#include <[1;31mlinux[0m/in6.h>
+[0;35m/usr/include/linux/fsl_mc.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/posix_types.h[1;34m:[0m#include <[1;31mlinux[0m/stddef.h>
+[0;35m/usr/include/linux/posix_types.h[1;34m:[0m * <sys/time.h> (and thus <[1;31mlinux[0m/time.h>) - but this is a more logical
+[0;35m/usr/include/linux/radeonfb.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/atmioc.h[1;34m:[0m * See https://icawww1.epfl.ch/[1;31mlinux[0m-atm/magic.html for the complete list of
+[0;35m/usr/include/linux/kcmp.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/acrn.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/acrn.h[1;34m:[0m#include <[1;31mlinux[0m/uuid.h>
+[0;35m/usr/include/linux/virtio_net.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/virtio_net.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_ids.h>
+[0;35m/usr/include/linux/virtio_net.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_config.h>
+[0;35m/usr/include/linux/virtio_net.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_types.h>
+[0;35m/usr/include/linux/virtio_net.h[1;34m:[0m#include <[1;31mlinux[0m/if_ether.h>
+[0;35m/usr/include/linux/virtio_ring.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/virtio_ring.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_types.h>
+[0;35m/usr/include/linux/resource.h[1;34m:[0m#include <[1;31mlinux[0m/time.h>
+[0;35m/usr/include/linux/resource.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/resource.h[1;34m:[0m * Resource control/accounting header file for [1;31mlinux[0m
+[0;35m/usr/include/linux/resource.h[1;34m:[0m * may be different for different [1;31mlinux[0m versions..
+[0;35m/usr/include/linux/sched/types.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/if_addr.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/if_addr.h[1;34m:[0m#include <[1;31mlinux[0m/netlink.h>
+[0;35m/usr/include/linux/gen_stats.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/vfio_zdev.h[1;34m:[0m * Author(s): Pierre Morel <pmorel@[1;31mlinux[0m.ibm.com>
+[0;35m/usr/include/linux/vfio_zdev.h[1;34m:[0m *            Matthew Rosato <mjrosato@[1;31mlinux[0m.ibm.com>
+[0;35m/usr/include/linux/vfio_zdev.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/vfio_zdev.h[1;34m:[0m#include <[1;31mlinux[0m/vfio.h>
+[0;35m/usr/include/linux/xfrm.h[1;34m:[0m#include <[1;31mlinux[0m/in6.h>
+[0;35m/usr/include/linux/xfrm.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/xfrm.h[1;34m:[0m	__u8			ctx_alg;  /* LSMs: e.g., se[1;31mlinux[0m == 1 */
+[0;35m/usr/include/linux/vbox_vmmdev_types.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/vbox_vmmdev_types.h[1;34m:[0m * We cannot use [1;31mlinux[0m' compiletime_assert here because it expects to be used
+[0;35m/usr/include/linux/vbox_vmmdev_types.h[1;34m:[0m/* Note: trust level is for windows guests only, [1;31mlinux[0m always uses not-given */
+[0;35m/usr/include/linux/mei.h[1;34m:[0m#include <[1;31mlinux[0m/uuid.h>
+[0;35m/usr/include/linux/tcp.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/tcp.h[1;34m:[0m#include <[1;31mlinux[0m/socket.h>
+[0;35m/usr/include/linux/ndctl.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/virtio_bt.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_types.h>
+[0;35m/usr/include/linux/mrp_bridge.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/mrp_bridge.h[1;34m:[0m#include <[1;31mlinux[0m/if_ether.h>
+[0;35m/usr/include/linux/rose.h[1;34m:[0m#include <[1;31mlinux[0m/socket.h>
+[0;35m/usr/include/linux/rose.h[1;34m:[0m#include <[1;31mlinux[0m/ax25.h>
+[0;35m/usr/include/linux/atm_he.h[1;34m:[0m#include <[1;31mlinux[0m/atmioc.h>
+[0;35m/usr/include/linux/netfilter_bridge/ebt_ip6.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter_bridge/ebt_ip6.h[1;34m:[0m#include <[1;31mlinux[0m/in6.h>
+[0;35m/usr/include/linux/netfilter_bridge/ebt_among.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter_bridge/ebt_arp.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter_bridge/ebt_arp.h[1;34m:[0m#include <[1;31mlinux[0m/if_ether.h>
+[0;35m/usr/include/linux/netfilter_bridge/ebt_vlan.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter_bridge/ebt_mark_m.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter_bridge/ebt_log.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter_bridge/ebt_limit.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter_bridge/ebt_ip.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter_bridge/ebtables.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter_bridge/ebtables.h[1;34m:[0m#include <[1;31mlinux[0m/if.h>
+[0;35m/usr/include/linux/netfilter_bridge/ebtables.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter_bridge.h>
+[0;35m/usr/include/linux/netfilter_bridge/ebt_802_3.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter_bridge/ebt_802_3.h[1;34m:[0m#include <[1;31mlinux[0m/if_ether.h>
+[0;35m/usr/include/linux/netfilter_bridge/ebt_stp.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter_bridge/ebt_nat.h[1;34m:[0m#include <[1;31mlinux[0m/if_ether.h>
+[0;35m/usr/include/linux/netfilter_bridge/ebt_arpreply.h[1;34m:[0m#include <[1;31mlinux[0m/if_ether.h>
+[0;35m/usr/include/linux/netfilter_bridge/ebt_pkttype.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/netfilter_bridge/ebt_nflog.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/btrfs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/btrfs.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/genwqe/genwqe_card.h[1;34m:[0m * Author: Frank Haverkamp <haver@[1;31mlinux[0m.vnet.ibm.com>
+[0;35m/usr/include/linux/genwqe/genwqe_card.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/genwqe/genwqe_card.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/vmcore.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/aspeed-lpc-ctrl.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/aspeed-lpc-ctrl.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/atm_eni.h[1;34m:[0m#include <[1;31mlinux[0m/atmioc.h>
+[0;35m/usr/include/linux/stat.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/nubus.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/ip_vs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>	/* For __beXX types in userland */
+[0;35m/usr/include/linux/rkisp1-config.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/vsockmon.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_vsock.h>
+[0;35m/usr/include/linux/firewire-cdev.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/firewire-cdev.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/firewire-cdev.h[1;34m:[0m#include <[1;31mlinux[0m/firewire-constants.h>
+[0;35m/usr/include/linux/can.h[1;34m:[0m * [1;31mlinux[0m/can.h
+[0;35m/usr/include/linux/can.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/can.h[1;34m:[0m#include <[1;31mlinux[0m/socket.h>
+[0;35m/usr/include/linux/can.h[1;34m:[0m * bit 0-28	: error class mask (see include/uapi/[1;31mlinux[0m/can/error.h)
+[0;35m/usr/include/linux/ppp-ioctl.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/ppp-ioctl.h[1;34m:[0m#include <[1;31mlinux[0m/ppp_defs.h>
+[0;35m/usr/include/linux/futex.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/vm_sockets.h[1;34m:[0m#include <[1;31mlinux[0m/socket.h>
+[0;35m/usr/include/linux/vm_sockets.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/v4l2-controls.h[1;34m:[0m#include <[1;31mlinux[0m/const.h>
+[0;35m/usr/include/linux/v4l2-controls.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/v4l2-controls.h[1;34m:[0m/* The base for the meye driver controls. See [1;31mlinux[0m/meye.h for the list
+[0;35m/usr/include/linux/vfio.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/vfio.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/vfio.h[1;34m:[0m * On [1;31mlinux[0m systems you can find the EDID blob in sysfs:
+[0;35m/usr/include/linux/fb.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/fb.h[1;34m:[0m#include <[1;31mlinux[0m/i2c.h>
+[0;35m/usr/include/linux/if_x25.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/cxl_mem.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/sync_file.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/sync_file.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/signalfd.h[1;34m:[0m *  include/[1;31mlinux[0m/signalfd.h
+[0;35m/usr/include/linux/signalfd.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/signalfd.h[1;34m:[0m#include <[1;31mlinux[0m/fcntl.h>
+[0;35m/usr/include/linux/llc.h[1;34m:[0m#include <[1;31mlinux[0m/socket.h>
+[0;35m/usr/include/linux/llc.h[1;34m:[0m#include <[1;31mlinux[0m/if.h> 		/* For IFHWADDRLEN. */
+[0;35m/usr/include/linux/netfilter_bridge.h[1;34m:[0m#include <[1;31mlinux[0m/in.h>
+[0;35m/usr/include/linux/netfilter_bridge.h[1;34m:[0m#include <[1;31mlinux[0m/netfilter.h>
+[0;35m/usr/include/linux/netfilter_bridge.h[1;34m:[0m#include <[1;31mlinux[0m/if_ether.h>
+[0;35m/usr/include/linux/netfilter_bridge.h[1;34m:[0m#include <[1;31mlinux[0m/if_vlan.h>
+[0;35m/usr/include/linux/netfilter_bridge.h[1;34m:[0m#include <[1;31mlinux[0m/if_pppox.h>
+[0;35m/usr/include/linux/cryptouser.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/fsl_hypervisor.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/bfs_fs.h[1;34m:[0m *	include/[1;31mlinux[0m/bfs_fs.h - BFS data structures on disk.
+[0;35m/usr/include/linux/bfs_fs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/btf.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/dcbnl.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/ppdev.h[1;34m:[0m * [1;31mlinux[0m/include/linux/ppdev.h
+[0;35m/usr/include/linux/termios.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/jffs2.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/jffs2.h[1;34m:[0m#include <[1;31mlinux[0m/magic.h>
+[0;35m/usr/include/linux/tipc_sockets_diag.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/tipc_sockets_diag.h[1;34m:[0m#include <[1;31mlinux[0m/sock_diag.h>
+[0;35m/usr/include/linux/nvram.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/mdio.h[1;34m:[0m * [1;31mlinux[0m/mdio.h: definitions for MDIO (clause 45) transceivers
+[0;35m/usr/include/linux/mdio.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/mdio.h[1;34m:[0m#include <[1;31mlinux[0m/mii.h>
+[0;35m/usr/include/linux/nfsacl.h[1;34m:[0m * File: [1;31mlinux[0m/nfsacl.h
+[0;35m/usr/include/linux/cec.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/cec.h[1;34m:[0m#include <[1;31mlinux[0m/string.h>
+[0;35m/usr/include/linux/qrtr.h[1;34m:[0m#include <[1;31mlinux[0m/socket.h>
+[0;35m/usr/include/linux/qrtr.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/seg6_local.h[1;34m:[0m#include <[1;31mlinux[0m/seg6.h>
+[0;35m/usr/include/linux/zorro.h[1;34m:[0m *  [1;31mlinux[0m/zorro.h -- Amiga AutoConfig (Zorro) Bus Definitions
+[0;35m/usr/include/linux/zorro.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/zorro.h[1;34m:[0m#include <[1;31mlinux[0m/zorro_ids.h>
+[0;35m/usr/include/linux/tipc_config.h[1;34m:[0m * include/uapi/[1;31mlinux[0m/tipc_config.h: Header for TIPC configuration interface
+[0;35m/usr/include/linux/tipc_config.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/tipc_config.h[1;34m:[0m#include <[1;31mlinux[0m/string.h>
+[0;35m/usr/include/linux/tipc_config.h[1;34m:[0m#include <[1;31mlinux[0m/tipc.h>
+[0;35m/usr/include/linux/rpmsg_types.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/nfs4_mount.h[1;34m:[0m *  [1;31mlinux[0m/include/linux/nfs4_mount.h
+[0;35m/usr/include/linux/nfs4_mount.h[1;34m:[0m * 	 should mirror the values from include/[1;31mlinux[0m/nfs_mount.h
+[0;35m/usr/include/linux/um_timetravel.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/virtio_gpu.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/pps.h[1;34m:[0m * Copyright (C) 2005-2009   Rodolfo Giometti <giometti@[1;31mlinux[0m.it>
+[0;35m/usr/include/linux/pps.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/pps.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/virtio_9p.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_types.h>
+[0;35m/usr/include/linux/virtio_9p.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_ids.h>
+[0;35m/usr/include/linux/virtio_9p.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_config.h>
+[0;35m/usr/include/linux/openat2.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/rio_mport_cdev.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/rio_mport_cdev.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/hiddev.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/fib_rules.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/fib_rules.h[1;34m:[0m#include <[1;31mlinux[0m/rtnetlink.h>
+[0;35m/usr/include/linux/tcp_metrics.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/cramfs_fs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/cramfs_fs.h[1;34m:[0m#include <[1;31mlinux[0m/magic.h>
+[0;35m/usr/include/linux/tipc.h[1;34m:[0m * include/uapi/[1;31mlinux[0m/tipc.h: Header for TIPC socket interface
+[0;35m/usr/include/linux/tipc.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/tipc.h[1;34m:[0m#include <[1;31mlinux[0m/sockios.h>
+[0;35m/usr/include/linux/sched.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/tc_act/tc_gact.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/tc_act/tc_gact.h[1;34m:[0m#include <[1;31mlinux[0m/pkt_cls.h>
+[0;35m/usr/include/linux/tc_act/tc_gate.h[1;34m:[0m#include <[1;31mlinux[0m/pkt_cls.h>
+[0;35m/usr/include/linux/tc_act/tc_pedit.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/tc_act/tc_pedit.h[1;34m:[0m#include <[1;31mlinux[0m/pkt_cls.h>
+[0;35m/usr/include/linux/tc_act/tc_tunnel_key.h[1;34m:[0m#include <[1;31mlinux[0m/pkt_cls.h>
+[0;35m/usr/include/linux/tc_act/tc_mpls.h[1;34m:[0m#include <[1;31mlinux[0m/pkt_cls.h>
+[0;35m/usr/include/linux/tc_act/tc_skbmod.h[1;34m:[0m#include <[1;31mlinux[0m/pkt_cls.h>
+[0;35m/usr/include/linux/tc_act/tc_sample.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/tc_act/tc_sample.h[1;34m:[0m#include <[1;31mlinux[0m/pkt_cls.h>
+[0;35m/usr/include/linux/tc_act/tc_sample.h[1;34m:[0m#include <[1;31mlinux[0m/if_ether.h>
+[0;35m/usr/include/linux/tc_act/tc_connmark.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/tc_act/tc_connmark.h[1;34m:[0m#include <[1;31mlinux[0m/pkt_cls.h>
+[0;35m/usr/include/linux/tc_act/tc_defact.h[1;34m:[0m#include <[1;31mlinux[0m/pkt_cls.h>
+[0;35m/usr/include/linux/tc_act/tc_mirred.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/tc_act/tc_mirred.h[1;34m:[0m#include <[1;31mlinux[0m/pkt_cls.h>
+[0;35m/usr/include/linux/tc_act/tc_bpf.h[1;34m:[0m#include <[1;31mlinux[0m/pkt_cls.h>
+[0;35m/usr/include/linux/tc_act/tc_skbedit.h[1;34m:[0m#include <[1;31mlinux[0m/pkt_cls.h>
+[0;35m/usr/include/linux/tc_act/tc_ct.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/tc_act/tc_ct.h[1;34m:[0m#include <[1;31mlinux[0m/pkt_cls.h>
+[0;35m/usr/include/linux/tc_act/tc_ife.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/tc_act/tc_ife.h[1;34m:[0m#include <[1;31mlinux[0m/pkt_cls.h>
+[0;35m/usr/include/linux/tc_act/tc_ife.h[1;34m:[0m#include <[1;31mlinux[0m/ife.h>
+[0;35m/usr/include/linux/tc_act/tc_csum.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/tc_act/tc_csum.h[1;34m:[0m#include <[1;31mlinux[0m/pkt_cls.h>
+[0;35m/usr/include/linux/tc_act/tc_ipt.h[1;34m:[0m#include <[1;31mlinux[0m/pkt_cls.h>
+[0;35m/usr/include/linux/tc_act/tc_nat.h[1;34m:[0m#include <[1;31mlinux[0m/pkt_cls.h>
+[0;35m/usr/include/linux/tc_act/tc_nat.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/tc_act/tc_ctinfo.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/tc_act/tc_ctinfo.h[1;34m:[0m#include <[1;31mlinux[0m/pkt_cls.h>
+[0;35m/usr/include/linux/tc_act/tc_vlan.h[1;34m:[0m#include <[1;31mlinux[0m/pkt_cls.h>
+[0;35m/usr/include/linux/dvb/dmx.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/dvb/net.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/dvb/audio.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/dvb/video.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/dvb/frontend.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/net_dropmon.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/net_dropmon.h[1;34m:[0m#include <[1;31mlinux[0m/netlink.h>
+[0;35m/usr/include/linux/synclink.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/remoteproc_cdev.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/remoteproc_cdev.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/blkzoned.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/blkzoned.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/linux/userio.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/blktrace_api.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/virtio_blk.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/linux/virtio_blk.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_ids.h>
+[0;35m/usr/include/linux/virtio_blk.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_config.h>
+[0;35m/usr/include/linux/virtio_blk.h[1;34m:[0m#include <[1;31mlinux[0m/virtio_types.h>
+[0;35m/usr/include/misc/cxl.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/misc/cxl.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/misc/uacce/uacce.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/misc/uacce/uacce.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/misc/uacce/hisi_qm.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/misc/ocxl.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/misc/ocxl.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/misc/fastrpc.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/misc/xilinx_sdfec.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/misc/habanalabs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/misc/habanalabs.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/libmount/libmount.h[1;34m:[0m * This file is part of libmount from util-[1;31mlinux[0m project.
+[0;35m/usr/include/libmount/libmount.h[1;34m:[0m * may be already defined by [1;31mlinux[0m/fs.h or another file -- in this case we
+[0;35m/usr/include/libmount/libmount.h[1;34m:[0m#if defined(__[1;31mlinux[0m__) && !defined(MS_RDONLY)
+[0;35m/usr/include/rdma/hfi/hfi1_user.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/rdma/hfi/hfi1_ioctl.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/rdma/vmw_pvrdma-abi.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/rdma/rvt-abi.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/rdma/mthca-abi.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/rdma/ib_user_verbs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/rdma/ib_user_sa.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/rdma/irdma-abi.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/rdma/mlx5_user_ioctl_cmds.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/rdma/mlx4-abi.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/rdma/mlx5-abi.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/rdma/mlx5-abi.h[1;34m:[0m#include <[1;31mlinux[0m/if_ether.h>	/* For ETH_ALEN. */
+[0;35m/usr/include/rdma/efa-abi.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/rdma/ib_user_mad.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/rdma/hns-abi.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/rdma/rdma_user_cm.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/rdma/rdma_user_cm.h[1;34m:[0m#include <[1;31mlinux[0m/socket.h>
+[0;35m/usr/include/rdma/rdma_user_cm.h[1;34m:[0m#include <[1;31mlinux[0m/in6.h>
+[0;35m/usr/include/rdma/siw-abi.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/rdma/qedr-abi.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/rdma/ocrdma-abi.h[1;34m:[0m * [1;31mlinux[0m-drivers@emulex.com
+[0;35m/usr/include/rdma/ocrdma-abi.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/rdma/rdma_netlink.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/rdma/cxgb4-abi.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/rdma/ib_user_ioctl_verbs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/rdma/mlx5_user_ioctl_verbs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/rdma/bnxt_re-abi.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/rdma/rdma_user_ioctl_cmds.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/rdma/rdma_user_ioctl_cmds.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/rdma/rdma_user_rxe.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/rdma/rdma_user_rxe.h[1;34m:[0m#include <[1;31mlinux[0m/socket.h>
+[0;35m/usr/include/rdma/rdma_user_rxe.h[1;34m:[0m#include <[1;31mlinux[0m/in.h>
+[0;35m/usr/include/rdma/rdma_user_rxe.h[1;34m:[0m#include <[1;31mlinux[0m/in6.h>
+[0;35m/usr/include/elfutils/libdwelf.h[1;34m:[0m   file may be compressed and/or contain a [1;31mlinux[0m kernel image header,
+[0;35m/usr/include/elfutils/libdwfl.h[1;34m:[0mextern int dwfl_[1;31mlinux[0m_kernel_find_elf (Dwfl_Module *, void **,
+[0;35m/usr/include/elfutils/libdwfl.h[1;34m:[0mextern int dwfl_[1;31mlinux[0m_kernel_module_section_address (Dwfl_Module *, void **,
+[0;35m/usr/include/elfutils/libdwfl.h[1;34m:[0mextern int dwfl_[1;31mlinux[0m_kernel_report_kernel (Dwfl *dwfl);
+[0;35m/usr/include/elfutils/libdwfl.h[1;34m:[0mextern int dwfl_[1;31mlinux[0m_kernel_report_modules (Dwfl *dwfl);
+[0;35m/usr/include/elfutils/libdwfl.h[1;34m:[0mextern int dwfl_[1;31mlinux[0m_kernel_report_offline (Dwfl *dwfl, const char *release,
+[0;35m/usr/include/elfutils/libdwfl.h[1;34m:[0mextern int dwfl_[1;31mlinux[0m_proc_report (Dwfl *dwfl, pid_t pid);
+[0;35m/usr/include/elfutils/libdwfl.h[1;34m:[0mextern int dwfl_[1;31mlinux[0m_proc_maps_report (Dwfl *dwfl, FILE *);
+[0;35m/usr/include/elfutils/libdwfl.h[1;34m:[0m/* Trivial find_elf callback for use with dwfl_[1;31mlinux[0m_proc_report.
+[0;35m/usr/include/elfutils/libdwfl.h[1;34m:[0mextern int dwfl_[1;31mlinux[0m_proc_find_elf (Dwfl_Module *mod, void **userdata,
+[0;35m/usr/include/elfutils/libdwfl.h[1;34m:[0mextern int dwfl_[1;31mlinux[0m_proc_attach (Dwfl *dwfl, pid_t pid,
+[0;35m/usr/include/tslib.h[1;34m:[0m	/* ABS_MT_* event codes. [1;31mlinux[0m/include/uapi/linux/input-event-codes.h
+[0;35m/usr/include/video/uvesafb.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/video/sisfb.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/video/edid.h[1;34m:[0m#ifndef __[1;31mlinux[0m_video_edid_h__
+[0;35m/usr/include/video/edid.h[1;34m:[0m#define __[1;31mlinux[0m_video_edid_h__
+[0;35m/usr/include/video/edid.h[1;34m:[0m#endif /* __[1;31mlinux[0m_video_edid_h__ */
+[0;35m/usr/include/video/edid.h[1;34m:[0m#endif /* __[1;31mlinux[0m_video_edid_h__ */
+[0;35m/usr/include/llvm-14/llvm/IR/DataLayout.h[1;34m:[0m  ///     These values are for x86-32 [1;31mlinux[0m.
+[0;35m/usr/include/llvm-14/llvm/DebugInfo/DWARF/DWARFDebugFrame.h[1;34m:[0m  /// https://refspecs.[1;31mlinux[0mfoundation.org/LSB_5.0.0/LSB-Core-generic/LSB-Core-generic/ehframechpt.html
+[0;35m/usr/include/llvm-14/llvm/Support/Host.h[1;34m:[0m  /// Helper functions to extract HostCPUName from /proc/cpuinfo on [1;31mlinux[0m.
+[0;35m/usr/include/llvm-14/llvm/Support/SwapByteOrder.h[1;34m:[0m#if defined(__[1;31mlinux[0m__) || defined(__GNU__) || defined(__HAIKU__) ||            \
+[0;35m/usr/include/llvm-14/llvm/BinaryFormat/ELF.h[1;34m:[0m  EF_MIPS_ARCH_32 = 0x50000000,   // MIPS32 instruction set per [1;31mlinux[0m not elf.h
+[0;35m/usr/include/llvm-14/llvm/BinaryFormat/ELF.h[1;34m:[0m  EF_MIPS_ARCH_64 = 0x60000000,   // MIPS64 instruction set per [1;31mlinux[0m not elf.h
+[0;35m/usr/include/llvm-14/llvm/BinaryFormat/MinidumpConstants.def[1;34m:[0m// These are additional minidump stream values which are specific to the [1;31mlinux[0m
+[0;35m/usr/include/llvm-14/llvm/BinaryFormat/Minidump.h[1;34m:[0m    support::ulittle32_t ElfHWCaps; // [1;31mlinux[0m specific, 0 otherwise
+[0;35m/usr/include/llvm-14/llvm/ObjectYAML/MinidumpYAML.h[1;34m:[0m/// /proc/<pid> file on [1;31mlinux[0m).
+[0;35m/usr/include/llvm-14/llvm/Config/llvm-config.h[1;34m:[0m#define LLVM_DEFAULT_TARGET_TRIPLE "x86_64-pc-[1;31mlinux[0m-gnu"
+[0;35m/usr/include/llvm-14/llvm/Config/llvm-config.h[1;34m:[0m#define LLVM_HOST_TRIPLE "x86_64-pc-[1;31mlinux[0m-gnu"
+[0;35m/usr/include/llvm-14/llvm/MC/MCSectionELF.h[1;34m:[0m/// This represents a section on [1;31mlinux[0m, lots of unix variants and some bare
+[0;35m/usr/include/llvm-14/llvm/MC/MCTargetOptions.h[1;34m:[0m  /// aapcs-[1;31mlinux[0m.
+[0;35m/usr/include/infiniband/tm_types.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/infiniband/verbs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/infiniband/mlx5dv.h[1;34m:[0m#include <[1;31mlinux[0m/types.h> /* For the __be64 type */
+[0;35m/usr/include/infiniband/sa.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/infiniband/mlx4dv.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/infiniband/ib_user_ioctl_verbs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/infiniband/mlx5_user_ioctl_verbs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/xf86drmMode.h[1;34m:[0m * Feb 2007, Dave Airlie <airlied@[1;31mlinux[0m.ie>
+[0;35m/usr/include/xf86drmMode.h[1;34m:[0m * Copyright (c) 2007-2008 Dave Airlie <airlied@[1;31mlinux[0m.ie>
+[0;35m/usr/include/asm-generic/socket.h[1;34m:[0m#include <[1;31mlinux[0m/posix_types.h>
+[0;35m/usr/include/asm-generic/termbits.h[1;34m:[0m#include <[1;31mlinux[0m/posix_types.h>
+[0;35m/usr/include/asm-generic/statfs.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/asm-generic/ioctls.h[1;34m:[0m#include <[1;31mlinux[0m/ioctl.h>
+[0;35m/usr/include/asm-generic/signal.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/asm-generic/signal.h[1;34m:[0m/* not actually used, but required for [1;31mlinux[0m/syscalls.h */
+[0;35m/usr/include/asm-generic/ipcbuf.h[1;34m:[0m#include <[1;31mlinux[0m/posix_types.h>
+[0;35m/usr/include/asm-generic/fcntl.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/asm-generic/siginfo.h[1;34m:[0m#include <[1;31mlinux[0m/types.h>
+[0;35m/usr/include/asm-generic/mman-common.h[1;34m:[0m/* 0x01 - 0x03 are defined in [1;31mlinux[0m/mman.h */
+[0;35m/usr/include/asm-generic/bpf_perf_event.h[1;34m:[0m#include <[1;31mlinux[0m/ptrace.h>
+[0;35m/usr/include/asm-generic/auxvec.h[1;34m:[0m * common definitions are already in [1;31mlinux[0m/auxvec.h.
+[0;35m/usr/include/xf86drm.h[1;34m:[0m * \author Rickard E. (Rik) Faith <faith@va[1;31mlinux[0m.com>
+[0;35m/usr/include/xf86drm.h[1;34m:[0m#if defined(__[1;31mlinux[0m__)
+[0;35m/usr/include/hwloc.h[1;34m:[0m * of a phase, for instance "[1;31mlinux[0m:io".
