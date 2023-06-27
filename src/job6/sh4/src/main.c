@@ -14,7 +14,7 @@
 #define L_GREEN "\e[1;32m"
 #define PURPLE "\e[0;35m"
 #define L_PURPLE "\e[1;35m"
-#define CLOSE printf("\033[0m")  //关闭彩色字体
+#define CLOSE printf("\033[0m")  // 关闭彩色字体
 #define MAXBUFSIZ 1024
 #define MAXPIPE 10
 
@@ -37,10 +37,11 @@ void read_line(char *line, int size) {
     }
     show_path = strreplace(show_path, cwdbuf, user_dir, "~", MAXBUFSIZ);
     printf(L_BLUE "%s " L_PURPLE "@%s " L_GREEN "> ", show_path, user_name), CLOSE;
-
     int readed = scanf("%[^\n]", buffer);
-    if (readed == -1 || readed == 0)
+    if (readed == -1 || readed == 0) {
         memset(line, 0, size);
+        getchar();
+    }
     else {
         strcpy(line, buffer);
         getchar();

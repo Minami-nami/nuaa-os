@@ -83,7 +83,7 @@ int builtin_cmd(struct cmd *cmd) {
     return 1;
 }
 
-//递归执行管道命令
+// 递归执行管道命令
 
 static void _exec_pipe_cmd(int cmdc, int index, struct cmd *cmdv) {
     int   pipefd[2];
@@ -123,6 +123,9 @@ static void _exec_pipe_cmd(int cmdc, int index, struct cmd *cmdv) {
 }
 
 void exec_pipe_cmd(int cmdc, struct cmd *cmdv) {
+    if (cmdc == 0) {
+        return;
+    }
     if (cmdc == 1 && builtin_cmd(cmdv)) {
         return;
     }
